@@ -1,1 +1,7 @@
-Hello World
+Welcome! I am a Postdoctoral Research Associate at the [Department of Physics and Astronomy](http://www.physicsandastronomy.pitt.edu/) and the [Pittsburgh Particle Physics, Astrophysics, and Cosmology Center (PITT PACC)](http://www.physicsandastronomy.pitt.edu/pittpacc) of the [University of Pittsburgh](http://www.pitt.edu/). 
+
+I received my PhD in Physics from [Universitat Autònoma de Barcelona (UAB)](http://www.uab.cat/) in 2011 under the supervision of Dr. Ramon Miquel. After two years as a post-doctoral researcher at the [Centro de Astrofísica (CENTRA)](http://centra.ist.utl.pt/) in Lisbon, I was a Fondecyt fellow working with Prof. Mario Hamuy at the [Departamento de Astronomía (DAS)](http://www.das.uchile.cl/) of [Universidad de Chile (UC)](http://www.uchile.cl/). 
+
+The topics of my research are concerned with supernova science and observational cosmology. I have worked in characterizing the environment of supernova explosions, and how such properties can provide clues on both the characteristics of the progenitor stars and the physics of the explosions. I developed a new pure photometric technique to convert type IIP SNe into useful cosmological standard candles. Currently, I am working in improving the standardization of type Ia SNe in the Near-Infrared through the study of their local environment.
+
+In this page you will find a brief summary of my research, a few documents I used for teaching at UAB, my publications, and some useful links.
