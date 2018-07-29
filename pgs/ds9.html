@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+</head>
+<body style="background-color: white;" lang="EN-US" link="blue" vlink="blue">
+
+<p>Follow these instructions to add some histogram functionality to the ds9 viewer.  Once you have this stuff property installed you can draw a region in ds9 then do one of four things with the pixel data inside the region:
+<div>
+<p>1. dump the raw pixel values
+<p>2. make an ascii-based historgram
+<p>3. make a graphical histogram (using gunplot)
+<p>4. make a graphical histogram (using paw)
+<div>
+<p>These instructions assume that you will be running ds9 as user monsoon.
+<div>
+<p>0. make sure you've got enough disk space on the "/" parition: df -h
+<div>
+<p>1. install funtools (in /usr/local/bin)
+<p>1a. download the latest  <a href="http://www.cfa.harvard.edu/~john/funtools">funtools</a>
+<p>1b. gunzip the file: gunzip filename.tar.gz
+<p>1c. untar the tarball: tar -xf <filename.tar>
+<p>1d. cd into the directory that was just created
+<p>1e. ./configure
+<p>1f. make
+<p>1g. (as root) make install
+<div>
+<p>2. add /usr/local/bin to the path (edit /home/monsoon/.cshrc)
+<div>
+<p>3. (as root) mkdir /usr/tools
+<div>
+<p>4. (as root) copy <a href="../arxiv/tools.zip">tools.zip</a> to /usr/tools
+<p>4b. (as root) unzip tools.zip
+<div>
+<p>5. log out then log back in
+<div>
+<p>6. open a fits file with ds9, draw a region
+<div>
+<p>7. look under the analysis menu.  at the bottom there should be four new items for analyzing the pixel data in the region you just defined.
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+<head>
+<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+<!--<script src="sorttable.js" type="text/javascript"></script>-->
+</head>
+<body bgcolor="white" link="blue" vlink="purple">
+<h1><span style="font-size: 30pt; font-family: &quot;Britannic Bold&quot;; color: blue;">Farners Plantada Diumaro (SNHiTS15O)</span></h1>
+
+SN name: SNHiTS15O</br>
+SN: nickname: Farners</br>
+RA: 09:59:11.25</br>
+DEC: 02:29:53.44</br>
+SN type: Ia</br>
+Redshift: 0.142</br>
+Host galaxy: SDSS J095911.13+022950.3 (<a href="http://skyserver.sdss3.org/public/en/tools/chart/navi.aspx?ra=149.79640&dec=2.49731">SDSS</a>,  <a href="http://ned.ipac.caltech.edu/cgi-bin/objsearch?objname=SDSS+J095911.13%2B022950.3&extend=no&hconst=73&omegam=0.27&omegav=0.73&corr_z=1&out_csys=Equatorial&out_equinox=J2000.0&obj_sort=RA+or+Longitude&of=pre_text&zv_breaker=30000.0&list_limit=5&img_stamp=YES">NED</a>)</br>
+Comments: Young Ia, 10 day rise, declining</br>
+ATEL: <a href="http://www.astronomerstelegram.org/?read=7122">7122</a>
+<p></p>
+
+<center>
+<table border="0" align="center" class="sortable">
+<tr align="center">
+<td><a href="snhits/face.jpg"><img src="snhits/face.jpg" alt="SN IMAGE" height="263" width="400" /></a></td>
+<td><a href="snhits/farners_movie.gif"><img src="snhits/farners_movie.gif" alt="SN IMAGE" height="283" width="600" /></a></td>
+</tr>
+</table>
+</center>
+
+<p></p>
+
+<table border="0" align="center" class="sortable">
+<tr align="center"><td>Finding chart</td><td>Light-curve</td><td>Discovery</td></tr>
+<tr align="center">
+<td><a href="snhits/farners_fc.jpg"><img src="snhits/farners_fc.jpg" alt="SN IMAGE" height="263" width="400" /></a></td>
+<td><a href="snhits/farners_lc.jpg"><img src="snhits/farners_lc.jpg" alt="SN IMAGE" height="263" width="526" /></a></td>
+<td><a href="snhits/farners_disc.jpg"><img src="snhits/farners_disc.jpg" alt="SN IMAGE" height="153" width="400" /></a></td>
+</tr>
+</table>
+
+<table border="0" align="center" class="sortable">
+<tr align="center"><td>Sequence</td></tr>
+<td><a href="snhits/farners_seq.jpg"><img src="snhits/farners_seq.jpg" alt="SN IMAGE" height="196" width="1100" /></a></td>
+</tr>
+</table>
+
+</body>
+</html>

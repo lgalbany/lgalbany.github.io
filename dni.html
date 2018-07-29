@@ -1,0 +1,22 @@
+<head>
+<title>Calcular lletra DNI</title>
+<script> 
+function caldni() 
+{ 
+cad="TRWAGMYFPDXBNJZSQVHLCKET" 
+pos=form.num.value % 23 
+ll=cad.substring(pos,pos+1) 
+document.form.num.value=form.num.value+" - "+ll
+} 
+</script> 
+</head>
+
+<body>
+escriu el teu DNI i clica lletra
+<form name="form"> 
+    <input type="text" name="num" maxlenght="12" size="12"> 
+    <input type="button" value="lletra" languageJavaScript onclick="caldni()"> 
+  </div>
+</form> 
+</body>
+</html>
