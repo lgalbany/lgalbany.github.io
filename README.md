@@ -1,1 +1,0 @@
-# lgalbany.github.io
