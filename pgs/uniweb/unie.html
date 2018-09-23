@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>Uniformity test</title>
+</head>
+
+<body bgcolor=#166686 link="blue" vlink="blue">
+<h2 style="text-align: center; font-family: Californian FB;" align="center"><span style="font-size: 36pt; color: rgb(221, 221, 0);">Uniformity test</span></h2>
+
+<h3>INTRODUCTION</h3>
+
+<p> We want to study the uniformity of the integrating sphere output light. Therefore, we have put a photodiode 14 inches from the sphere way out, and we have scanned a 6.4x6.4 cm2 surface doing steps of 2 mm, in this way we have 32x32 positions where we can take data. Beginning from the low left end we have read the first horizontal row, then we have raised a step up, and we have read from right to left side the second horizontal row. This way up to finishing in the top left end.</p>
+
+<p>﻿In order to have readings of all the spectrum we have used three highpass filters: one to make the readings from 300 to 450 nm, a second one to make them from 400 to 750 nm and a third one to make them from 700 to 1200 nm. We have made the readings each 5 nm. For each point we have one reading "before" without light (with shutter closed), one reading of the spectrum (with light) and one reading "after" without light. That is, for example for the point X00-Y00 we have 9 files: 1 before, 1 reading and 1 after for each filter.</p>
+
+<p>Finally we have 3072 files with the data of the intensity of the light that arrives at 14 inches of the sphere way out</p>
+
+<p>In the before files as well as in the after ones, there are ten readings of intensity in order to make a linear regression of the variation, since there should not be any one. Then in the before files we have taken the last point of the regression, while in the after we take the first one. These will be the extrem points of the electronic noise pedestal that we will reduce to our reading, adjusting them for a straight line in order to take the variation into account in the pedestal from the beginning of the reading until the end.</p>
+
+<p>In the files with the important data, there is the intensity reading for each wavelength that leaves the monocromador.</p>
+
+<h3>CODE</h3>	
+
+<p>All these codes need the style file <a href="Style.C">Style.C</a></p>
+
+<b>fix.C</b> <a href="fix.C">source</a> <a href="fix">executable</a> <a href="fix.sh">script</a>
+
+<p>The first of the codes that we have used has served us also for correcting a problem of accounting. The data is taken with the lab computer that works with Windows 98 and that sorts out the integers of the decimals with comas. The fix.C code corrects this changing the commas to points and changing the format from txt to root.</p>
+
+
+<b>ped.C</b> <a href="ped.C">source</a> <a href="ped">executable</a> <a href="ped.sh">script</a>
+
+<p>Next, what we make is to subtract the pedestal from the intensity data. For aixo we take a point of the before and one of the after for each reading. These will be the first and las points of the pedestal respectively. In order to find the pedestal of the intermediate points, we make a straight line between these two extreme points, and we subtract each value to the reading.</p>
+
+
+<b>spect.C</b> <a href="spect.C">source</a> <a href="spect">executable</a> <a href="dades.tar.gz">dades</a>
+
+<p>Once we have the data in each point and for each filter, we can start to play with them. This code plots the whole spectrum in each point.</p>
+
+<img style="width: 800px; height: 531px;" src="../../img/1515.gif">
+
+<p></p>
+
+<b>matrix.C</b> <a href="matrix.C">source</a> <a href="matrix">executable</a> <a href="lists.tar.gz">lists</a>
+
+<p>In order to plot the whole surface, is handier to join all the data in only one file to allow the data matrix of all the surface for each wavelength</p>
+
+
+<b>graph.C</b> <a href="graph.C">source</a> <a href="graph">executable</a> <a href="matrices.tar.gz">matrices</a>
+
+<p>This program plots all the surface studied giving the uniformity loss respect to the maximum.</p>
+
+<img style="width: 800px; height: 420;" src="../../img/4800.gif">
+
+</body>
+</html>

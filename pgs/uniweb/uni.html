@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Test d'uniformitat</title>
+</head>
+
+<body bgcolor=#166686 link="blue" vlink="blue">
+<h2 style="text-align: center; font-family: Californian FB;" align="center"><span style="font-size: 36pt; color: rgb(221, 221, 0);">Test d'uniformitat</span></h2>
+
+<h3>INTRODUCCI&Oacute;</h3>
+
+<p> Volem estudiar la uniformitat de la llum que surt de l'esfera integradora. Per aix&ograve;, hem colocat un fotodiode a 14 polzades de la sortida de l'esfera, i hem escanejat una superf&iacute;cie de 6.4x6.4 cm2 fent passos de 2 mm, d'aquesta manera tenim 32x32 posicions on prendre dades. Comen&ccedil;ant desde l'extrem inferior esquerra hem llegit la primera fila horitzontal, hem pujat un pas cap amunt, i hem llegit de dreta a esquerra la segona fila horitzontal. Aix&iacute; fins acabar a l'extrem superior dret.</p>
+
+<p>Per tal de tenir lectures de tot l'espectre hem utilitzat tres filtres passaalts: un per fer les lectures des de 300 a 450 nm, un segon per fer-les de 400 a 750 nm i un tercer per fer les de 700 a 1200 nm. Per cada punt tenim un lectura "before" sense llum (amb el shutter tancat), un lectura de l'espectre de 5 en 5 nm de l'espectre possible amb cada filtre i un lectura "after" sense llum. &Eacute;s a dir, per exemple pel punt X00-Y00 tenim 9 arxius: 3 before, 3 lectures i 3 after  una per cada filtre.</p>
+
+<p>Finalment disposem de 3072 arxius amb dades de la intensitat de la llum que arriba a 14 polzades de la sortida de l'esfera.</p>
+
+<p>Tant als arxius before com als after, hi han preses deu lectures de intensitat per tal de fer una regressi&oacute; lineal de la variaci&oacute;, ja que no n'hi hauria d'haver. Llavors al "before" agafem l'ultim punt de la regressi&oacute;, mentre que al "after" agafem el primer. Aquests ser&agrave;n els punts de l'extrem del pedestal de soroll electr&ograve;nic que restarem a la nostra lectura, ajustant-los per un recta per tal de tenir en compte la variaci&oacute; en el pedestal des de l'inici de la lectura fins al final.</p>
+
+<p>Als arxius amb les dades importants, hi ha la lectura de intensitat per a cada longitud d'ona que ens sortia del monocromador.</p>
+
+<h3>CODIS</h3>	
+
+<p>Tots aquests codis necessiten de l'arxiu d'estil <a href="Style.C">Style.C</a></p>
+
+<b>fix.C</b> <a href="fix.C">source</a> <a href="fix">executable</a> <a href="fix.sh">script</a>
+
+<p>El primer dels codis que hem utilitzat ens ha servit tamb&eacute; per corregir un problema de compatibilitat. Les dades est&agrave;n preses amb l'ordinador del laboratori que funciona amb Windows 98 i que separa els enters dels decimals amb comes. El codi fix.C corregeix aix&ograve; cambiant les comes per punts i canviant el format de txt a root.</p>
+
+
+<b>ped.C</b> <a href="ped.C">source</a> <a href="ped">executable</a> <a href="ped.sh">script</a>
+
+<p>Seguidament, el que fem es restar el pedestal de les dades amb llum. Per aix&ograve; agafem un punt del "before" i un de l'"after" per a cada lectura. Aquests ser&agrave;n els punt del pedestal del primer i &uacute;ltim punt respectivament. Per trobar el pedestal dels punts intermitjos, fem una recta entre aquests dos punts extrems, i restem cada valor a la lectura. 
+</p>
+
+
+<b>spect.C</b> <a href="spect.C">source</a> <a href="spect">executable</a> <a href="dades.tar.gz">dades</a>
+
+<p>Un cop tenim les dades en cada punt i per a cada filtre, podem començar a jugar amb elles. Aquest codi plota l'espectre sencer en cada punt.
+</p>
+
+<img style="width: 800px; height: 531px;" src="../../img/1515.gif">
+
+<p></p>
+
+<b>matrix.C</b> <a href="matrix.C">source</a> <a href="matrix">executable</a> <a href="lists.tar.gz">lists</a>
+
+<p>Per tal de plotar tota la superf&iacute;cie junta, &eacute;s mes comode juntar totes les dades en un &uacute;nic arxiu on hi ha la matriu de dades de tota la superf&iacute;cie per a cada longitud d'ona.
+</p>
+
+
+<b>graph.C</b> <a href="graph.C">source</a> <a href="graph">executable</a> <a href="matrices.tar.gz">matrices</a>
+
+<p>Aquest programa plota tota la superf&iacute;cie estudiada donant la p&egrave;rdua d'uniformitat respecte el m&agrave;xim.
+</p>
+
+<img style="width: 800px; height: 420;" src="../../img/4800.gif">
+
+</body>
+</html>
