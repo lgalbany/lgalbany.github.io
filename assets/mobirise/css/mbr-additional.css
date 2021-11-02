@@ -1348,6 +1348,120 @@ a {
   color: #ff9966;
   text-align: center;
 }
+.cid-sNBouSGn0r {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sNBouSGn0r .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sNBouSGn0r .row {
+  flex-direction: row-reverse;
+}
+.cid-sNBouSGn0r img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sNBouSGn0r .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNBouSGn0r .mbr-description {
+  color: #ff9966;
+}
+.cid-sNBotCNmOy {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sNBotCNmOy .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sNBotCNmOy img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sNBotCNmOy .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNBotCNmOy .mbr-description {
+  color: #ff9966;
+}
+.cid-sNBosNxwIB {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sNBosNxwIB .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sNBosNxwIB .row {
+  flex-direction: row-reverse;
+}
+.cid-sNBosNxwIB img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sNBosNxwIB .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNBosNxwIB .mbr-description {
+  color: #ff9966;
+}
+.cid-sNBoqg2WJB {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sNBoqg2WJB .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sNBoqg2WJB img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sNBoqg2WJB .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNBoqg2WJB .mbr-description {
+  color: #ff9966;
+}
+.cid-sNBooWaLcI {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-sNBooWaLcI .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-sNBooWaLcI .row {
+  flex-direction: row-reverse;
+}
+.cid-sNBooWaLcI img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-sNBooWaLcI .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNBooWaLcI .mbr-description {
+  color: #ff9966;
+}
 .cid-sF8D1VUD5Y {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -2466,7 +2580,7 @@ a {
   color: #ffffff;
 }
 .cid-sEGIg7EHmC {
-  padding-top: 5rem;
+  padding-top: 8rem;
   padding-bottom: 4rem;
   background-image: url("../../../assets/images/scientific-math-vector-seamless-pattern-handwritten-algebra-equations-formulas-calculations-endless-texture-chalk-144602680-800x700.jpg");
 }
@@ -2534,6 +2648,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cid-sNBuCoiY24 {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
 }
 .cid-sEGIg8uxRv {
   z-index: 1000;
@@ -2872,6 +2991,42 @@ a {
     left: -1rem;
   }
 }
+.cid-sNBuQJCAt6 {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-sNBuQJCAt6 .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+.cid-sNBuQJCAt6 .counter-container ul li {
+  margin-bottom: 1rem;
+  list-style: none;
+  position: relative;
+  padding-left: 1rem;
+}
+.cid-sNBuQJCAt6 .counter-container ul li:before {
+  position: absolute;
+  left: -40px;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-color: #ff9966;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.cid-sNBuQJCAt6 .mbr-section-title {
+  color: #ff9966;
+}
+.cid-sNBuQJCAt6 .mbr-text UL {
+  text-align: left;
+}
 .cid-sEGIg8MjPq {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -2966,7 +3121,7 @@ a {
   color: #ffffff;
 }
 .cid-sEGIjaiPRC {
-  padding-top: 4rem;
+  padding-top: 8rem;
   padding-bottom: 2rem;
   background-image: url("../../../assets/images/screenshot-2021-08-04-at-20.26.24-1173x806.png");
 }
@@ -3895,6 +4050,33 @@ a {
   padding-top: 2rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
+}
+.cid-sN38nnVdcM {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #ffffff;
+}
+.cid-sN38nnVdcM .counter-container ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 2.5rem;
+}
+.cid-sN38nnVdcM .counter-container ul li {
+  margin-bottom: 1rem;
+  position: relative;
+}
+.cid-sN38nnVdcM .counter-container ul li:before {
+  position: absolute;
+  left: -1.6rem;
+  content: "\2022";
+  color: #ff9966;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 1.6rem;
+  line-height: 1.2;
+}
+.cid-sN38nnVdcM .mbr-section-title {
+  color: #ff9966;
 }
 .cid-sF9zzdxqIj {
   padding-top: 1rem;
