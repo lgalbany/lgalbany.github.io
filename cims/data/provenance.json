@@ -1,0 +1,29 @@
+{
+  "retrieved": "2026-09-26",
+  "mapSource": "https://www.feec.cat/activitats/100-cims/",
+  "heightAndRegionSource": "https://www.feec.cat/wp-content/cron-scripts/ascensos_cims.txt",
+  "rules": "https://www.feec.cat/activitats/100-cims/normativa-i-funcionament/",
+  "method": "Join cims_essencials and cims_repte map entries with height and comarca table by the canonical FEEC summit URL.",
+  "validation": {
+    "total": 522,
+    "essential": 150,
+    "other": 372,
+    "uniqueIds": 522,
+    "missingHeights": 0
+  },
+  "supplement": {
+    "source": "https://ca.wikipedia.org/wiki/Repte_dels_100_cims",
+    "retrieved": "2026-09-26",
+    "fields": [
+      "municipalities",
+      "range",
+      "wikipedia article URL",
+      "Commons category URL",
+      "Wikidata ID"
+    ],
+    "matches": 522,
+    "articleLinks": 485,
+    "method": "Unique nearby coordinates or exact name plus nearby coordinates; Montaspre and Tuc Dormidor reviewed against linked articles. Only the two current summit tables are included; retired summits are excluded. FEEC fields and stable IDs are unchanged.",
+    "attribution": "Viquipèdia contributors; facts presented in the table are maintained from Wikidata. CC BY-SA 4.0 for Wikipedia text; Wikidata structured data CC0."
+  }
+}

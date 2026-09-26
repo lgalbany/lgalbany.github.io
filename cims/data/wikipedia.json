@@ -1,0 +1,4178 @@
+{
+  "el-cogullo-de-cabra": {
+    "name": "el Cogulló",
+    "url": "https://ca.wikipedia.org/wiki/El_Cogulló_(el_Pont_d'Armentera)",
+    "municipalities": "el Pont d'Armentera",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Cogulló%20(el%20Pont%20d'Armentera)",
+    "wikidata": "Q17481698"
+  },
+  "puig-de-tretzevents": {
+    "name": "Puig dels Tres Vents",
+    "url": "https://ca.wikipedia.org/wiki/Puig_dels_Tres_Vents",
+    "municipalities": "Cortsaví, el Tec",
+    "range": "massís del Canigó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20dels%20Tres%20Vents",
+    "wikidata": "Q7838888"
+  },
+  "torre-de-madeloc": {
+    "name": "Torre de Madeloc",
+    "url": null,
+    "municipalities": "Cotlliure",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20de%20Madeloc%20(cim)",
+    "wikidata": "Q113114809"
+  },
+  "cambra-dase": {
+    "name": "Cambra d'Ase",
+    "url": "https://ca.wikipedia.org/wiki/Cambra_d'Ase",
+    "municipalities": "Eina, Planès, Sant Pere dels Forcats",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cambre%20d'Aze",
+    "wikidata": "Q2934685"
+  },
+  "canigo": {
+    "name": "Canigó",
+    "url": "https://ca.wikipedia.org/wiki/Canigó",
+    "municipalities": "Vernet",
+    "range": "massís del Canigó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Canigou",
+    "wikidata": "Q6650"
+  },
+  "carlit": {
+    "name": "Carlit",
+    "url": "https://ca.wikipedia.org/wiki/Carlit",
+    "municipalities": "Angostrina i Vilanova de les Escaldes",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Carlit",
+    "wikidata": "Q2476121"
+  },
+  "puig-peric": {
+    "name": "Puig Peric",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Peric",
+    "municipalities": "Angostrina i Vilanova de les Escaldes, els Angles, Formiguera",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Peric",
+    "wikidata": "Q11943424"
+  },
+  "roc-de-madres": {
+    "name": "el Madres",
+    "url": "https://ca.wikipedia.org/wiki/El_Madres",
+    "municipalities": "Censà, Mosset, El Bosquet",
+    "range": "serra de Madres",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Massif%20du%20Madrès",
+    "wikidata": "Q954784"
+  },
+  "torre-deina": {
+    "name": "Torre d'Eina",
+    "url": "https://ca.wikipedia.org/wiki/Torre_d'Eina",
+    "municipalities": "Eina, Fontpedrosa, Planès",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20d'Eina",
+    "wikidata": "Q56401322"
+  },
+  "casamanya-nord": {
+    "name": "Casamanya",
+    "url": "https://ca.wikipedia.org/wiki/Casamanya",
+    "municipalities": "Ordino, Canillo",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Massís%20del%20Casamanya",
+    "wikidata": "Q3030915"
+  },
+  "comapedrosa": {
+    "name": "Comapedrosa",
+    "url": "https://ca.wikipedia.org/wiki/Comapedrosa",
+    "municipalities": "la Massana",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Coma%20Pedrosa",
+    "wikidata": "Q62467"
+  },
+  "pic-de-la-serrera": {
+    "name": "Pic de la Serrera",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Serrera",
+    "municipalities": "Aston, Ordino",
+    "range": "massif de l'Aston",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Serrère",
+    "wikidata": "Q11941547"
+  },
+  "pic-del-vent": {
+    "name": "Pic del Vent",
+    "url": "https://ca.wikipedia.org/wiki/Pic_del_Vent",
+    "municipalities": "Caldes de Montbui",
+    "range": "serra Llisa",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20del%20Vent",
+    "wikidata": "Q17483827"
+  },
+  "pic-negre-denvalira": {
+    "name": "Pic Negre d'Envalira",
+    "url": "https://ca.wikipedia.org/wiki/Pic_Negre_d'Envalira",
+    "municipalities": "Porta, Encamp",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Negre%20d'Envalira",
+    "wikidata": "Q15918235"
+  },
+  "sant-sadurni-de-gallifa": {
+    "name": "la Mola",
+    "url": "https://ca.wikipedia.org/wiki/La_Mola_(Gallifa)",
+    "municipalities": "Gallifa",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Mola%20(Gallifa)",
+    "wikidata": "Q17147114"
+  },
+  "tagamanent": {
+    "name": "Turó de Tagamanent",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Tagamanent",
+    "municipalities": "Tagamanent",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Tagamanent",
+    "wikidata": "Q7856606"
+  },
+  "tristaina": {
+    "name": "Pic de Tristaina",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Tristaina",
+    "municipalities": "Ausat, Lercol, Ordino",
+    "range": "serra de Tristaina",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Tristagne",
+    "wikidata": "Q3382394"
+  },
+  "puigmal": {
+    "name": "Puigmal",
+    "url": "https://ca.wikipedia.org/wiki/Puigmal",
+    "municipalities": "Queralbs, Er",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigmal",
+    "wikidata": "Q17477"
+  },
+  "castellsapera": {
+    "name": "Castellsapera",
+    "url": "https://ca.wikipedia.org/wiki/Castellsapera",
+    "municipalities": "Vacarisses, Terrassa",
+    "range": "serra de l'Obac",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Castellsapera",
+    "wikidata": "Q11913195"
+  },
+  "el-cogul": {
+    "name": "el Cogul",
+    "url": "https://ca.wikipedia.org/wiki/El_Cogul_(Navès)",
+    "municipalities": "Navès",
+    "range": "serra de Busa",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Cogul%20(Navès)",
+    "wikidata": "Q5351039"
+  },
+  "la-mola-de-sant-llorenc-del-munt": {
+    "name": "la Mola",
+    "url": "https://ca.wikipedia.org/wiki/La_Mola_(Sant_Llorenç_del_Munt)",
+    "municipalities": "Matadepera",
+    "range": "Sant Llorenç del Munt",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Mola%20(Sant%20Llorenç%20del%20Munt)",
+    "wikidata": "Q1844624"
+  },
+  "les-agudes": {
+    "name": "les Agudes",
+    "url": "https://ca.wikipedia.org/wiki/Les_Agudes_(Massís_del_Montseny)",
+    "municipalities": "Fogars de Montclús, Montseny, Arbúcies",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Les%20Agudes%20(Massís%20del%20Montseny)",
+    "wikidata": "Q6529125"
+  },
+  "mauberme": {
+    "name": "Tuc de Mauberme",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Mauberme",
+    "municipalities": "Naut Aran, Santenh",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Maubèrme",
+    "wikidata": "Q11953291"
+  },
+  "montardo": {
+    "name": "Montardo",
+    "url": "https://ca.wikipedia.org/wiki/Montardo",
+    "municipalities": "Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montardo",
+    "wikidata": "Q3176503"
+  },
+  "montcorbison": {
+    "name": "Montcorbison",
+    "url": "https://ca.wikipedia.org/wiki/Montcorbison",
+    "municipalities": "Vielha e Mijaran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montcorbison",
+    "wikidata": "Q17482733"
+  },
+  "montlude": {
+    "name": "Montlude",
+    "url": "https://ca.wikipedia.org/wiki/Montlude",
+    "municipalities": "Vilamòs, Les",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montlude",
+    "wikidata": "Q11937477"
+  },
+  "montmeneu": {
+    "name": "Punta de Montmaneu",
+    "url": "https://ca.wikipedia.org/wiki/Punta_de_Montmaneu",
+    "municipalities": "Seròs",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20de%20Montmaneu",
+    "wikidata": "Q11943937"
+  },
+  "pilar-dalmenara": {
+    "name": "Pilar d'Almenara",
+    "url": "https://ca.wikipedia.org/wiki/Pilar_d'Almenara",
+    "municipalities": "Agramunt",
+    "range": "serra d'Almenara",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Pilar%20d'Almenara",
+    "wikidata": "Q17481224"
+  },
+  "puig-de-la-creu": {
+    "name": "Puig de la Creu",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Creu_(Castellar_del_Vallès)",
+    "municipalities": "Castellar del Vallès, Sentmenat",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Creu%20(Castellar%20del%20Vallès)",
+    "wikidata": "Q11943683"
+  },
+  "puig-de-les-morreres": {
+    "name": "Puig de les Morreres",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_les_Morreres",
+    "municipalities": "Guixers, la Coma i la Pedra",
+    "range": "Port del Comte",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20les%20Morreres",
+    "wikidata": "Q17482815"
+  },
+  "roques-de-benet-el-castell": {
+    "name": "Roques de Benet",
+    "url": "https://ca.wikipedia.org/wiki/Roques_de_Benet",
+    "municipalities": "Horta de Sant Joan",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roques%20de%20Benet",
+    "wikidata": "Q3572470"
+  },
+  "sant-miquel-de-solterra": {
+    "name": "Sant Miquel de Solterra",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Miquel_de_Solterra",
+    "municipalities": "Sant Hilari Sacalm, Osor",
+    "range": "les Guilleries",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Miquel%20de%20Solterra",
+    "wikidata": "Q7419105"
+  },
+  "santa-barbara": {
+    "name": "Santa Bàrbara",
+    "url": "https://ca.wikipedia.org/wiki/Santa_Bàrbara_(Terra_Alta)",
+    "municipalities": "Horta de Sant Joan",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Santa%20Bàrbara%20(Terra%20Alta)",
+    "wikidata": "Q6936983"
+  },
+  "taga": {
+    "name": "Taga",
+    "url": "https://ca.wikipedia.org/wiki/Taga",
+    "municipalities": "Ribes de Freser, Ogassa, Pardines",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Taga",
+    "wikidata": "Q8538568"
+  },
+  "tossal-de-la-creu": {
+    "name": "Tossal de la Creu",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_la_Creu_(Segarra)",
+    "municipalities": "Torà, Biosca",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Puig-redon",
+    "wikidata": "Q11952765"
+  },
+  "tuc-de-molieres": {
+    "name": "Tuc de Molières",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Molières",
+    "municipalities": "Vielha e Mijaran, Benasc",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Molières",
+    "wikidata": "Q6743484"
+  },
+  "tuc-deth-port-de-vielha": {
+    "name": "Tuc deth Pòrt de Vielha",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_deth_Pòrt_de_Vielha",
+    "municipalities": "Vielha e Mijaran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20deth%20Pòrt%20de%20Vielha",
+    "wikidata": "Q17483068"
+  },
+  "turo-de-montsoriu": {
+    "name": "Turó de Montsoriu",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Montsoriu",
+    "municipalities": "Sant Feliu de Buixalleu, Arbúcies",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Montsoriu",
+    "wikidata": "Q17482780"
+  },
+  "balandrau": {
+    "name": "Balandrau",
+    "url": "https://ca.wikipedia.org/wiki/Balandrau",
+    "municipalities": "Queralbs, Vilallonga de Ter",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Balandrau",
+    "wikidata": "Q4850026"
+  },
+  "bastiments": {
+    "name": "Pic de Bastiments",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Bastiments",
+    "municipalities": "Setcases, Queralbs, Fontpedrosa",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Bastiments",
+    "wikidata": "Q3138291"
+  },
+  "costa-pubilla-o-pla-de-pujalts": {
+    "name": "Costa Pubilla",
+    "url": "https://ca.wikipedia.org/wiki/Cim_de_Pla_de_Pujalts",
+    "municipalities": "Gombrèn, Planoles",
+    "range": "serra de Montgrony",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Costa%20Pubilla",
+    "wikidata": "Q5120045"
+  },
+  "costabona": {
+    "name": "Costabona",
+    "url": "https://ca.wikipedia.org/wiki/Costabona",
+    "municipalities": "Setcases, Prats de Molló i la Presta",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Costabona",
+    "wikidata": "Q3382362"
+  },
+  "la-fita-alta": {
+    "name": "la Fita Alta",
+    "url": "https://ca.wikipedia.org/wiki/La_Fita_Alta",
+    "municipalities": "Sidamon, Torregrossa",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Fita%20Alta",
+    "wikidata": "Q11930487"
+  },
+  "la-picossa": {
+    "name": "la Picossa",
+    "url": "https://ca.wikipedia.org/wiki/La_Picossa_(Móra_d'Ebre)",
+    "municipalities": "Móra d'Ebre",
+    "range": "serra de Cavalls",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Picossa%20(Móra%20d'Ebre)",
+    "wikidata": "Q17482302"
+  },
+  "la-tossa-tivissa": {
+    "name": "la Tossa",
+    "url": "https://ca.wikipedia.org/wiki/La_Tossa_(Tivissa)",
+    "municipalities": "Tivissa",
+    "range": "serra de Tivissa",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Tossa%20(Tivissa)",
+    "wikidata": "Q17482310"
+  },
+  "lo-tormo": {
+    "name": "lo Tormo",
+    "url": "https://ca.wikipedia.org/wiki/Lo_Tormo",
+    "municipalities": "la Torre de l'Espanyol, Garcia",
+    "range": "serra de Montsant",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Tormo",
+    "wikidata": "Q50359540"
+  },
+  "roca-corbatera": {
+    "name": "Roca Corbatera",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Corbatera",
+    "municipalities": "la Morera de Montsant",
+    "range": "serra de Montsant",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20Corbatera",
+    "wikidata": "Q17483301"
+  },
+  "sant-patllari": {
+    "name": "Sant Patllari",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Patllari",
+    "municipalities": "Porqueres",
+    "range": "serra de Sant Patllari",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Patllari",
+    "wikidata": "Q11947288"
+  },
+  "tuc-de-la-llanca": {
+    "name": "Tuc de la Llança",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_la_Llança",
+    "municipalities": "Alt Àneu",
+    "range": "massís de Beret",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20dera%20Lança",
+    "wikidata": "Q17482336"
+  },
+  "tuc-de-ratera": {
+    "name": "Tuc de Ratera",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Ratera",
+    "municipalities": "Naut Aran, Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Ratera",
+    "wikidata": "Q11953299"
+  },
+  "campirme": {
+    "name": "Campirme",
+    "url": "https://ca.wikipedia.org/wiki/Campirme",
+    "municipalities": "Vall de Cardós, la Guingueta d'Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Campirme",
+    "wikidata": "Q11911298"
+  },
+  "lo-tesol-teso-de-son": {
+    "name": "lo Tésol",
+    "url": "https://ca.wikipedia.org/wiki/Lo_Tésol",
+    "municipalities": "Alt Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Tésol",
+    "wikidata": "Q11933845"
+  },
+  "mont-roig": {
+    "name": "Mont-roig",
+    "url": "https://ca.wikipedia.org/wiki/Mont-roig_(Alt_Àneu)",
+    "municipalities": "Alt Àneu, Lladorre, la Guingueta d'Àneu, Coflens",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mont-roig%20(Alt%20Àneu)",
+    "wikidata": "Q5120047"
+  },
+  "monteixo": {
+    "name": "Monteixo",
+    "url": "https://ca.wikipedia.org/wiki/Monteixo",
+    "municipalities": "Alins",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Monteixo",
+    "wikidata": "Q8531408"
+  },
+  "pic-de-certascan": {
+    "name": "Pic de Certascan",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Certascan",
+    "municipalities": "Lladorre",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Certascan",
+    "wikidata": "Q11941458"
+  },
+  "pic-de-moredo": {
+    "name": "Pic de Moredo",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Moredo",
+    "municipalities": "Alt Àneu",
+    "range": "massís de Beret",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Moredo",
+    "wikidata": "Q17482782"
+  },
+  "pic-de-sotllo": {
+    "name": "Pic de Sotllo",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Sotllo",
+    "municipalities": "Alins, Ausat",
+    "range": "massís del Montcalm",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Sotllo",
+    "wikidata": "Q3087278"
+  },
+  "pica-destats": {
+    "name": "Pica d'Estats",
+    "url": "https://ca.wikipedia.org/wiki/Pica_d'Estats",
+    "municipalities": "Alins, Ausat",
+    "range": "massís del Montcalm",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pica%20d'Estats",
+    "wikidata": "Q1537733"
+  },
+  "sant-corneli": {
+    "name": "Sant Corneli",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Corneli",
+    "municipalities": "Conca de Dalt",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Corneli",
+    "wikidata": "Q7419084"
+  },
+  "torreta-de-lorri": {
+    "name": "Torreta de l'Orri",
+    "url": "https://ca.wikipedia.org/wiki/Torreta_de_l'Orri",
+    "municipalities": "Soriguera",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torreta%20de%20l'Orri",
+    "wikidata": "Q11952583"
+  },
+  "tuc-de-la-cometa": {
+    "name": "Tuc de la Cometa",
+    "url": null,
+    "municipalities": "Sort, la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20la%20Cometa",
+    "wikidata": "Q11953316"
+  },
+  "bellmunt": {
+    "name": "Bellmunt",
+    "url": "https://ca.wikipedia.org/wiki/Bellmunt_(Sant_Pere_de_Torelló)",
+    "municipalities": "Sant Pere de Torelló",
+    "range": "serra de Bellmunt",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Bellmunt%20(Sant%20Pere%20de%20Torelló)",
+    "wikidata": "Q4884080"
+  },
+  "cap-de-boumort": {
+    "name": "Cap de Boumort",
+    "url": "https://ca.wikipedia.org/wiki/Cap_de_Boumort",
+    "municipalities": "Conca de Dalt",
+    "range": "serra de Boumort",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20de%20Boumort",
+    "wikidata": "Q5034453"
+  },
+  "castell-de-milany": {
+    "name": "Milany",
+    "url": "https://ca.wikipedia.org/wiki/Milany",
+    "municipalities": "Vallfogona de Ripollès, Vidrà",
+    "range": "serra de Milany",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Milany",
+    "wikidata": "Q6850793"
+  },
+  "creu-de-gurb": {
+    "name": "Turó de la Creu de Gurb",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_la_Creu_de_Gurb",
+    "municipalities": "Gurb",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20la%20Creu%20de%20Gurb",
+    "wikidata": "Q7856609"
+  },
+  "matagalls": {
+    "name": "Matagalls",
+    "url": "https://ca.wikipedia.org/wiki/Matagalls",
+    "municipalities": "Viladrau, el Brull, Montseny",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Matagalls",
+    "wikidata": "Q6785970"
+  },
+  "montsent-de-pallars": {
+    "name": "Montsent de Pallars",
+    "url": "https://ca.wikipedia.org/wiki/Montsent_de_Pallars",
+    "municipalities": "la Torre de Cabdella, Sort",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montsent%20de%20Pallars",
+    "wikidata": "Q6906569"
+  },
+  "pic-de-peguera": {
+    "name": "Pic de Peguera",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Peguera",
+    "municipalities": "la Torre de Cabdella, Espot",
+    "range": "massís dels Encantats",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Peguera",
+    "wikidata": "Q7190465"
+  },
+  "pica-de-cervi": {
+    "name": "Pica de Cerví",
+    "url": "https://ca.wikipedia.org/wiki/Pica_de_Cerví",
+    "municipalities": "Sarroca de Bellera",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pica%20de%20Cerví",
+    "wikidata": "Q11941568"
+  },
+  "pui-de-lleras": {
+    "name": "Pic de Lleràs",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Lleràs",
+    "municipalities": "Tremp",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Lleràs",
+    "wikidata": "Q7259011"
+  },
+  "rocallarga": {
+    "name": "Rocallarga",
+    "url": "https://ca.wikipedia.org/wiki/Rocallarga",
+    "municipalities": "Tavertet",
+    "range": "les Guilleries",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Rocallarga",
+    "wikidata": "Q7353679"
+  },
+  "cabrera": {
+    "name": "Cabrera",
+    "url": "https://ca.wikipedia.org/wiki/Cabrera_(l'Esquirol)",
+    "municipalities": "l'Esquirol, la Vall d'en Bas",
+    "range": "serra de Cabrera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cabrera%20(l'Esquirol)",
+    "wikidata": "Q5015822"
+  },
+  "castell-de-burriac": {
+    "name": "Burriac",
+    "url": "https://ca.wikipedia.org/wiki/Burriac",
+    "municipalities": "Cabrera de Mar",
+    "range": "Serralada Litoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Burriac",
+    "wikidata": "Q11910197"
+  },
+  "castell-de-sant-miquel": {
+    "name": "Muntanya de Sant Miquel",
+    "url": "https://ca.wikipedia.org/wiki/Muntanya_de_Sant_Miquel",
+    "municipalities": "Girona, Celrà",
+    "range": "Serralada Litoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Muntanya%20de%20Sant%20Miquel%20(Girona)",
+    "wikidata": "Q17482837"
+  },
+  "comanegra": {
+    "name": "Comanegra",
+    "url": "https://ca.wikipedia.org/wiki/Comanegra",
+    "municipalities": "Montagut i Oix, la Menera",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Comanegra",
+    "wikidata": "Q4889555"
+  },
+  "els-angels": {
+    "name": "Muntanya dels Àngels",
+    "url": "https://ca.wikipedia.org/wiki/Muntanya_dels_Àngels",
+    "municipalities": "Juià, Sant Martí Vell, Quart",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Muntanya%20dels%20Àngels",
+    "wikidata": "Q11937949"
+  },
+  "els-bessons": {
+    "name": "els Bessons",
+    "url": "https://ca.wikipedia.org/wiki/Els_Bessons_(les_Borges_Blanques)",
+    "municipalities": "les Borges Blanques",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Els%20Bessons%20(les%20Borges%20Blanques)",
+    "wikidata": "Q11918926"
+  },
+  "la-carabassa": {
+    "name": "la Carbassa",
+    "url": "https://ca.wikipedia.org/wiki/La_Carbassa",
+    "municipalities": "Bellver de Cerdanya, Meranges",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Carbassa",
+    "wikidata": "Q6461537"
+  },
+  "la-muga": {
+    "name": "la Muga",
+    "url": "https://ca.wikipedia.org/wiki/La_Muga_(Lles_de_Cerdanya)",
+    "municipalities": "Lles de Cerdanya",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Muga",
+    "wikidata": "Q17482826"
+  },
+  "montalt": {
+    "name": "Montalt",
+    "url": "https://ca.wikipedia.org/wiki/Montalt_(Dosrius)",
+    "municipalities": "Sant Andreu de Llavaneres, Dosrius, Sant Vicenç de Montalt",
+    "range": "Serralada Litoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montalt%20(Dosrius)",
+    "wikidata": "Q11937395"
+  },
+  "pala-alta": {
+    "name": "Pala Alta",
+    "url": "https://ca.wikipedia.org/wiki/Pala_Alta",
+    "municipalities": "Camarasa, les Avellanes i Santa Linya",
+    "range": "serra de Mont-roig",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pala%20Alta",
+    "wikidata": "Q11939807"
+  },
+  "penya-sant-alis": {
+    "name": "Sant Alís",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Alís",
+    "municipalities": "Sant Esteve de la Sarga, Àger",
+    "range": "serra del Montsec Montsec d'Ares",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Alís",
+    "wikidata": "Q7419072"
+  },
+  "puig-ou": {
+    "name": "Puig Ou",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Ou",
+    "municipalities": "la Vall de Bianya, Camprodon",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Ou",
+    "wikidata": "Q11943413"
+  },
+  "puigpedros": {
+    "name": "Puigpedrós",
+    "url": "https://ca.wikipedia.org/wiki/Puigpedrós",
+    "municipalities": "Meranges, Porta, Ger, Guils de Cerdanya",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Campcardós",
+    "wikidata": "Q968445"
+  },
+  "puigsacalm": {
+    "name": "Puigsacalm",
+    "url": "https://ca.wikipedia.org/wiki/Puigsacalm",
+    "municipalities": "la Vall d'en Bas",
+    "range": "Serralada Transversal",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigsacalm",
+    "wikidata": "Q7259038"
+  },
+  "punta-del-curull": {
+    "name": "Punta del Curull",
+    "url": "https://ca.wikipedia.org/wiki/Punta_del_Curull",
+    "municipalities": "Vilanova de Prades, el Vilosell",
+    "range": "serra de la Llena",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20del%20Curull",
+    "wikidata": "Q7260573"
+  },
+  "sant-mamet": {
+    "name": "Sant Mamet",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Mamet_(Alòs_de_Balaguer)",
+    "municipalities": "Vilanova de Meià, Alòs de Balaguer",
+    "range": "Muntanya de Sant Mamet",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Mamet%20(Alòs%20de%20Balaguer)",
+    "wikidata": "Q7419099"
+  },
+  "sant-miquel-de-montclar": {
+    "name": "Montclar",
+    "url": "https://ca.wikipedia.org/wiki/Montclar_(Pontils)",
+    "municipalities": "Pontils",
+    "range": "Serralada Prelitoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montclar%20(Pontils)",
+    "wikidata": "Q11937423"
+  },
+  "torreta-del-montsia": {
+    "name": "Torreta de Montsià",
+    "url": "https://ca.wikipedia.org/wiki/Torreta_de_Montsià",
+    "municipalities": "Ulldecona, Alcanar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torreta%20de%20Montsià",
+    "wikidata": "Q11952584"
+  },
+  "tossa-plana-de-lles-pic-de-la-portelleta": {
+    "name": "Pic de la Portelleta",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Portelleta",
+    "municipalities": "Lles de Cerdanya, les Escaldes i Engordany",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossa%20Plana%20de%20Lles",
+    "wikidata": "Q11941543"
+  },
+  "tossal-de-mirapallars": {
+    "name": "Tossal de Mirapallars i Urgell",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Mirapallars_i_Urgell",
+    "municipalities": "Vilanova de Meià, Llimiana, Gavet de la Conca",
+    "range": "Montsec de Rúbies",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Mirapallars",
+    "wikidata": "Q7827874"
+  },
+  "tossal-dels-tres-reis": {
+    "name": "Tossal del Rei",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_del_Rei",
+    "municipalities": "la Sénia, Vall-de-roures, la Pobla de Benifassà",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20del%20Rei",
+    "wikidata": "Q6748219"
+  },
+  "tossal-gros-de-vallbona": {
+    "name": "Tossal Gros de Vallbona",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_Gros_de_Vallbona",
+    "municipalities": "l'Espluga de Francolí, Vallbona de les Monges",
+    "range": "serra del Tallat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20Gros%20de%20Vallbona",
+    "wikidata": "Q7827869"
+  },
+  "cap-de-la-gallina-pelada": {
+    "name": "Cap de la Gallina Pelada",
+    "url": "https://ca.wikipedia.org/wiki/Cap_de_la_Gallina_Pelada",
+    "municipalities": "Saldes, Fígols, Gósol",
+    "range": "serra d'Ensija",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20de%20la%20Gallina%20Pelada",
+    "wikidata": "Q17482071"
+  },
+  "cogullo-destela": {
+    "name": "Cogulló d'Estela",
+    "url": "https://ca.wikipedia.org/wiki/Cogulló_d'Estela",
+    "municipalities": "Castellar del Riu",
+    "range": "Rasos de Peguera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cogulló%20d'Estela",
+    "wikidata": "Q11914430"
+  },
+  "comabona": {
+    "name": "Comabona",
+    "url": "https://ca.wikipedia.org/wiki/Comabona",
+    "municipalities": "Montellà i Martinet, Gisclareny",
+    "range": "Serra del Cadí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Comabona",
+    "wikidata": "Q5150472"
+  },
+  "la-mola": {
+    "name": "la Mola",
+    "url": "https://ca.wikipedia.org/wiki/La_Mola_(Bonastre)",
+    "municipalities": "Bonastre, la Pobla de Montornès, Creixell",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Mola%20(Bonastre)",
+    "wikidata": "Q17482640"
+  },
+  "la-tosa": {
+    "name": "la Tosa",
+    "url": "https://ca.wikipedia.org/wiki/La_Tosa",
+    "municipalities": "Alp, Urús, Das, Bagà",
+    "range": "serra de Moixeró",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tosa%20d'Alp",
+    "wikidata": "Q3776656"
+  },
+  "penyes-altes": {
+    "name": "Penyes Altes de Moixeró",
+    "url": "https://ca.wikipedia.org/wiki/Penyes_Altes_de_Moixeró",
+    "municipalities": "Guardiola de Berguedà, Riu de Cerdanya, Urús",
+    "range": "serra de Moixeró",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Penyes%20Altes%20de%20Moixeró",
+    "wikidata": "Q7165403"
+  },
+  "pollego-superior-pedraforca": {
+    "name": "Pollegó Superior",
+    "url": "https://ca.wikipedia.org/wiki/Pollegó_Superior",
+    "municipalities": "Saldes, Gósol",
+    "range": "Pedraforca",
+    "commons": null,
+    "wikidata": "Q60847493"
+  },
+  "puig-castellar": {
+    "name": "Puig Castellar",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Castellar_(Serra_de_Marina)",
+    "municipalities": "Montcada i Reixac, Santa Coloma de Gramenet",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Castellar%20(Serra%20de%20Marina)",
+    "wikidata": "Q17481609"
+  },
+  "sant-salvador-de-les-espases": {
+    "name": "Castell de les Espases",
+    "url": "https://ca.wikipedia.org/wiki/Castell_de_les_Espases_(cim)",
+    "municipalities": "Esparreguera",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Castell%20de%20les%20Espases%20(cim)",
+    "wikidata": "Q113110913"
+  },
+  "talaia-del-montmell": {
+    "name": "Puig de la Talaia",
+    "url": "https://ca.wikipedia.org/wiki/Talaia_de_Montmell",
+    "municipalities": "el Montmell",
+    "range": "Serra del Montmell",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Talaia",
+    "wikidata": "Q7259035"
+  },
+  "turo-de-magarola": {
+    "name": "Turó de la Magarola",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_la_Magarola",
+    "municipalities": "Barcelona, Cerdanyola del Vallès, Sant Cugat del Vallès, Montbau",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20la%20Magarola",
+    "wikidata": "Q17482418"
+  },
+  "caro": {
+    "name": "el Caro",
+    "url": "https://ca.wikipedia.org/wiki/Caro",
+    "municipalities": "Roquetes",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mont%20Caro",
+    "wikidata": "Q599722"
+  },
+  "castell-de-montgri": {
+    "name": "Montgrí",
+    "url": "https://ca.wikipedia.org/wiki/Montgrí",
+    "municipalities": "Torroella de Montgrí",
+    "range": "massís del Montgrí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Muntanya%20del%20Montgrí",
+    "wikidata": "Q11937456"
+  },
+  "cavall-bernat-de-llaberia": {
+    "name": "Cavall Bernat",
+    "url": "https://ca.wikipedia.org/wiki/Cavall_Bernat_(Colldejou)",
+    "municipalities": "Colldejou, Pratdip",
+    "range": "serra de Llaberia",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cavall%20Bernat%20de%20Llabería",
+    "wikidata": "Q11913314"
+  },
+  "collbaix": {
+    "name": "Collbaix",
+    "url": "https://ca.wikipedia.org/wiki/Collbaix_(Manresa)",
+    "municipalities": "Sant Joan de Vilatorrada, Manresa, Fonollosa",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Collbaix%20(Manresa)",
+    "wikidata": "Q17481728"
+  },
+  "la-morella": {
+    "name": "la Morella",
+    "url": "https://ca.wikipedia.org/wiki/La_Morella_(Begues)",
+    "municipalities": "Begues",
+    "range": "massís de Garraf",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Morella",
+    "wikidata": "Q8531595"
+  },
+  "mola-destat": {
+    "name": "Mola d'Estat",
+    "url": "https://ca.wikipedia.org/wiki/Mola_d'Estat",
+    "municipalities": "Vimbodí i Poblet, Prades",
+    "range": "Muntanyes de Prades",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mola%20d'Estat",
+    "wikidata": "Q8531534"
+  },
+  "mola-de-colldejou": {
+    "name": "Mola de Colldejou",
+    "url": "https://ca.wikipedia.org/wiki/Mola_de_Colldejou",
+    "municipalities": "Colldejou",
+    "range": "Serralada Prelitoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mola%20de%20Colldejou",
+    "wikidata": "Q6895629"
+  },
+  "mola-de-genessies": {
+    "name": "Mola de Genessies",
+    "url": "https://ca.wikipedia.org/wiki/Mola_de_Genessies",
+    "municipalities": "Tivissa, Vandellòs i l'Hospitalet de l'Infant",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mola%20de%20Genessies",
+    "wikidata": "Q17482098"
+  },
+  "mollo-puntaire": {
+    "name": "Molló Puntaire",
+    "url": "https://ca.wikipedia.org/wiki/Molló_Puntaire",
+    "municipalities": "Vandellòs i l'Hospitalet de l'Infant",
+    "range": "Los Dedalts",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Molló%20Puntaire",
+    "wikidata": "Q17307008"
+  },
+  "montcau": {
+    "name": "el Montcau",
+    "url": "https://ca.wikipedia.org/wiki/El_Montcau",
+    "municipalities": "Sant Llorenç Savall, Mura",
+    "range": "Sant Llorenç del Munt",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Montcau",
+    "wikidata": "Q4895920"
+  },
+  "puig-de-la-cabrafiga": {
+    "name": "Puig de la Cabrafiga",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Cabrafiga",
+    "municipalities": "Pratdip",
+    "range": "serra de Llaberia",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Cabrafiga",
+    "wikidata": "Q17481441"
+  },
+  "puig-de-la-caritat": {
+    "name": "Puig de la Caritat",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Caritat_(l'Estany)",
+    "municipalities": "l'Estany",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Caritat%20(l'Estany)",
+    "wikidata": "Q17481566"
+  },
+  "roca-de-sant-salvador-lelefant": {
+    "name": "l'Elefant",
+    "url": "https://ca.wikipedia.org/wiki/L'Elefant_(Montserrat)",
+    "municipalities": "Monistrol de Montserrat",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:L'Elefant%20(Montserrat)",
+    "wikidata": "Q21569034"
+  },
+  "sant-pere-martir": {
+    "name": "Puig d'Ossa",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'Ossa",
+    "municipalities": "Barcelona, Sant Just Desvern, Esplugues de Llobregat, Pedralbes",
+    "range": "Collserola",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mountain%20of%20Sant%20Pere%20Màrtir",
+    "wikidata": "Q17482898"
+  },
+  "sant-ramon": {
+    "name": "Montbaig",
+    "url": "https://ca.wikipedia.org/wiki/Montbaig",
+    "municipalities": "Sant Boi de Llobregat, Viladecans, Sant Climent de Llobregat",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montbaig",
+    "wikidata": "Q9034703"
+  },
+  "tossal-dengrillo": {
+    "name": "Tossal d'Engrilló",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_d'Engrilló",
+    "municipalities": "Prat de Comte, Horta de Sant Joan, Paüls",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20d'Engrilló",
+    "wikidata": "Q7827870"
+  },
+  "tossal-de-la-baltasana": {
+    "name": "Tossal de la Baltasana",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_la_Baltasana",
+    "municipalities": "Prades",
+    "range": "Muntanyes de Prades",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20la%20Baltasana",
+    "wikidata": "Q7827873"
+  },
+  "xaquera-o-creu-de-santos": {
+    "name": "Creu de Santos",
+    "url": "https://ca.wikipedia.org/wiki/La_Creu_de_Santos",
+    "municipalities": "Tivenys, Benifallet, Rasquera",
+    "range": "massís de Cardó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Creu%20de%20Santos",
+    "wikidata": "Q5184752"
+  },
+  "lo-corrunco": {
+    "name": "el Corronco",
+    "url": "https://ca.wikipedia.org/wiki/El_Corronco",
+    "municipalities": "el Pont de Suert, la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Corronco",
+    "wikidata": "Q4887373"
+  },
+  "montgros": {
+    "name": "Montgròs",
+    "url": "https://ca.wikipedia.org/wiki/Montgròs_(el_Bruc)",
+    "municipalities": "el Bruc",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montgròs%20(el%20Bruc)",
+    "wikidata": "Q17482743"
+  },
+  "pala-del-teller": {
+    "name": "Pala del Teller",
+    "url": "https://ca.wikipedia.org/wiki/Pala_del_Teller",
+    "municipalities": "Tremp, el Pont de Suert",
+    "range": "serra de Sant Gervàs",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pala%20del%20Teller",
+    "wikidata": "Q17482903"
+  },
+  "pic-de-comaloforno": {
+    "name": "Pic de Comaloforno",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Comaloforno",
+    "municipalities": "la Vall de Boí",
+    "range": "massís del Besiberri",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Comaloforno",
+    "wikidata": "Q2984642"
+  },
+  "puig-de-sant-miquel": {
+    "name": "Puig de Sant Miquel",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Sant_Miquel_(Rubió)",
+    "municipalities": "Rubió",
+    "range": "serra de les Maioles",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Sant%20Miquel%20(Rubió)",
+    "wikidata": "Q11943634"
+  },
+  "punta-alta": {
+    "name": "Punta Alta de Comalesbienes",
+    "url": "https://ca.wikipedia.org/wiki/Punta_Alta_de_Comalesbienes",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20Alta%20de%20Comalesbienes",
+    "wikidata": "Q7260504"
+  },
+  "sant-jeroni": {
+    "name": "Sant Jeroni",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Jeroni_(Montserrat)",
+    "municipalities": "Marganell, el Bruc, Monistrol de Montserrat",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Jeroni%20(Montserrat)",
+    "wikidata": "Q7419090"
+  },
+  "tossal-de-les-roies-de-cardet": {
+    "name": "Tossal de les Roies de Cardet",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_les_Roies_de_Cardet",
+    "municipalities": "la Vall de Boí, Vilaller",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20les%20Roies%20de%20Cardet",
+    "wikidata": "Q11952808"
+  },
+  "bony-de-la-pica-o-pica-dos": {
+    "name": "Bony de la Pica",
+    "url": "https://ca.wikipedia.org/wiki/Bony_de_la_Pica",
+    "municipalities": "les Valls de Valira, Andorra la Vella, Sant Julià de Lòria",
+    "range": "serra d'Enclar",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Bony%20de%20la%20Pica",
+    "wikidata": "Q17481918"
+  },
+  "cap-del-verd": {
+    "name": "Cap del Verd",
+    "url": "https://ca.wikipedia.org/wiki/Cap_del_Verd",
+    "municipalities": "la Coma i la Pedra, Josa i Tuixén, Gósol",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20del%20Verd",
+    "wikidata": "Q5034455"
+  },
+  "cogullo-de-turp": {
+    "name": "Pic de Turp",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Turp",
+    "municipalities": "Oliana, Coll de Nargó",
+    "range": "serra de Turp",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Turp",
+    "wikidata": "Q17483805"
+  },
+  "el-coscollet": {
+    "name": "el Coscollet",
+    "url": "https://ca.wikipedia.org/wiki/El_Coscollet",
+    "municipalities": "Peramola",
+    "range": "serra d'Aubenç",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Coscollet",
+    "wikidata": "Q5351076"
+  },
+  "gran-tuc-de-colomers": {
+    "name": "Gran Tuc de Colomèrs",
+    "url": "https://ca.wikipedia.org/wiki/Gran_Tuc_de_Colomèrs",
+    "municipalities": "la Vall de Boí, Naut Aran, Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Gran%20Tuc%20de%20Colomèrs",
+    "wikidata": "Q3826627"
+  },
+  "monturull": {
+    "name": "Monturull",
+    "url": "https://ca.wikipedia.org/wiki/Monturull",
+    "municipalities": "Lles de Cerdanya, les Valls de Valira, les Escaldes i Engordany",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Monturull",
+    "wikidata": "Q6906641"
+  },
+  "pic-de-saloria": {
+    "name": "Pic de Salòria",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Salòria",
+    "municipalities": "Alins, les Valls de Valira",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Salòria",
+    "wikidata": "Q7190467"
+  },
+  "puig-de-laliga": {
+    "name": "Puig de l'Àliga",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_l'Àliga_(Canyelles)",
+    "municipalities": "Canyelles, Olèrdola",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20l'Àliga%20(Canyelles)",
+    "wikidata": "Q11943664"
+  },
+  "sant-honorat": {
+    "name": "Serra de Sant Honorat",
+    "url": "https://ca.wikipedia.org/wiki/Serra_de_Sant_Honorat",
+    "municipalities": "Peramola",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roques%20de%20Sant%20Honorat",
+    "wikidata": "Q18006837"
+  },
+  "santa-fe": {
+    "name": "Muntanya de Santa Fe",
+    "url": "https://ca.wikipedia.org/wiki/Muntanya_de_Santa_Fe",
+    "municipalities": "Organyà",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Muntanya%20de%20Santa%20Fe",
+    "wikidata": "Q17482838"
+  },
+  "vulturo": {
+    "name": "Vulturó",
+    "url": "https://ca.wikipedia.org/wiki/Vulturó",
+    "municipalities": "Josa i Tuixén, Cava",
+    "range": "Serra del Cadí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Vulturó%20(Cadí)",
+    "wikidata": "Q2693141"
+  },
+  "bassegoda": {
+    "name": "Puig de Bassegoda",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Bassegoda",
+    "municipalities": "Albanyà, Montagut i Oix",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Bassegoda",
+    "wikidata": "Q4894784"
+  },
+  "castell-saverdera": {
+    "name": "Sant Salvador Saverdera",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Salvador_Saverdera",
+    "municipalities": "Palau-saverdera, la Selva de Mar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Salvador%20Saverdera",
+    "wikidata": "Q17483518"
+  },
+  "el-castellot": {
+    "name": "el Castellot",
+    "url": "https://ca.wikipedia.org/wiki/El_Castellot_(Castellví_de_la_Marca)",
+    "municipalities": "Castellví de la Marca",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Castellot%20(Castellví%20de%20la%20Marca)",
+    "wikidata": "Q17481628"
+  },
+  "el-mont": {
+    "name": "el Mont",
+    "url": "https://ca.wikipedia.org/wiki/El_Mont_(Albanyà)",
+    "municipalities": "Albanyà",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serra%20del%20Mont",
+    "wikidata": "Q6758738"
+  },
+  "el-tossal-gros": {
+    "name": "Tossal Gros",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_Gros_(Figuerola_del_Camp)",
+    "municipalities": "Figuerola del Camp, Montblanc",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20Gros%20(Montblanc)",
+    "wikidata": "Q7827867"
+  },
+  "penya-del-papiol": {
+    "name": "Penya del Papiol",
+    "url": "https://ca.wikipedia.org/wiki/Penya_del_Papiol",
+    "municipalities": "Olèrdola",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Penya%20del%20Papiol",
+    "wikidata": "Q11940837"
+  },
+  "puig-neulos": {
+    "name": "Puig Neulós",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Neulós",
+    "municipalities": "la Jonquera, la Roca d'Albera, Sureda",
+    "range": "serra de l'Albera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Neulós",
+    "wikidata": "Q7093"
+  },
+  "roc-del-comptador": {
+    "name": "Roc del Comptador",
+    "url": "https://ca.wikipedia.org/wiki/Roc_del_Comptador",
+    "municipalities": "Maçanet de Cabrenys, Ceret",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20del%20Comptador",
+    "wikidata": "Q7353670"
+  },
+  "tossa-grossa-de-montferri": {
+    "name": "Tossa Grossa de Montferri",
+    "url": "https://ca.wikipedia.org/wiki/Tossa_Grossa_de_Montferri",
+    "municipalities": "Montferri",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossa%20Grossa%20de%20Montferri",
+    "wikidata": "Q11952596"
+  },
+  "la-soca": {
+    "name": "la Soca",
+    "url": "https://ca.wikipedia.org/wiki/La_Soca",
+    "municipalities": "Cortsaví, Montferrer",
+    "range": "massís del Canigó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Souque",
+    "wikidata": "Q3212922"
+  },
+  "pilo-de-bellmaig": {
+    "name": "Piló de Bellmaig",
+    "url": "https://ca.wikipedia.org/wiki/Piló_de_Bellmaig",
+    "municipalities": "Arles, els Banys i Palaldà",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Piló%20de%20Bellmaig",
+    "wikidata": "Q31074168"
+  },
+  "torre-de-la-macana": {
+    "name": "Torre de la Maçana",
+    "url": null,
+    "municipalities": "Sureda, Argelers",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20de%20la%20Maçana%20(cim)",
+    "wikidata": "Q113112065"
+  },
+  "sant-marti-de-la-roca": {
+    "name": "Sant Martí de la Roca",
+    "url": null,
+    "municipalities": "Cameles",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Martí%20de%20la%20Roca%20(cim)",
+    "wikidata": "Q113028466"
+  },
+  "la-serra-vingrau": {
+    "name": "la Serra",
+    "url": "https://ca.wikipedia.org/wiki/Serra_de_Vingrau",
+    "municipalities": "Vingrau",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serra%20de%20Vingrau",
+    "wikidata": "Q113055133"
+  },
+  "puig-de-la-collada-verda": {
+    "name": "Puig de la Collada Verda",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Collada_Verda",
+    "municipalities": "Pi de Conflent, Prats de Molló i la Presta",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Collada%20Verda",
+    "wikidata": "Q7259032"
+  },
+  "pic-de-gallinassa": {
+    "name": "Pic de Gallinassa",
+    "url": "https://ca.wikipedia.org/wiki/Pic_Gallinàs_(Cortsaví)",
+    "municipalities": "Vallmanya, Cortsaví",
+    "range": "massís del Canigó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Gallinasse",
+    "wikidata": "Q113088436"
+  },
+  "santa-anna-dels-quatre-termes": {
+    "name": "Santa Anna dels Quatre Termes",
+    "url": "https://ca.wikipedia.org/wiki/Santa_Anna_dels_Quatre_Termes_(cim)",
+    "municipalities": "la Bastida, Bula d'Amunt, Glorianes",
+    "range": "Aspres",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Santa%20Anna%20dels%20Quatre%20Termes",
+    "wikidata": "Q25434148"
+  },
+  "puig-de-la-pelada": {
+    "name": "Puig de la Pelada",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Pelada",
+    "municipalities": "Oleta i Èvol, Censà",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q31634752"
+  },
+  "pic-de-coma-mitjana": {
+    "name": "Pic de Coma Mitjana",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Coma_Mitjana",
+    "municipalities": "Fontpedrosa",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q56401380"
+  },
+  "torre-de-goa": {
+    "name": "Torre de Goà",
+    "url": null,
+    "municipalities": "Saorra, Castell de Vernet",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20de%20Goà%20(cim)",
+    "wikidata": "Q113112011"
+  },
+  "puig-del-pam": {
+    "name": "Puig del Pam",
+    "url": "https://ca.wikipedia.org/wiki/Puig_del_Pam",
+    "municipalities": "els Angles, Formiguera",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20del%20Pam",
+    "wikidata": "Q31635039"
+  },
+  "pic-dels-pedrons": {
+    "name": "Pic dels Pedrons",
+    "url": "https://ca.wikipedia.org/wiki/Pic_dels_Pedrons",
+    "municipalities": "Porta",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q63870463"
+  },
+  "puig-occidental-de-coll-roig": {
+    "name": "Puig Occidental de Coll Roig",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Occidental_de_Coll_Roig",
+    "municipalities": "Dorres, Portè",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Occidental%20de%20Coll%20Roig",
+    "wikidata": "Q64024874"
+  },
+  "puig-de-font-viva": {
+    "name": "Puig de Fontviva",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Fontviva",
+    "municipalities": "Angostrina i Vilanova de les Escaldes, Portè",
+    "range": "massís del Carlit",
+    "commons": null,
+    "wikidata": "Q31644266"
+  },
+  "puig-de-la-cometa": {
+    "name": "Puig de la Cometa",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Cometa",
+    "municipalities": "Orlun, Angostrina i Vilanova de les Escaldes",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Cometa",
+    "wikidata": "Q65209267"
+  },
+  "el-punxo": {
+    "name": "el Punxó",
+    "url": "https://ca.wikipedia.org/wiki/El_Punxó",
+    "municipalities": "Enveig, Porta, Portè",
+    "range": "massís del Carlit",
+    "commons": null,
+    "wikidata": "Q31632885"
+  },
+  "pic-dels-pessons-o-gargantillar": {
+    "name": "Pic dels Pessons",
+    "url": "https://ca.wikipedia.org/wiki/Pic_dels_Pessons",
+    "municipalities": "Encamp",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20dels%20Pessons",
+    "wikidata": "Q21330136"
+  },
+  "pic-de-cabanyo": {
+    "name": "Pic de Cabanyó",
+    "url": null,
+    "municipalities": "Ordino, Ausat",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Cabanyó",
+    "wikidata": "Q113087824"
+  },
+  "pic-alt-del-cubil": {
+    "name": "Pic Alt del Cubil",
+    "url": "https://ca.wikipedia.org/wiki/Pic_Alt_del_Cubil",
+    "municipalities": "Encamp",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Alt%20del%20Cubil",
+    "wikidata": "Q21329471"
+  },
+  "pic-de-la-coma-de-varilles": {
+    "name": "Pic de la Coma de Varilles",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Coma_de_Varilles",
+    "municipalities": "Canillo, Aston",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20la%20Coma%20de%20Varilles",
+    "wikidata": "Q21329386"
+  },
+  "pic-del-pla-de-lestany": {
+    "name": "Pic del Pla de l'Estany",
+    "url": "https://ca.wikipedia.org/wiki/Pic_del_Pla_de_l'Estany",
+    "municipalities": "la Massana, Arieja",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20del%20Pla%20de%20l'Estany",
+    "wikidata": "Q21330160"
+  },
+  "alt-de-la-capa": {
+    "name": "Alt de la Capa",
+    "url": "https://ca.wikipedia.org/wiki/Alt_de_la_Capa",
+    "municipalities": "la Massana",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Alt%20de%20la%20Capa",
+    "wikidata": "Q21329245"
+  },
+  "el-sui": {
+    "name": "el Sui",
+    "url": "https://ca.wikipedia.org/wiki/El_Sui",
+    "municipalities": "Tagamanent, Montseny",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Sui",
+    "wikidata": "Q5352208"
+  },
+  "turo-de-lhome": {
+    "name": "Turó de l'Home",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_l'Home",
+    "municipalities": "Fogars de Montclús",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20l'Home",
+    "wikidata": "Q4893362"
+  },
+  "turo-de-montcada": {
+    "name": "Turó de Montcada",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Montcada",
+    "municipalities": "Montcada i Reixac",
+    "range": "Collserola",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Montcada",
+    "wikidata": "Q11953538"
+  },
+  "castell-de-bocs": {
+    "name": "Castell de Bocs",
+    "url": "https://ca.wikipedia.org/wiki/Castell_de_Bocs",
+    "municipalities": "Rellinars",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Castell%20de%20Bocs",
+    "wikidata": "Q17481591"
+  },
+  "tuc-de-sarrahera": {
+    "name": "Tuc de Sarrahèra",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Sarrahèra",
+    "municipalities": "Vielha e Mijaran, Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Sarrahèra",
+    "wikidata": "Q11953307"
+  },
+  "tuc-des-armeros": {
+    "name": "Tuc des Armèros",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_des_Armèros",
+    "municipalities": "Vielha e Mijaran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20des%20Armèros",
+    "wikidata": "Q24002832"
+  },
+  "tuc-darres": {
+    "name": "Tuc d'Arres",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_d'Arres",
+    "municipalities": "Arres, Banhèras de Luishon",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20d'Arrès",
+    "wikidata": "Q11953268"
+  },
+  "montanha-duishera": {
+    "name": "Montanha d'Uishèra",
+    "url": "https://ca.wikipedia.org/wiki/Montanha_d'Uishèra",
+    "municipalities": "Vilamòs, Arres",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montanha%20d'Uishèra",
+    "wikidata": "Q11937397"
+  },
+  "tuc-de-crabera": {
+    "name": "Tuc de Crabèra",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Crabèra",
+    "municipalities": "Santenh, Canejan, Mèles",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Crabère",
+    "wikidata": "Q3382364"
+  },
+  "malh-de-bolard": {
+    "name": "Malh de Bolard",
+    "url": "https://ca.wikipedia.org/wiki/Malh_de_Bolard",
+    "municipalities": "Naut Aran, Santenh",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q31637861"
+  },
+  "tuc-de-parros": {
+    "name": "Tuc de Parros",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Parros",
+    "municipalities": "Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Parros",
+    "wikidata": "Q17482924"
+  },
+  "malh-dera-artiga": {
+    "name": "Malh dera Artiga",
+    "url": "https://ca.wikipedia.org/wiki/Malh_dera_Artiga",
+    "municipalities": "Vielha e Mijaran, Benasc",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Malh%20dera%20Artiga",
+    "wikidata": "Q11934710"
+  },
+  "pujoalbo": {
+    "name": "Pujoalbo",
+    "url": "https://ca.wikipedia.org/wiki/Pujoalbo",
+    "municipalities": "Naut Aran, Vielha e Mijaran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pujoalbo",
+    "wikidata": "Q17483190"
+  },
+  "tuc-de-salana": {
+    "name": "Tuc de Salana",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Salana",
+    "municipalities": "Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Salana",
+    "wikidata": "Q11953308"
+  },
+  "tuc-de-la-tallada": {
+    "name": "Tuc de la Tallada",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_la_Tallada",
+    "municipalities": "Vielha e Mijaran, Montanui",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pico%20de%20la%20Tallada",
+    "wikidata": "Q38078808"
+  },
+  "tossal-despigol": {
+    "name": "Tossal d'Espígol",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_d'Espígol",
+    "municipalities": "Tornabous",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11952665"
+  },
+  "lo-blau-roca-grossa-moletans": {
+    "name": "lo Blau",
+    "url": "https://ca.wikipedia.org/wiki/Lo_Blau_(Roca_Grossa_Moletans)",
+    "municipalities": "Arnes",
+    "range": "ports de Tortosa-Beseit",
+    "commons": null,
+    "wikidata": "Q11933713"
+  },
+  "rocamala": {
+    "name": "Rocamala",
+    "url": "https://ca.wikipedia.org/wiki/Rocamala",
+    "municipalities": "Bot, Prat de Comte",
+    "range": "serra de Pàndols",
+    "commons": null,
+    "wikidata": "Q11930606"
+  },
+  "la-miranda-de-terranyes": {
+    "name": "la Miranda de Terranyes",
+    "url": "https://ca.wikipedia.org/wiki/La_Miranda_de_Terranyes",
+    "municipalities": "Arnes",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Miranda%20de%20Terranyes",
+    "wikidata": "Q11930611"
+  },
+  "mola-dirto": {
+    "name": "Mola d'Irto",
+    "url": "https://ca.wikipedia.org/wiki/Mola_d'Irto",
+    "municipalities": "Gandesa",
+    "range": "serra de Cavalls",
+    "commons": null,
+    "wikidata": "Q17482643"
+  },
+  "sant-simplici": {
+    "name": "Sant Simplici",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Simplici_(Tarragona)",
+    "municipalities": "Tarragona",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Simplici%20(Tarragona)",
+    "wikidata": "Q17483522"
+  },
+  "roc-del-migdia-la-valldan": {
+    "name": "Roc del Migdia",
+    "url": "https://ca.wikipedia.org/wiki/Roc_del_Migdia_(Odèn)",
+    "municipalities": "Odèn",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20del%20Migdia%20(Odèn)",
+    "wikidata": "Q17482564"
+  },
+  "roc-de-les-monges-serrat-de-la-questio": {
+    "name": "Roc de les Monges",
+    "url": null,
+    "municipalities": "Navès",
+    "range": "serrat de la Qüestió",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20les%20Monges",
+    "wikidata": "Q112946722"
+  },
+  "la-guardia-serra-de-busa": {
+    "name": "la Guàrdia",
+    "url": "https://ca.wikipedia.org/wiki/La_Guàrdia_(Navès)",
+    "municipalities": "Navès",
+    "range": "serra de Busa",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Guàrdia%20(Navès)",
+    "wikidata": "Q17482177"
+  },
+  "mola-de-lord": {
+    "name": "Mola de Lord",
+    "url": "https://ca.wikipedia.org/wiki/Mola_de_Lord",
+    "municipalities": "Sant Llorenç de Morunys",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mola%20de%20Lord",
+    "wikidata": "Q17482412"
+  },
+  "puigdefrou": {
+    "name": "Puigdefrou",
+    "url": "https://ca.wikipedia.org/wiki/Puigdefrou",
+    "municipalities": "la Cellera de Ter, Osor",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q18006017"
+  },
+  "turo-del-vent": {
+    "name": "Turó del Vent",
+    "url": "https://ca.wikipedia.org/wiki/Turó_del_Vent_(Santa_Coloma_de_Farners)",
+    "municipalities": "Santa Coloma de Farners",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20del%20Vent%20(Santa%20Coloma%20de%20Farners)",
+    "wikidata": "Q11953758"
+  },
+  "roques-del-rei": {
+    "name": "Roques del Rei",
+    "url": "https://ca.wikipedia.org/wiki/Roques_del_Rei",
+    "municipalities": "Sant Hilari Sacalm",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roques%20del%20Rei",
+    "wikidata": "Q11946271"
+  },
+  "turo-de-puigmari": {
+    "name": "Puig Marí",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Puigmarí",
+    "municipalities": "Maçanet de la Selva",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Puigmarí",
+    "wikidata": "Q6092626"
+  },
+  "tossal-gros-dalmatret": {
+    "name": "Tossal Gros",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_Gros_(Almatret)",
+    "municipalities": "Almatret",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q17482133"
+  },
+  "tossal-del-mas-de-nadal": {
+    "name": "Tossal del Mas de Nadal",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_del_Mas_de_Nadal",
+    "municipalities": "Sanaüja, Massoteres",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20del%20Mas%20de%20Nadal",
+    "wikidata": "Q17482507"
+  },
+  "roca-colom": {
+    "name": "Roca Colom",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Colom",
+    "municipalities": "Setcases, Prats de Molló i la Presta, Mentet",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20Colom",
+    "wikidata": "Q3437330"
+  },
+  "puig-de-dorria": {
+    "name": "Puig de Dòrria",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Dòrria",
+    "municipalities": "Vallcebollera, Planoles, Toses",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Dòrria",
+    "wikidata": "Q7259027"
+  },
+  "gra-de-fajol": {
+    "name": "Gra de Fajol",
+    "url": "https://ca.wikipedia.org/wiki/Gra_de_Fajol",
+    "municipalities": "Setcases, Queralbs",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Gra%20de%20Fajol",
+    "wikidata": "Q5590537"
+  },
+  "sant-antoni": {
+    "name": "Sant Antoni",
+    "url": null,
+    "municipalities": "Camprodon",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q113027700"
+  },
+  "laliga": {
+    "name": "l'Àliga",
+    "url": "https://ca.wikipedia.org/wiki/L'Àliga_(el_Pinell_de_Brai)",
+    "municipalities": "el Pinell de Brai",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11930212"
+  },
+  "pic-de-laguila": {
+    "name": "Pic de l'Àguila",
+    "url": null,
+    "municipalities": "Garcia, Ascó",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q113025403"
+  },
+  "les-carcoles": {
+    "name": "les Càrcoles",
+    "url": "https://ca.wikipedia.org/wiki/Les_Càrcoles",
+    "municipalities": "Tivissa",
+    "range": "serra de Tivissa",
+    "commons": null,
+    "wikidata": "Q11916375"
+  },
+  "lo-morral": {
+    "name": "lo Morral",
+    "url": "https://ca.wikipedia.org/wiki/Lo_Morral_(Falset)",
+    "municipalities": "Falset",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11933766"
+  },
+  "punta-dels-pins-carrassers": {
+    "name": "Punta dels Pins Carrassers",
+    "url": "https://ca.wikipedia.org/wiki/Punta_dels_Pins_Carrassers",
+    "municipalities": "la Morera de Montsant, Ulldemolins",
+    "range": "serra de Montsant",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20dels%20Pins%20Carrassers",
+    "wikidata": "Q11944040"
+  },
+  "puig-clara": {
+    "name": "Puig Clarà",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Clarà",
+    "municipalities": "Porqueres",
+    "range": "Serralada Transversal",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Clarà",
+    "wikidata": "Q11943356"
+  },
+  "roca-entravessada": {
+    "name": "Roca Entravessada",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Entravessada",
+    "municipalities": "Alins, la Massana",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20Entravessada",
+    "wikidata": "Q3773263"
+  },
+  "pic-de-sanfonts": {
+    "name": "Pic de Sanfonts",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Sanfonts",
+    "municipalities": "Alins, la Massana",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Sanfonts",
+    "wikidata": "Q2209719"
+  },
+  "les-picardes": {
+    "name": "les Picardes",
+    "url": null,
+    "municipalities": "Sort, Espot",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q113057629"
+  },
+  "pui-de-linya": {
+    "name": "Pui de Linya",
+    "url": "https://ca.wikipedia.org/wiki/Pui_de_Linya",
+    "municipalities": "Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pui%20de%20Linya",
+    "wikidata": "Q11943315"
+  },
+  "pic-del-portarro": {
+    "name": "Pic del Portarró",
+    "url": "https://ca.wikipedia.org/wiki/Pic_del_Portarró",
+    "municipalities": "Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20del%20Portarró",
+    "wikidata": "Q11941554"
+  },
+  "tossal-de-laliga-la-geganta-adormida": {
+    "name": "la Geganta Adormida",
+    "url": "https://ca.wikipedia.org/wiki/La_Geganta_Adormida",
+    "municipalities": "Baix Pallars",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q17482096"
+  },
+  "pic-de-la-plana": {
+    "name": "Pic de la Plana",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Plana",
+    "municipalities": "Alt Àneu",
+    "range": "massís de Beret",
+    "commons": null,
+    "wikidata": "Q11941542"
+  },
+  "pic-de-quenca": {
+    "name": "Pic de Qüenca",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Qüenca",
+    "municipalities": "Alt Àneu",
+    "range": "massís de Beret",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Qüenca",
+    "wikidata": "Q11941496"
+  },
+  "pic-de-montalt": {
+    "name": "Pic de Montalt",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Montalt",
+    "municipalities": "Alt Àneu, Coflens",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q11941477"
+  },
+  "pic-de-ventolau": {
+    "name": "Pic de Ventolau",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Ventolau",
+    "municipalities": "la Guingueta d'Àneu, Lladorre",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Ventolau",
+    "wikidata": "Q11941513"
+  },
+  "pic-de-mariola": {
+    "name": "Pic de Mariola",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Mariola",
+    "municipalities": "Lladorre, Coflens",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q11941475"
+  },
+  "cap-de-broate": {
+    "name": "Cap de Broate",
+    "url": null,
+    "municipalities": "Lladorre",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20de%20Broate",
+    "wikidata": "Q113031194"
+  },
+  "pic-de-colatx": {
+    "name": "Pic de Colatx",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Colatx",
+    "municipalities": "Lladorre, Uston",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Colatx",
+    "wikidata": "Q11941464"
+  },
+  "pic-de-baborte": {
+    "name": "Pic de Baborte",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Baborte",
+    "municipalities": "Alins, Lladorre",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Baborte",
+    "wikidata": "Q17481289"
+  },
+  "montarenyo-de-boldis": {
+    "name": "Montarenyo de Boldís",
+    "url": null,
+    "municipalities": "Lladorre, Alins",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q113076292"
+  },
+  "pui-de-la-bonaigua": {
+    "name": "Pui de la Bonaigua",
+    "url": "https://ca.wikipedia.org/wiki/Pui_de_la_Bonaigua",
+    "municipalities": "Alt Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pui%20de%20la%20Bonaigua",
+    "wikidata": "Q17481391"
+  },
+  "montsaliente": {
+    "name": "Montsaliente",
+    "url": "https://ca.wikipedia.org/wiki/Montsaliente",
+    "municipalities": "Espot, Alt Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montsaliente",
+    "wikidata": "Q11937508"
+  },
+  "pic-de-saboredo": {
+    "name": "Pic de Saboredo",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Saboredo",
+    "municipalities": "Espot, Alt Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Saboredo",
+    "wikidata": "Q17483433"
+  },
+  "pui-tabaca": {
+    "name": "Pui Tabaca",
+    "url": "https://ca.wikipedia.org/wiki/Pui_Tabaca",
+    "municipalities": "Esterri de Cardós, Vall de Cardós",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pui%20Tabaca",
+    "wikidata": "Q17483631"
+  },
+  "pui-de-cassibros": {
+    "name": "Pui de Cassibrós",
+    "url": "https://ca.wikipedia.org/wiki/Pui_de_Cassibrós",
+    "municipalities": "Alins, Vall de Cardós",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pui%20de%20Cassibrós",
+    "wikidata": "Q11943309"
+  },
+  "pic-de-flamisella": {
+    "name": "Pic de Flamisella",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Flamisella",
+    "municipalities": "Lladorre",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Flamisella",
+    "wikidata": "Q17482003"
+  },
+  "pic-de-canalbona": {
+    "name": "Pic de Canalbona",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Canalbona",
+    "municipalities": "Alins, Ausat",
+    "range": "massís del Montcalm",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Canalbona",
+    "wikidata": "Q7190459"
+  },
+  "pic-de-gerri": {
+    "name": "Pic de Gerri",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Gerri",
+    "municipalities": "Alins",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Gerri",
+    "wikidata": "Q11941470"
+  },
+  "pui-durdosa": {
+    "name": "Pui d'Urdosa",
+    "url": "https://ca.wikipedia.org/wiki/Pui_d'Urdosa",
+    "municipalities": "Llavorsí, Farrera",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pui%20d'Urdosa",
+    "wikidata": "Q17483809"
+  },
+  "tossal-del-puial": {
+    "name": "Tossal del Puial",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_del_Puial",
+    "municipalities": "Soriguera, Baix Pallars",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11952866"
+  },
+  "pic-de-la-mainera": {
+    "name": "Pic de la Mainera",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Mainera",
+    "municipalities": "la Torre de Cabdella, Sort, Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20la%20Mainera",
+    "wikidata": "Q11941533"
+  },
+  "el-codo": {
+    "name": "el Codó",
+    "url": "https://ca.wikipedia.org/wiki/El_Codó_(Senterada)",
+    "municipalities": "Senterada",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Codó%20(Senterada)",
+    "wikidata": "Q11918259"
+  },
+  "santa-barbara-vall-fosca": {
+    "name": "Santa Bàrbara",
+    "url": "https://ca.wikipedia.org/wiki/Santa_Bàrbara_(Senterada)",
+    "municipalities": "Senterada",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Santa%20Bàrbara%20(Senterada)",
+    "wikidata": "Q11947480"
+  },
+  "pic-de-llena": {
+    "name": "Pic de Llena",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Llena",
+    "municipalities": "Sarroca de Bellera, la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Llena",
+    "wikidata": "Q11941472"
+  },
+  "pic-de-lespada": {
+    "name": "Pic de l'Espada",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_l'Espada",
+    "municipalities": "la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20l'Espada",
+    "wikidata": "Q11941516"
+  },
+  "pic-tort": {
+    "name": "Pic Tort",
+    "url": "https://ca.wikipedia.org/wiki/Pic_Tort",
+    "municipalities": "la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Tort",
+    "wikidata": "Q11941446"
+  },
+  "tossal-de-codonyac": {
+    "name": "Tossal de Codonyac",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Codonyac",
+    "municipalities": "Tremp",
+    "range": "serra de Gurp",
+    "commons": null,
+    "wikidata": "Q17481686"
+  },
+  "rocalta": {
+    "name": "Rocalta",
+    "url": null,
+    "municipalities": "Conca de Dalt",
+    "range": "Serra de Pessonada",
+    "commons": null,
+    "wikidata": "Q17483330"
+  },
+  "cap-de-carreu": {
+    "name": "Cap de Carreu",
+    "url": null,
+    "municipalities": "Abella de la Conca",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20de%20Carreu",
+    "wikidata": "Q17481529"
+  },
+  "castell-de-lluca": {
+    "name": "Serrat del Castell",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_del_Castell_(Lluçà)",
+    "municipalities": "Lluçà",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serrat%20del%20Castell%20(Lluçà)",
+    "wikidata": "Q113111175"
+  },
+  "turo-del-pou-den-sala": {
+    "name": "Turó del Pou d'en Sala",
+    "url": "https://ca.wikipedia.org/wiki/Turó_del_Pou_d'en_Sala",
+    "municipalities": "Seva, Viladrau",
+    "range": "massís del Montseny",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20del%20Pou%20d'en%20Sala",
+    "wikidata": "Q17483439"
+  },
+  "sant-marti-xic-castell-de-voltrega": {
+    "name": "Castell de Voltregà",
+    "url": null,
+    "municipalities": "les Masies de Voltregà",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Castell%20de%20Voltregà%20(cim)",
+    "wikidata": "Q113110803"
+  },
+  "castell-de-besora": {
+    "name": "Castell de Besora",
+    "url": null,
+    "municipalities": "Santa Maria de Besora",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Castell%20de%20Besora%20(cim)",
+    "wikidata": "Q113110708"
+  },
+  "serrat-alt": {
+    "name": "Serrat Alt",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_Alt_(Orís)",
+    "municipalities": "Sant Pere de Torelló, Orís",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q17301041"
+  },
+  "puig-del-far": {
+    "name": "Puig del Far",
+    "url": "https://ca.wikipedia.org/wiki/Puig_del_Far",
+    "municipalities": "Tavèrnoles",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20del%20Far",
+    "wikidata": "Q11943764"
+  },
+  "lo-peladet": {
+    "name": "lo Peladet",
+    "url": "https://ca.wikipedia.org/wiki/Lo_Peladet",
+    "municipalities": "Camarasa, Llimiana",
+    "range": "Montsec de Rúbies",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Peladet",
+    "wikidata": "Q11933771"
+  },
+  "tossal-de-mormur": {
+    "name": "Tossal de Mormur",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Mormur",
+    "municipalities": "Balaguer",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Mormur",
+    "wikidata": "Q11952699"
+  },
+  "munt-de-montsonis": {
+    "name": "Munt de Montsonís",
+    "url": "https://ca.wikipedia.org/wiki/Munt_de_Montsonís",
+    "municipalities": "Foradada",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11937897"
+  },
+  "malera": {
+    "name": "la Malera",
+    "url": "https://ca.wikipedia.org/wiki/La_Malera",
+    "municipalities": "les Avellanes i Santa Linya",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Malera",
+    "wikidata": "Q17482439"
+  },
+  "punta-dossos": {
+    "name": "Punta d'Óssos",
+    "url": "https://ca.wikipedia.org/wiki/Punta_d'Óssos",
+    "municipalities": "Os de Balaguer",
+    "range": "serra de Montdeví",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20d'Óssos",
+    "wikidata": "Q11943927"
+  },
+  "torre-de-les-conclues": {
+    "name": "Torre de les Conclues",
+    "url": "https://ca.wikipedia.org/wiki/Torre_de_les_Conclues",
+    "municipalities": "Àger",
+    "range": "serra de Millà",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20de%20les%20Conclues",
+    "wikidata": "Q113029234"
+  },
+  "montero": {
+    "name": "Monteró",
+    "url": "https://ca.wikipedia.org/wiki/Monteró",
+    "municipalities": "Camarasa",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Monteró",
+    "wikidata": "Q11937435"
+  },
+  "tossal-de-sant-jordi": {
+    "name": "Tossal de Sant Jordi",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Sant_Jordi",
+    "municipalities": "Camarasa",
+    "range": "serra Carbonera (La Noguera)",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Sant%20Jordi",
+    "wikidata": "Q11952715"
+  },
+  "mont-roig-cim-de-les-altures": {
+    "name": "Mont-roig",
+    "url": "https://ca.wikipedia.org/wiki/Mont-roig_(les_Avellanes_i_Santa_Linya)",
+    "municipalities": "Camarasa, les Avellanes i Santa Linya",
+    "range": "serra de Mont-roig",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Mont-roig%20(Camarasa)",
+    "wikidata": "Q11937371"
+  },
+  "el-cogullo": {
+    "name": "el Cogulló",
+    "url": "https://ca.wikipedia.org/wiki/El_Cogulló_(Vilanova_de_Meià)",
+    "municipalities": "Vilanova de Meià",
+    "range": "Montsec de Rúbies",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Cogulló%20(Vilanova%20de%20Meià)",
+    "wikidata": "Q11918263"
+  },
+  "la-portella-del-pinell": {
+    "name": "la Portella del Pinell",
+    "url": "https://ca.wikipedia.org/wiki/La_Portella_del_Pinell",
+    "municipalities": "Mas de Barberans, la Sénia",
+    "range": "ports de Tortosa-Beseit",
+    "commons": null,
+    "wikidata": "Q11930707"
+  },
+  "els-quatre-mollons": {
+    "name": "els Quatre Mollons",
+    "url": "https://ca.wikipedia.org/wiki/Els_Quatre_Mollons",
+    "municipalities": "Amposta, la Ràpita",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Els%20Quatre%20Mollons%20(cim)",
+    "wikidata": "Q113111819"
+  },
+  "la-cogula": {
+    "name": "la Cogula",
+    "url": "https://ca.wikipedia.org/wiki/La_Cogula",
+    "municipalities": "Ulldecona",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Cogula",
+    "wikidata": "Q11930372"
+  },
+  "codol-del-castellar": {
+    "name": "Còdol del Castellar",
+    "url": "https://ca.wikipedia.org/wiki/Còdol_del_Castellar",
+    "municipalities": "Granera",
+    "range": "serra de Granera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Còdol%20del%20Castellar",
+    "wikidata": "Q17481599"
+  },
+  "montpalau": {
+    "name": "Montpalau",
+    "url": "https://ca.wikipedia.org/wiki/Montpalau_(Pineda_de_Mar)",
+    "municipalities": "Pineda de Mar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montpalau%20(Pineda%20de%20Mar)",
+    "wikidata": "Q11937489"
+  },
+  "sant-grau": {
+    "name": "Sant Grau",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Grau_(Sant_Gregori)",
+    "municipalities": "Sant Gregori",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Grau%20(Sant%20Gregori)",
+    "wikidata": "Q17318030"
+  },
+  "puig-cubell": {
+    "name": "Puig de Cubell",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Cubell_(la_Vall_d'en_Bas)",
+    "municipalities": "la Vall d'en Bas, Vidrà",
+    "range": "Serralada Transversal",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Cubell%20(la%20Vall%20d'en%20Bas)",
+    "wikidata": "Q11943576"
+  },
+  "sant-miquel-del-mont": {
+    "name": "Sant Miquel del Mont",
+    "url": null,
+    "municipalities": "Riudaura, la Vall de Bianya",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Miquel%20del%20Mont%20(cim)",
+    "wikidata": "Q113111940"
+  },
+  "roca-lladre": {
+    "name": "Roca Lladre",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Lladre",
+    "municipalities": "les Preses, Sant Feliu de Pallerols, Santa Pau",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q17482325"
+  },
+  "punta-del-general": {
+    "name": "Punta del General",
+    "url": "https://ca.wikipedia.org/wiki/Punta_del_General",
+    "municipalities": "Ulldemolins, la Pobla de Cérvoles",
+    "range": "serra de la Llena",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20del%20General",
+    "wikidata": "Q11944010"
+  },
+  "tosseta-de-lesquella-pic-de-calm-colomer": {
+    "name": "Pic de Calm Colomer",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Calm_Colomer",
+    "municipalities": "Porta, Lles de Cerdanya, Meranges",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Calm%20Colomer",
+    "wikidata": "Q63808439"
+  },
+  "castell-de-llivia": {
+    "name": "Puig de Llívia",
+    "url": null,
+    "municipalities": "Llívia",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Llívia",
+    "wikidata": "Q113111090"
+  },
+  "roca-gran": {
+    "name": "Roca Gran",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Gran_(Montellà_i_Martinet)",
+    "municipalities": "Montellà i Martinet",
+    "range": "Serra del Cadí",
+    "commons": null,
+    "wikidata": "Q11930747"
+  },
+  "tossal-gros-pelat-de-talltendre": {
+    "name": "Tossal Gros",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_Gros_(Bellver_de_Cerdanya)",
+    "municipalities": "Bellver de Cerdanya",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11952615"
+  },
+  "la-creueta": {
+    "name": "la Creueta",
+    "url": "https://ca.wikipedia.org/wiki/La_Creueta_(Castellar_de_n'Hug)",
+    "municipalities": "Castellar de n'Hug, Toses",
+    "range": "serra de Montgrony",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Creueta%20(Castellar%20de%20n'Hug)",
+    "wikidata": "Q17481836"
+  },
+  "tossal-llisoi": {
+    "name": "Tossal Llisoi",
+    "url": null,
+    "municipalities": "Vallcebre",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20Llisoi%20(Vallcebre)",
+    "wikidata": "Q113030900"
+  },
+  "serrat-de-la-madrona": {
+    "name": "Serrat de la Madrona",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_de_la_Madrona",
+    "municipalities": "Puig-reig",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serrat%20de%20la%20Madrona",
+    "wikidata": "Q11949196"
+  },
+  "cap-de-la-boixassa": {
+    "name": "Cap de la Boixassa",
+    "url": "https://ca.wikipedia.org/wiki/Cap_de_la_Boixassa",
+    "municipalities": "Bagà, Gisclareny",
+    "range": "serra de Moixeró",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20de%20la%20Boixassa",
+    "wikidata": "Q17481385"
+  },
+  "montsent-serrat-de-picancel": {
+    "name": "Serrat de Picancel",
+    "url": null,
+    "municipalities": "Olvan, Cercs, la Quar",
+    "range": "serra de Montsent",
+    "commons": null,
+    "wikidata": "Q113077471"
+  },
+  "roca-del-joc-roca-de-la-devesa-jussana": {
+    "name": "Roca de la Devesa Jussana",
+    "url": null,
+    "municipalities": "la Pobla de Lillet",
+    "range": "serra del Catllaràs",
+    "commons": null,
+    "wikidata": "Q113105782"
+  },
+  "pollego-inferior-pedraforca": {
+    "name": "Pollegó Inferior",
+    "url": "https://ca.wikipedia.org/wiki/Pollegó_Inferior",
+    "municipalities": "Saldes",
+    "range": "Pedraforca",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pollegó%20Inferior%20del%20Pedraforca",
+    "wikidata": "Q60847492"
+  },
+  "sant-salvador": {
+    "name": "Sant Salvador",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Salvador_(Avià)",
+    "municipalities": "Avià, l'Espunyola, Capolat",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Salvador%20(Avià)",
+    "wikidata": "Q11947394"
+  },
+  "serrat-de-migdia-serrat-de-picancel": {
+    "name": "Serrat de Migdia",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_de_Migdia",
+    "municipalities": "Vilada",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serrat%20de%20Migdia%20(Vilada)",
+    "wikidata": "Q11949011"
+  },
+  "serrat-de-sant-isidre": {
+    "name": "Serrat de Sant Isidre",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_de_Sant_Isidre_(la_Quar)",
+    "municipalities": "la Quar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serrat%20de%20Sant%20Isidre%20(la%20Quar)",
+    "wikidata": "Q11949058"
+  },
+  "serrat-voltor": {
+    "name": "Serrat Voltor",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_Voltor",
+    "municipalities": "Fígols, Saldes, Vallcebre",
+    "range": "serra d'Ensija",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serrat%20Voltor",
+    "wikidata": "Q11948927"
+  },
+  "turo-den-mora-turo-del-carmel": {
+    "name": "turó del Carmel",
+    "url": "https://ca.wikipedia.org/wiki/Turó_del_Carmel",
+    "municipalities": "el Carmel",
+    "range": "Serralada Litoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20del%20Carmel",
+    "wikidata": "Q8538595"
+  },
+  "puig-francas": {
+    "name": "Puig Francàs",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Francàs",
+    "municipalities": "el Montmell, la Bisbal del Penedès",
+    "range": "Serralada Prelitoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Francàs",
+    "wikidata": "Q17482058"
+  },
+  "les-solius": {
+    "name": "les Solius",
+    "url": "https://ca.wikipedia.org/wiki/Les_Solius",
+    "municipalities": "Begues",
+    "range": "massís de Garraf",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Les%20Solius",
+    "wikidata": "Q11931702"
+  },
+  "puig-de-les-cols": {
+    "name": "Puig de les Cols",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_les_Cols",
+    "municipalities": "Santa Cristina d'Aro, Sant Feliu de Guíxols",
+    "range": "Serralada Litoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20les%20Cols",
+    "wikidata": "Q8538094"
+  },
+  "roca-maura": {
+    "name": "Roca Maura",
+    "url": "https://ca.wikipedia.org/wiki/Rocamaura",
+    "municipalities": "Torroella de Montgrí",
+    "range": "massís del Montgrí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20Maura",
+    "wikidata": "Q11945931"
+  },
+  "tosseta-rasa": {
+    "name": "Tosseta Rasa",
+    "url": "https://ca.wikipedia.org/wiki/Tosseta_Rasa",
+    "municipalities": "Alfara de Carles, Horta de Sant Joan",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q7827878"
+  },
+  "moleta-de-les-canals": {
+    "name": "Moleta de les Canals",
+    "url": "https://ca.wikipedia.org/wiki/Moleta_de_les_Canals",
+    "municipalities": "Paüls, Horta de Sant Joan",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Moleta%20de%20les%20Canals",
+    "wikidata": "Q11937230"
+  },
+  "tossal-de-montagut": {
+    "name": "Tossal de Montagut",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Montagut",
+    "municipalities": "Tivissa, l'Ametlla de Mar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Montagut%20(Tivissa)",
+    "wikidata": "Q11952694"
+  },
+  "roca-de-la-barca-les-picossies": {
+    "name": "les Picòssies",
+    "url": null,
+    "municipalities": "Benifallet, Rasquera",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Les%20Picòssies",
+    "wikidata": "Q113094177"
+  },
+  "catinell": {
+    "name": "Catinell",
+    "url": "https://ca.wikipedia.org/wiki/Catinell",
+    "municipalities": "Roquetes, la Sénia",
+    "range": "ports de Tortosa-Beseit",
+    "commons": null,
+    "wikidata": "Q17301026"
+  },
+  "lo-caramull": {
+    "name": "lo Caramull",
+    "url": null,
+    "municipalities": "Benifallet",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Caramull",
+    "wikidata": "Q113072477"
+  },
+  "mola-castellona": {
+    "name": "Mola Castellona",
+    "url": "https://ca.wikipedia.org/wiki/Mola_Castellona",
+    "municipalities": "Roquetes",
+    "range": "ports de Tortosa-Beseit",
+    "commons": null,
+    "wikidata": "Q17481625"
+  },
+  "la-moleta": {
+    "name": "la Moleta",
+    "url": "https://ca.wikipedia.org/wiki/La_Moleta_(Alfara_de_Carles)",
+    "municipalities": "Alfara de Carles",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Moleta%20(Alfara%20de%20Carles)",
+    "wikidata": "Q6463934"
+  },
+  "punta-del-pallars": {
+    "name": "Punta del Pallars",
+    "url": "https://ca.wikipedia.org/wiki/Punta_del_Pallars",
+    "municipalities": "Vandellòs i l'Hospitalet de l'Infant",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11944019"
+  },
+  "tossal-de-lalzina": {
+    "name": "Tossal de l'Alzina",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_l'Alzina_(Vandellòs_i_l'Hospitalet_de_l'Infant)",
+    "municipalities": "Vandellòs i l'Hospitalet de l'Infant",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20l'Alzina%20(Vandellòs%20i%20l'Hospitalet%20de%20l'Infant)",
+    "wikidata": "Q17481238"
+  },
+  "santa-barbara-escornalbou": {
+    "name": "Santa Bàrbara",
+    "url": null,
+    "municipalities": "Riudecanyes",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Santa%20Bàrbara%20(cim)",
+    "wikidata": "Q112914021"
+  },
+  "serret-del-cisa": {
+    "name": "Serret del Cisa",
+    "url": "https://ca.wikipedia.org/wiki/Serret_del_Cisa",
+    "municipalities": "Alforja, Maspujols, l'Aleixar",
+    "range": "Rocabruna",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serret%20del%20Cisa",
+    "wikidata": "Q11949452"
+  },
+  "el-bres": {
+    "name": "el Bres",
+    "url": "https://ca.wikipedia.org/wiki/El_Bres",
+    "municipalities": "Riudecols, Riudecanyes",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Bres",
+    "wikidata": "Q17481410"
+  },
+  "el-garrofi": {
+    "name": "el Garrofí",
+    "url": "https://ca.wikipedia.org/wiki/El_Garrofí",
+    "municipalities": "Avinyó",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Garrofí",
+    "wikidata": "Q113054014"
+  },
+  "puig-alter": {
+    "name": "Puig-alter",
+    "url": "https://ca.wikipedia.org/wiki/Puig-alter",
+    "municipalities": "Callús, Súria",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig-alter",
+    "wikidata": "Q11943322"
+  },
+  "turo-de-lermita": {
+    "name": "Turó de l'Ermità",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_l'Ermità",
+    "municipalities": "Marganell",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20l'Ermità",
+    "wikidata": "Q17481930"
+  },
+  "turo-del-mal-pas": {
+    "name": "Turó del Mal Pas",
+    "url": "https://ca.wikipedia.org/wiki/Turó_del_Mal_Pas",
+    "municipalities": "Mura",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20del%20Mal%20Pas",
+    "wikidata": "Q17482431"
+  },
+  "turo-de-can-dolcet": {
+    "name": "Turó de Can Dolcet",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Can_Dolcet",
+    "municipalities": "els Hostalets de Pierola, Collbató",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Can%20Dolcet",
+    "wikidata": "Q17481485"
+  },
+  "miranda-del-princep": {
+    "name": "Miranda del Príncep",
+    "url": null,
+    "municipalities": "el Bruc",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Miranda%20del%20Príncep",
+    "wikidata": "Q113073048"
+  },
+  "tuc-de-ribereta": {
+    "name": "Tuc de Ribereta",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Ribereta",
+    "municipalities": "la Vall de Boí, Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Ribereta",
+    "wikidata": "Q11953302"
+  },
+  "tuc-de-la-contesa": {
+    "name": "Tuc de Contesa",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Contesa_(Vielha_e_Mijaran)",
+    "municipalities": "Vielha e Mijaran, Vilaller",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Contesa",
+    "wikidata": "Q11953282"
+  },
+  "tuc-des-monges": {
+    "name": "Tuc des Monges",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_des_Monges",
+    "municipalities": "la Vall de Boí, Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20des%20Monges",
+    "wikidata": "Q11953334"
+  },
+  "tossal-gros-serra-de-sant-gervas": {
+    "name": "Tossal Gros",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_Gros_(Espluga_de_Serra)",
+    "municipalities": "Tremp, el Pont de Suert",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20Gros%20(Espluga%20de%20Serra)",
+    "wikidata": "Q11952623"
+  },
+  "pic-de-mariolo-pic-de-neriolo": {
+    "name": "Pic de Nariolo",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Nariolo",
+    "municipalities": "la Vall de Boí, la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Nariolo",
+    "wikidata": "Q17482856"
+  },
+  "lavedoga-dadons": {
+    "name": "l'Avedoga d'Adons",
+    "url": "https://ca.wikipedia.org/wiki/L'Avedoga_d'Adons",
+    "municipalities": "Tremp, el Pont de Suert",
+    "range": "serra de Sant Gervàs",
+    "commons": "https://commons.wikimedia.org/wiki/Category:L'Avedoga%20d'Adons",
+    "wikidata": "Q17481280"
+  },
+  "cap-de-gelada": {
+    "name": "Cap de Gelada",
+    "url": "https://ca.wikipedia.org/wiki/Cap_de_Gelada",
+    "municipalities": "la Vall de Boí, Vilaller",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q17481530"
+  },
+  "laut": {
+    "name": "l'Aüt",
+    "url": "https://ca.wikipedia.org/wiki/L'Aüt",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:L'Aüt",
+    "wikidata": "Q17481277"
+  },
+  "pic-roi": {
+    "name": "Pic Roi",
+    "url": "https://ca.wikipedia.org/wiki/Pic_Roi",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Roi",
+    "wikidata": "Q17483370"
+  },
+  "punta-senyalada": {
+    "name": "Punta Senyalada",
+    "url": "https://ca.wikipedia.org/wiki/Punta_Senyalada",
+    "municipalities": "la Vall de Boí, Vilaller",
+    "range": "massís del Besiberri",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20Senyalada",
+    "wikidata": "Q7260561"
+  },
+  "pic-de-contraix": {
+    "name": "Pic de Contraix",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Contraix",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Contraix",
+    "wikidata": "Q7190458"
+  },
+  "tuc-des-carants": {
+    "name": "Tuc des Carants",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_des_Carants",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20des%20Carants",
+    "wikidata": "Q11953327"
+  },
+  "roca-del-coscollo": {
+    "name": "el Coscoller",
+    "url": "https://ca.wikipedia.org/wiki/El_Coscoller_(Odèn)",
+    "municipalities": "Odèn, Oliana",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Coscoller%20(Odèn)",
+    "wikidata": "Q11918283"
+  },
+  "roca-de-migdia-serra-del-verd": {
+    "name": "Roca de Migdia",
+    "url": "https://ca.wikipedia.org/wiki/Roca_de_Migdia_(la_Coma_i_la_Pedra)",
+    "municipalities": "la Coma i la Pedra, Josa i Tuixén",
+    "range": "serrat de la Sella",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20de%20Migdia%20(la%20Coma%20i%20la%20Pedra)",
+    "wikidata": "Q17482566"
+  },
+  "turo-punco": {
+    "name": "Turó Punçó",
+    "url": "https://ca.wikipedia.org/wiki/Turó_Punçó",
+    "municipalities": "Lles de Cerdanya, el Pont de Bar, les Valls de Valira",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q17483202"
+  },
+  "pic-de-costa-cabirolera": {
+    "name": "Pic de Costa Cabirolera",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Costa_Cabirolera",
+    "municipalities": "Montellà i Martinet, Bagà, Josa i Tuixén",
+    "range": "Serra del Cadí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Costa%20Cabirolera",
+    "wikidata": "Q4892698"
+  },
+  "tossal-de-lleto": {
+    "name": "Tossal de Lletó",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Lletó",
+    "municipalities": "Alàs i Cerc",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Lletó",
+    "wikidata": "Q17482367"
+  },
+  "roc-de-cogul": {
+    "name": "Roc de Cogul",
+    "url": "https://ca.wikipedia.org/wiki/Roc_de_Cogul",
+    "municipalities": "Peramola",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20Cogul",
+    "wikidata": "Q11945830"
+  },
+  "cap-de-pla-redon": {
+    "name": "Cap de Pla Redon",
+    "url": "https://ca.wikipedia.org/wiki/Cap_de_Pla_Redon",
+    "municipalities": "Cabó, les Valls d'Aguilar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cap%20de%20Pla%20Redon",
+    "wikidata": "Q17483042"
+  },
+  "tossal-de-bades": {
+    "name": "Tossal del Quer",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_del_Quer",
+    "municipalities": "Cava",
+    "range": "Serra del Cadí",
+    "commons": null,
+    "wikidata": "Q11952872"
+  },
+  "roc-roi": {
+    "name": "Roc Roi",
+    "url": "https://ca.wikipedia.org/wiki/Roc_Roi_(Montferrer_i_Castellbò)",
+    "municipalities": "Montferrer i Castellbò",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q11945819"
+  },
+  "serrat-de-carrasquers": {
+    "name": "Serrat de Carrasquers",
+    "url": "https://ca.wikipedia.org/wiki/Serrat_de_Carrasquers",
+    "municipalities": "Coll de Nargó",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Serrat%20de%20Carrasquers",
+    "wikidata": "Q17481573"
+  },
+  "loratori": {
+    "name": "l'Oratori",
+    "url": "https://ca.wikipedia.org/wiki/L'Oratori_(Coll_de_Nargó)",
+    "municipalities": "Coll de Nargó",
+    "range": "serra de Sant Joan",
+    "commons": null,
+    "wikidata": "Q11930166"
+  },
+  "penya-aguda": {
+    "name": "Penya Aguda",
+    "url": "https://ca.wikipedia.org/wiki/Penya_Aguda",
+    "municipalities": "Cabó, Coll de Nargó",
+    "range": "serra de Mansull",
+    "commons": null,
+    "wikidata": "Q11940810"
+  },
+  "sant-quiri": {
+    "name": "Sant Quiri",
+    "url": null,
+    "municipalities": "les Valls d'Aguilar",
+    "range": "Prepirineus",
+    "commons": null,
+    "wikidata": "Q113028682"
+  },
+  "roc-de-les-tres-creus": {
+    "name": "Roc de les Tres Creus",
+    "url": "https://ca.wikipedia.org/wiki/Roc_de_les_Tres_Creus",
+    "municipalities": "Oliana",
+    "range": "serra de les Canals",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20les%20Tres%20Creus",
+    "wikidata": "Q17483750"
+  },
+  "tossal-de-balinyo": {
+    "name": "Tossal de Balinyó",
+    "url": null,
+    "municipalities": "Fígols i Alinyà, Coll de Nargó",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q17481295"
+  },
+  "puig-dels-pruners": {
+    "name": "Puig dels Pruners",
+    "url": "https://ca.wikipedia.org/wiki/Puig_dels_Pruners",
+    "municipalities": "Agullana, Morellàs i les Illes",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q11943802"
+  },
+  "puig-den-jorda": {
+    "name": "Puig d'en Jordà",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'en_Jordà",
+    "municipalities": "Banyuls de la Marenda, Rabós",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'en%20Jordà",
+    "wikidata": "Q11943529"
+  },
+  "puig-de-cervera": {
+    "name": "Puig de Cervera",
+    "url": null,
+    "municipalities": "Portbou, Cervera de la Marenda",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Cervera",
+    "wikidata": "Q11943569"
+  },
+  "tossa-despinau": {
+    "name": "Tossa d'Espinau",
+    "url": "https://ca.wikipedia.org/wiki/Tossa_d'Espinau",
+    "municipalities": "Albanyà, Beuda",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11952595"
+  },
+  "puig-segalar": {
+    "name": "Puig Segalar",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Segalar_(Albons)",
+    "municipalities": "Viladamat, Albons",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Segalar%20(Albons)",
+    "wikidata": "Q11943459"
+  },
+  "puig-falco": {
+    "name": "Puig Falcó",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Falcó",
+    "municipalities": "Albanyà, Maçanet de Cabrenys",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Falcó",
+    "wikidata": "Q11943374"
+  },
+  "santa-magdalena": {
+    "name": "Santa Maria de Codó",
+    "url": "https://ca.wikipedia.org/wiki/Santa_Maria_de_Codó",
+    "municipalities": "Terrades",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Santa%20Maria%20de%20Codó",
+    "wikidata": "Q17483538"
+  },
+  "puig-de-laliga-cap-de-creus": {
+    "name": "Puig de l'Àliga",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_l'Àliga_(Roses)",
+    "municipalities": "Roses",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20l'Àliga%20(Roses)",
+    "wikidata": "Q17481209"
+  },
+  "puig-dels-bufadors": {
+    "name": "Puig dels Bufadors",
+    "url": "https://ca.wikipedia.org/wiki/Puig_dels_Bufadors",
+    "municipalities": "Cadaqués, el Port de la Selva",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20dels%20Bufadors",
+    "wikidata": "Q17481417"
+  },
+  "tossal-bovinar": {
+    "name": "Tossal Bovinar",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_Bovinar",
+    "municipalities": "Lles de Cerdanya, les Escaldes i Engordany",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20Bovinar",
+    "wikidata": "Q11952606"
+  },
+  "pic-de-perafita": {
+    "name": "Tossal de la Truita",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_la_Truita",
+    "municipalities": "Lles de Cerdanya, les Escaldes i Engordany",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Perafita",
+    "wikidata": "Q11952788"
+  },
+  "pic-de-lestanyo": {
+    "name": "Pic de l'Estanyó",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_l'Estanyó",
+    "municipalities": "Ordino, Canillo",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20l'Estanyó",
+    "wikidata": "Q4563375"
+  },
+  "pic-de-coma-dor": {
+    "name": "Puig de Coma d'Or",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Coma_d'Or",
+    "municipalities": "Angostrina, Vilanova de les Escaldes, Merens",
+    "range": "massís del Carlit",
+    "commons": null,
+    "wikidata": "Q65212528"
+  },
+  "besiberri-del-sud": {
+    "name": "Besiberri Sud",
+    "url": "https://ca.wikipedia.org/wiki/Besiberri_Sud",
+    "municipalities": "la Vall de Boí, Vilaller",
+    "range": "massís del Besiberri",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Besiberri%20Sud",
+    "wikidata": "Q8531381"
+  },
+  "turo-de-les-tres-creus": {
+    "name": "turó de Tres Creus",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Tres_Creus",
+    "municipalities": "Mura",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Tres%20Creus",
+    "wikidata": "Q11953574"
+  },
+  "tuc-de-samont": {
+    "name": "Tuc de Samont",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Samont",
+    "municipalities": "Vielha e Mijaran",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Samont",
+    "wikidata": "Q11953306"
+  },
+  "tuc-de-baciver": {
+    "name": "Tuc de Vacivèr",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Vacivèr",
+    "municipalities": "Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Vacivèr",
+    "wikidata": "Q11953311"
+  },
+  "roc-de-sant-salvador": {
+    "name": "Roc de Sant Salvador",
+    "url": null,
+    "municipalities": "els Banys i Palaldà, Montalbà dels Banys",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20Sant%20Salvador",
+    "wikidata": "Q31675547"
+  },
+  "punta-de-laigua": {
+    "name": "Punta de l'Aigua",
+    "url": "https://ca.wikipedia.org/wiki/Punta_de_l'Aigua",
+    "municipalities": "Paüls, Horta de Sant Joan",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q7260567"
+  },
+  "puig-vicenc": {
+    "name": "Puig Vicenç",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Vicenç",
+    "municipalities": "Cervelló, Torrelles de Llobregat, Vallirana",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Vicenç",
+    "wikidata": "Q11943482"
+  },
+  "miranda-de-llaberia": {
+    "name": "Miranda de Llaberia",
+    "url": "https://ca.wikipedia.org/wiki/Miranda_de_Llaberia",
+    "municipalities": "Colldejou, Tivissa",
+    "range": "serra de Llaberia",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Miranda%20de%20Llaberia",
+    "wikidata": "Q6463887"
+  },
+  "lalbarda-castellana": {
+    "name": "l'Albarda Castellana",
+    "url": "https://ca.wikipedia.org/wiki/L'Albarda_Castellana",
+    "municipalities": "Collbató",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:L'Albarda%20Castellana",
+    "wikidata": "Q11930022"
+  },
+  "clapi-vell": {
+    "name": "Clapí Vell",
+    "url": "https://ca.wikipedia.org/wiki/Clapí_Vell",
+    "municipalities": "Torrelles de Foix",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Clapí%20Vell",
+    "wikidata": "Q11913992"
+  },
+  "torres-de-cabrenc": {
+    "name": "Torres de Cabrenç",
+    "url": null,
+    "municipalities": "Serrallonga, la Menera",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torres%20de%20Cabrenç%20(cim)",
+    "wikidata": "Q113111006"
+  },
+  "puig-de-sant-cristau": {
+    "name": "Puig de Sant Cristau",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Sant_Cristau",
+    "municipalities": "l'Albera, Montesquiu d'Albera, Pirineus Orientals",
+    "range": "serra de l'Albera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Sant%20Cristau",
+    "wikidata": "Q3410619"
+  },
+  "torre-del-far": {
+    "name": "Torre del Far",
+    "url": null,
+    "municipalities": "Talteüll",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20del%20Far%20(cim)",
+    "wikidata": "Q113115205"
+  },
+  "roc-de-mallorca": {
+    "name": "Roc de Mallorca",
+    "url": "https://ca.wikipedia.org/wiki/Roc_de_Mallorca",
+    "municipalities": "Castellnou dels Aspres",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20Mallorca",
+    "wikidata": "Q28710692"
+  },
+  "montolier-de-perellos": {
+    "name": "Montoliu de Perellós",
+    "url": "https://ca.wikipedia.org/wiki/Montoliu_de_Perellós",
+    "municipalities": "Òpol i Perellós, Fulhan, Embres e Castelmaur",
+    "range": "Corberes",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montoliu%20de%20Perellós",
+    "wikidata": "Q18004963"
+  },
+  "forca-real": {
+    "name": "Mont Ner",
+    "url": "https://ca.wikipedia.org/wiki/Mont_Ner",
+    "municipalities": "Millars, Cornellà de la Ribera, Montner",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Força%20Réal",
+    "wikidata": "Q3078719"
+  },
+  "roca-gelera": {
+    "name": "Roca Gelera",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Gelera",
+    "municipalities": "Eus, Campossí",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q50818200"
+  },
+  "puig-de-lestella": {
+    "name": "Puig de l'Estela",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_l'Estela",
+    "municipalities": "Cortsaví, la Bastida, Vallmanya",
+    "range": "massís del Canigó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20l'Estella",
+    "wikidata": "Q3382402"
+  },
+  "puig-de-les-tres-esteles": {
+    "name": "Pic de Tres Estelles",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_les_Tres_Esteles",
+    "municipalities": "Pi de Conflent, Saorra, Nyer, Escaró",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q49753386"
+  },
+  "puig-de-gallinas": {
+    "name": "Pic Gallinàs",
+    "url": "https://ca.wikipedia.org/wiki/Pic_Gallinàs_(Fontpedrosa)",
+    "municipalities": "Fontpedrosa, Toès i Entrevalls",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20Gallinàs%20(Fontpedrosa)",
+    "wikidata": "Q31643769"
+  },
+  "pic-de-raco-gros": {
+    "name": "Pic de Racó Gros",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Racó_Gros",
+    "municipalities": "Fontpedrosa",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Racó%20Gros",
+    "wikidata": "Q31632368"
+  },
+  "pic-de-linfern": {
+    "name": "Pic de l'Infern",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_l'Infern",
+    "municipalities": "Fontpedrosa",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20l'Infern",
+    "wikidata": "Q4314599"
+  },
+  "turo-de-bell-lloc": {
+    "name": "Turó de Bell-lloc",
+    "url": null,
+    "municipalities": "Dorres",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Bell-lloc",
+    "wikidata": "Q113115592"
+  },
+  "roc-del-boc": {
+    "name": "Roc del Boc",
+    "url": "https://ca.wikipedia.org/wiki/Roc_del_Boc",
+    "municipalities": "Fontpedrosa, Planès",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20del%20Boc",
+    "wikidata": "Q56401324"
+  },
+  "puig-pedros-de-lanos": {
+    "name": "Puig Pedrós Sud",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Pedrós_Sud",
+    "municipalities": "Angostrina i Vilanova de les Escaldes, Merens",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigpedrós%20de%20Lanós",
+    "wikidata": "Q65212526"
+  },
+  "puig-de-la-grava": {
+    "name": "Puig de la Grava",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Grava",
+    "municipalities": "Orlun, Angostrina i Vilanova de les Escaldes",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Grava",
+    "wikidata": "Q46697876"
+  },
+  "pic-dels-moros": {
+    "name": "Pic dels Moros",
+    "url": "https://ca.wikipedia.org/wiki/Pic_dels_Moros_(Cerdanya)",
+    "municipalities": "Targasona, Font-romeu, Odelló i Vià",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20dels%20Moros%20(Cerdanya)",
+    "wikidata": "Q31637874"
+  },
+  "pic-de-font-freda": {
+    "name": "Pic de Fontfreda",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Fontfreda",
+    "municipalities": "Porta",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Font%20Freda",
+    "wikidata": "Q49753097"
+  },
+  "pic-de-baixollada": {
+    "name": "Pic de Baixollada",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Baixollada",
+    "municipalities": "Capcir",
+    "range": "massís del Carlit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Baixollada",
+    "wikidata": "Q65211151"
+  },
+  "tosa-del-braibal": {
+    "name": "Tosa del Braibal",
+    "url": "https://ca.wikipedia.org/wiki/Tosa_del_Braibal",
+    "municipalities": "Encamp, les Escaldes i Engordany",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tosa%20del%20Braibal",
+    "wikidata": "Q91514216"
+  },
+  "roc-mele": {
+    "name": "Roc Melé",
+    "url": "https://ca.wikipedia.org/wiki/Roc_Melé",
+    "municipalities": "Canillo, L'Ospitalet",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20Melé",
+    "wikidata": "Q21328906"
+  },
+  "pic-descobes": {
+    "name": "Pic d'Escobes",
+    "url": "https://ca.wikipedia.org/wiki/Pic_d'Escobes",
+    "municipalities": "Canillo, L'Ospitalet",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20d'Escobes",
+    "wikidata": "Q18005600"
+  },
+  "pic-de-font-blanca": {
+    "name": "Pic de la Font Blanca",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Font_Blanca",
+    "municipalities": "Ordino, Siguèr",
+    "range": "massif de l'Aston",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Font%20Blanca",
+    "wikidata": "Q3382368"
+  },
+  "pic-de-cataperdis": {
+    "name": "Pic de Cataperdís",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Cataperdís",
+    "municipalities": "Ordino, Ausat",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Cataperdís",
+    "wikidata": "Q21329293"
+  },
+  "montmalus": {
+    "name": "Pic de Montmalús",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Montmalús",
+    "municipalities": "Encamp",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montmalús",
+    "wikidata": "Q2717368"
+  },
+  "alt-del-griu": {
+    "name": "Alt del Griu",
+    "url": "https://ca.wikipedia.org/wiki/Alt_del_Griu",
+    "municipalities": "Encamp",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Alt%20del%20Griu",
+    "wikidata": "Q21329776"
+  },
+  "alt-de-juclar": {
+    "name": "Alt de Juclar",
+    "url": "https://ca.wikipedia.org/wiki/Alt_de_Juclar",
+    "municipalities": "Canillo",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Alt%20de%20Juclar",
+    "wikidata": "Q21329826"
+  },
+  "turo-del-samont": {
+    "name": "Turó del Samont",
+    "url": "https://ca.wikipedia.org/wiki/Turó_del_Samont",
+    "municipalities": "Sant Pere de Vilamajor",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20del%20Samont",
+    "wikidata": "Q7856613"
+  },
+  "puiggracios": {
+    "name": "Puiggraciós",
+    "url": "https://ca.wikipedia.org/wiki/Puiggraciós",
+    "municipalities": "el Figaró-Montmany, Bigues i Riells del Fai, l'Ametlla del Vallès",
+    "range": "Cingles de Bertí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puiggraciós",
+    "wikidata": "Q11943831"
+  },
+  "turo-del-ros": {
+    "name": "Cap del Ros",
+    "url": "https://ca.wikipedia.org/wiki/Turó_del_Ros",
+    "municipalities": "Viladecavalls, Vacarisses",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20del%20Ros",
+    "wikidata": "Q11912148"
+  },
+  "tuc-gran-dera-sendrosa": {
+    "name": "Tuc Gran de Sendrosa",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_Gran_de_Sendrosa",
+    "municipalities": "Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20Gran%20de%20Sendrosa",
+    "wikidata": "Q17482116"
+  },
+  "tuc-deth-plan-deth-ome-vacanera": {
+    "name": "Tuc deth Plan deth Òme",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_del_Pla_de_l'Home",
+    "municipalities": "Bausen, Guaus de Luishon",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20deth%20Plan%20deth%20Òme",
+    "wikidata": "Q23990662"
+  },
+  "tuc-dera-pincela": {
+    "name": "Tuc dera Pincèla",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_dera_Pincèla",
+    "municipalities": "Vielha e Mijaran, Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20dera%20Pincèla",
+    "wikidata": "Q11953323"
+  },
+  "tuc-dera-entecada": {
+    "name": "era Entecada",
+    "url": "https://ca.wikipedia.org/wiki/Era_Entecada",
+    "municipalities": "Es Bòrdes",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Era%20Entecada",
+    "wikidata": "Q17481923"
+  },
+  "tuc-de-barlonguera": {
+    "name": "Tuc de Barlonguèra",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Barlonguèra",
+    "municipalities": "Naut Aran, Bonac e Irasenh",
+    "range": "massif du Mont-Valier",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Barlonguèra",
+    "wikidata": "Q17587743"
+  },
+  "tossau-de-mar": {
+    "name": "Tossau de Mar",
+    "url": "https://ca.wikipedia.org/wiki/Tossau_de_Mar",
+    "municipalities": "Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossau%20de%20Mar",
+    "wikidata": "Q37853329"
+  },
+  "malh-des-pois-la-forcanada": {
+    "name": "Malh des Pois",
+    "url": "https://ca.wikipedia.org/wiki/Malh_des_Pois",
+    "municipalities": "Vielha e Mijaran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Malh%20des%20Pois",
+    "wikidata": "Q17482443"
+  },
+  "punta-redona": {
+    "name": "Punta Redona",
+    "url": "https://ca.wikipedia.org/wiki/Punta_Redona_(Gandesa)",
+    "municipalities": "Gandesa, el Pinell de Brai",
+    "range": "serra de Cavalls",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20Redona%20(Gandesa)",
+    "wikidata": "Q11943920"
+  },
+  "puig-cavaller": {
+    "name": "Puig Cavaller",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Cavaller",
+    "municipalities": "Gandesa",
+    "range": "serra de Pàndols",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Cavaller",
+    "wikidata": "Q17481651"
+  },
+  "serra-de-pinos": {
+    "name": "Pinós",
+    "url": "https://ca.wikipedia.org/wiki/Pinós_(cim)",
+    "municipalities": "Pinós",
+    "range": "Serra de Pinós",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pinós%20(cim)",
+    "wikidata": "Q11941682"
+  },
+  "puig-sobira": {
+    "name": "Puig Sobirà",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Sobirà_(Odèn)",
+    "municipalities": "Odèn",
+    "range": "Port del Comte",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Sobirà",
+    "wikidata": "Q17483614"
+  },
+  "sant-benet": {
+    "name": "Sant Benet",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Benet_(Susqueda)",
+    "municipalities": "Susqueda",
+    "range": "les Guilleries",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Benet%20(Susqueda)",
+    "wikidata": "Q7419083"
+  },
+  "largimon": {
+    "name": "l'Argimon",
+    "url": "https://ca.wikipedia.org/wiki/L'Argimon",
+    "municipalities": "Riudarenes",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11930060"
+  },
+  "el-far": {
+    "name": "el Far",
+    "url": "https://ca.wikipedia.org/wiki/El_Far_(cim_de_Susqueda)",
+    "municipalities": "Susqueda",
+    "range": "les Guilleries",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Far%20(cim%20de%20Susqueda)",
+    "wikidata": "Q5351265"
+  },
+  "tossal-de-la-moradilla": {
+    "name": "Tossal de Moradilla",
+    "url": null,
+    "municipalities": "Lleida",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Moradilla",
+    "wikidata": "Q11952702"
+  },
+  "tossal-de-suro": {
+    "name": "Tossal de Suró",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Suró",
+    "municipalities": "Talavera",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20Suró%20(Montoliu%20de%20Segarra)",
+    "wikidata": "Q23992072"
+  },
+  "torreneules": {
+    "name": "Torreneules",
+    "url": "https://ca.wikipedia.org/wiki/Torreneules",
+    "municipalities": "Queralbs",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torreneules",
+    "wikidata": "Q7827019"
+  },
+  "puig-estela": {
+    "name": "Puig Estela",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Estela_(Ogassa/Pardines)",
+    "municipalities": "Ogassa, Pardines",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Estela",
+    "wikidata": "Q7259023"
+  },
+  "puig-de-les-agudes": {
+    "name": "Puig de les Agudes",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_les_Agudes",
+    "municipalities": "Vilallonga de Ter, Setcases, Llanars",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20les%20Agudes",
+    "wikidata": "Q11943708"
+  },
+  "puig-de-bestreca": {
+    "name": "Puig de Bestracà",
+    "url": null,
+    "municipalities": "Camprodon",
+    "range": "serra de Bestracà",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Bestracà",
+    "wikidata": "Q17301133"
+  },
+  "puig-cornador": {
+    "name": "Puig Cornador",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Cornador_(les_Llosses)",
+    "municipalities": "les Llosses",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Cornador%20(les%20Llosses)",
+    "wikidata": "Q7259018"
+  },
+  "noufonts": {
+    "name": "Pic de Noufonts",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Nou_Fonts",
+    "municipalities": "Queralbs, Fontpedrosa",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Nou%20Fonts",
+    "wikidata": "Q1269228"
+  },
+  "les-borregues": {
+    "name": "les Borregues",
+    "url": "https://ca.wikipedia.org/wiki/Les_Borregues",
+    "municipalities": "Vilallonga de Ter, Setcases, Queralbs",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Les%20Borregues",
+    "wikidata": "Q6529253"
+  },
+  "coll-de-pins": {
+    "name": "Coll de Pins",
+    "url": "https://ca.wikipedia.org/wiki/Coll_de_Pins",
+    "municipalities": "Rasquera",
+    "range": "serra de Cardó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Coll%20de%20Pins",
+    "wikidata": "Q11914516"
+  },
+  "montalt-punta-nord": {
+    "name": "Montalt",
+    "url": "https://ca.wikipedia.org/wiki/Montalt_(Tivissa)",
+    "municipalities": "Tivissa",
+    "range": "serra del Montalt",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montalt%20(Tivissa)",
+    "wikidata": "Q6904197"
+  },
+  "la-cogulla-montsant": {
+    "name": "la Cogulla",
+    "url": "https://ca.wikipedia.org/wiki/La_Cogulla_(Margalef)",
+    "municipalities": "Margalef, la Morera de Montsant",
+    "range": "serra de Montsant",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Cogulla%20del%20Montsant",
+    "wikidata": "Q17481694"
+  },
+  "tuc-de-marimanya": {
+    "name": "Pic de Marimanya",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Marimanya",
+    "municipalities": "Naut Aran, Alt Àneu",
+    "range": "massís de Beret",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Marimanha",
+    "wikidata": "Q17482473"
+  },
+  "pics-de-bassiero": {
+    "name": "Pics de Bassiero",
+    "url": "https://ca.wikipedia.org/wiki/Pics_de_Bassiero",
+    "municipalities": "Espot, Alt Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pics%20de%20Bassiero",
+    "wikidata": "Q17481321"
+  },
+  "pica-roja": {
+    "name": "Pica Roja",
+    "url": "https://ca.wikipedia.org/wiki/Pica_Roja",
+    "municipalities": "Alins, Ausat",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pica%20Roja",
+    "wikidata": "Q17483012"
+  },
+  "pic-de-pilas": {
+    "name": "Pic de Pilàs",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Pilàs",
+    "municipalities": "Alt Àneu, la Guingueta d'Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Pilàs",
+    "wikidata": "Q17483021"
+  },
+  "pic-de-medacorba": {
+    "name": "Pic de Medacorba",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Medacorba",
+    "municipalities": "Alins, la Massana, Ausat",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Medacorba",
+    "wikidata": "Q948850"
+  },
+  "pic-de-maniga": {
+    "name": "Pic de Màniga",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Màniga",
+    "municipalities": "Alins, Farrera",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Màniga",
+    "wikidata": "Q11941484"
+  },
+  "pic-de-clavera": {
+    "name": "Pic de Clavera",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Clavera",
+    "municipalities": "Alt Àneu, Eras Bòrdas de Les, Eras Bòrdas e Shoantenh",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Clavera",
+    "wikidata": "Q11941462"
+  },
+  "montcaubo-lo-calbo": {
+    "name": "lo Calbo",
+    "url": "https://ca.wikipedia.org/wiki/Lo_Calbo",
+    "municipalities": "Vall de Cardós, la Guingueta d'Àneu",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Lo%20Calbo",
+    "wikidata": "Q11933715"
+  },
+  "gran-encantat": {
+    "name": "Gran Encantat",
+    "url": null,
+    "municipalities": "Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Gran%20Encantat",
+    "wikidata": "Q113119577"
+  },
+  "roc-de-sant-aventi": {
+    "name": "Roc de Sant Aventí",
+    "url": "https://ca.wikipedia.org/wiki/Roc_de_Sant_Aventí",
+    "municipalities": "la Pobla de Segur, Baix Pallars",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20Sant%20Aventí",
+    "wikidata": "Q11945838"
+  },
+  "pic-de-subenuix": {
+    "name": "Pic de Subenuix",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Subenuix",
+    "municipalities": "la Torre de Cabdella, Espot",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Subenuix",
+    "wikidata": "Q7190469"
+  },
+  "pic-de-filia-tossal-de-paiasso": {
+    "name": "Tossal de Paiasso",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_Paiasso",
+    "municipalities": "Sarroca de Bellera, la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": null,
+    "wikidata": "Q11952706"
+  },
+  "montllobar": {
+    "name": "Montllobar",
+    "url": "https://ca.wikipedia.org/wiki/Montllobar_(Tremp)",
+    "municipalities": "Tremp",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montllobar%20(Tremp)",
+    "wikidata": "Q11937472"
+  },
+  "gallinova": {
+    "name": "Gallinova",
+    "url": "https://ca.wikipedia.org/wiki/Gallinova",
+    "municipalities": "Conca de Dalt, Abella de la Conca",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Gallinova",
+    "wikidata": "Q17482078"
+  },
+  "turo-de-bellver": {
+    "name": "Turó de Bellver",
+    "url": null,
+    "municipalities": "Collsuspina",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Bellver",
+    "wikidata": "Q7856604"
+  },
+  "santa-magdalena-de-cambrils": {
+    "name": "Santa Magdalena de Cambrils",
+    "url": null,
+    "municipalities": "Vidrà, Vallfogona de Ripollès",
+    "range": "serra de Santa Magdalena",
+    "commons": null,
+    "wikidata": "Q113111259"
+  },
+  "puig-de-les-aligues": {
+    "name": "Puig de l'Àliga",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_l'Àliga_(Sant_Pere_de_Torelló)",
+    "municipalities": "Sant Pere de Torelló",
+    "range": "serra de Curull",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20l'Àliga%20(Sant%20Pere%20de%20Torelló)",
+    "wikidata": "Q5131098"
+  },
+  "puig-de-la-forca": {
+    "name": "Puig de la Força",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Força",
+    "municipalities": "Vilanova de Sau, Tavertet",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Força",
+    "wikidata": "Q17482021"
+  },
+  "lenclusa": {
+    "name": "l'Enclusa",
+    "url": "https://ca.wikipedia.org/wiki/L'Enclusa",
+    "municipalities": "Taradell",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:L'Enclusa%20(Taradell)",
+    "wikidata": "Q60147217"
+  },
+  "els-munts": {
+    "name": "els Munts",
+    "url": "https://ca.wikipedia.org/wiki/Els_Munts_(Sant_Agustí_de_Lluçanès)",
+    "municipalities": "Sant Agustí de Lluçanès, Sora",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Els%20Munts%20(Sant%20Agustí%20de%20Lluçanès)",
+    "wikidata": "Q5367368"
+  },
+  "roca-roja": {
+    "name": "Roca Roja",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Roja_(la_Baronia_de_Rialb)",
+    "municipalities": "Isona i Conca Dellà, la Baronia de Rialb",
+    "range": "serra Mitjana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20Roja%20(la%20Baronia%20de%20Rialb)",
+    "wikidata": "Q11945955"
+  },
+  "puig-de-milla": {
+    "name": "Puig de Millà",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Millà",
+    "municipalities": "Àger",
+    "range": "serra de Millà",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Millà",
+    "wikidata": "Q17482582"
+  },
+  "puig-de-grialo": {
+    "name": "Puig de Grialó",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Grialó",
+    "municipalities": "Artesa de Segre",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Grialó",
+    "wikidata": "Q22328838"
+  },
+  "montmagastre": {
+    "name": "Montmagastre",
+    "url": "https://ca.wikipedia.org/wiki/Montmagastre_(muntanya)",
+    "municipalities": "Montmagastre",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montmagastre%20(muntanya)",
+    "wikidata": "Q17482757"
+  },
+  "los-picons": {
+    "name": "els Picons",
+    "url": "https://ca.wikipedia.org/wiki/Els_Picons_(Os_de_Balaguer)",
+    "municipalities": "Os de Balaguer",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Els%20Picons%20(Os%20de%20Balaguer)",
+    "wikidata": "Q11919029"
+  },
+  "el-negrell": {
+    "name": "el Negrell",
+    "url": "https://ca.wikipedia.org/wiki/El_Negrell",
+    "municipalities": "la Sénia",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Negrell",
+    "wikidata": "Q5351683"
+  },
+  "el-montsianell": {
+    "name": "Montsianell",
+    "url": "https://ca.wikipedia.org/wiki/Montsianell",
+    "municipalities": "Amposta",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montsianell",
+    "wikidata": "Q18004976"
+  },
+  "turo-donofre-arnau": {
+    "name": "Turó d'Onofre Arnau",
+    "url": "https://ca.wikipedia.org/wiki/Turó_d'Onofre_Arnau",
+    "municipalities": "Mataró",
+    "range": "Serralada Prelitoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20d'Onofre%20Arnau",
+    "wikidata": "Q17482891"
+  },
+  "turo-den-galzeran-o-den-mates": {
+    "name": "Turó d'en Galceran",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Galzeran",
+    "municipalities": "Alella, Tiana, Santa Maria de Martorelles",
+    "range": "serralada de Marina",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Galzeran",
+    "wikidata": "Q11953446"
+  },
+  "turo-de-montgat": {
+    "name": "Turó de Montgat",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Montgat",
+    "municipalities": "Montgat",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Montgat",
+    "wikidata": "Q11953539"
+  },
+  "pedracastell-o-creu-de-canet": {
+    "name": "Pedracastell",
+    "url": "https://ca.wikipedia.org/wiki/Pedracastell",
+    "municipalities": "Sant Iscle de Vallalta, Canet de Mar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pedracastell",
+    "wikidata": "Q11940669"
+  },
+  "montbarbat": {
+    "name": "Montbarbat",
+    "url": "https://ca.wikipedia.org/wiki/Montbarbat",
+    "municipalities": "Tordera, Lloret de Mar, Maçanet de la Selva",
+    "range": "serra de Marina",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montbarbat",
+    "wikidata": "Q11937406"
+  },
+  "puig-cadiretes": {
+    "name": "Puig de les Cadiretes",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_les_Cadiretes",
+    "municipalities": "Llagostera, Tossa de Mar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20les%20Cadiretes",
+    "wikidata": "Q11943721"
+  },
+  "montigalar": {
+    "name": "Montigalar",
+    "url": "https://ca.wikipedia.org/wiki/Montigalar",
+    "municipalities": "Quart",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11937468"
+  },
+  "volca-del-croscat": {
+    "name": "Volcà del Croscat",
+    "url": "https://ca.wikipedia.org/wiki/Volcà_del_Croscat",
+    "municipalities": "Santa Pau, Olot",
+    "range": "Serralada Transversal",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Croscat%20Volcano",
+    "wikidata": "Q1141050"
+  },
+  "sant-roc": {
+    "name": "Cingles de Sant Roc",
+    "url": "https://ca.wikipedia.org/wiki/Cingles_de_Sant_Roc",
+    "municipalities": "Sant Aniol de Finestres, Sant Martí de Llémena, Amer",
+    "range": "Serralada Transversal",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Roc%20(Sant%20Martí%20de%20Llèmena)",
+    "wikidata": "Q7419114"
+  },
+  "puigsallanca": {
+    "name": "Puigsallança",
+    "url": "https://ca.wikipedia.org/wiki/Puigsallança",
+    "municipalities": "Sant Aniol de Finestres",
+    "range": "serra de Finestres",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigsallança",
+    "wikidata": "Q7259041"
+  },
+  "montmajor": {
+    "name": "Montmajor",
+    "url": "https://ca.wikipedia.org/wiki/Montmajor_(Montagut_i_Oix)",
+    "municipalities": "Montagut i Oix",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q11937479"
+  },
+  "tossal-de-les-viudes": {
+    "name": "Tossal de les Viudes",
+    "url": "https://ca.wikipedia.org/wiki/Tossal_de_les_Viudes",
+    "municipalities": "Guixers, Montmajor",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tossal%20de%20les%20Viudes%20(Guixers)",
+    "wikidata": "Q11952817"
+  },
+  "sobrepuny": {
+    "name": "Sobrepuny",
+    "url": "https://ca.wikipedia.org/wiki/Sobrepuny",
+    "municipalities": "Vilada, la Nou de Berguedà, Castell de l'Areny",
+    "range": "serra del Catllaràs",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sobrepuny",
+    "wikidata": "Q17483615"
+  },
+  "sant-marc-de-broca": {
+    "name": "Sant Marc de Brocà",
+    "url": "https://ca.wikipedia.org/wiki/Sant_Marc_de_Brocà",
+    "municipalities": "Guardiola de Berguedà",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Sant%20Marc%20de%20Brocà",
+    "wikidata": "Q11947189"
+  },
+  "salga-aguda": {
+    "name": "Salga Aguda",
+    "url": "https://ca.wikipedia.org/wiki/Salga_Aguda",
+    "municipalities": "la Quar",
+    "range": "serra de Picancel",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Salga%20Aguda",
+    "wikidata": "Q17483443"
+  },
+  "puigllancada": {
+    "name": "Puigllançada",
+    "url": "https://ca.wikipedia.org/wiki/Puigllançada",
+    "municipalities": "Bagà",
+    "range": "serra de Moixeró",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigllançada",
+    "wikidata": "Q7259037"
+  },
+  "pedro-de-tubau": {
+    "name": "Pedró de Tubau",
+    "url": "https://ca.wikipedia.org/wiki/Pedró_de_Tubau",
+    "municipalities": "Sant Jaume de Frontanyà, Gombrèn",
+    "range": "Prepirineus catalans",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pedró%20de%20Tubau",
+    "wikidata": "Q11940746"
+  },
+  "els-tossals": {
+    "name": "els Tossals",
+    "url": "https://ca.wikipedia.org/wiki/Els_Tossals_(Capolat)",
+    "municipalities": "Capolat",
+    "range": "serra dels Tossals",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Els%20Tossals%20(Capolat)",
+    "wikidata": "Q17483739"
+  },
+  "puig-de-sant-antoni": {
+    "name": "Puig de Sant Antoni",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Sant_Antoni_(Albinyana)",
+    "municipalities": "Albinyana",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Sant%20Antoni",
+    "wikidata": "Q11943622"
+  },
+  "puig-de-la-cova": {
+    "name": "Puig de la Cova",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Cova",
+    "municipalities": "el Montmell",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Cova",
+    "wikidata": "Q11943680"
+  },
+  "puig-madrona": {
+    "name": "Puig Madrona",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Madrona",
+    "municipalities": "el Papiol, Sant Cugat del Vallès, Valldoreix",
+    "range": "Collserola",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Madrona",
+    "wikidata": "Q11943401"
+  },
+  "puig-dolorda": {
+    "name": "Puig d'Olorda",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'Olorda",
+    "municipalities": "Vallvidrera, el Tibidabo i les Planes, Sant Feliu de Llobregat, Molins de Rei",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'Olorda",
+    "wikidata": "Q11943503"
+  },
+  "puig-cendros": {
+    "name": "Puig Cendrós",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Cendrós",
+    "municipalities": "Olesa de Montserrat",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Cendrós",
+    "wikidata": "Q11943355"
+  },
+  "miranda-de-santa-magdalena": {
+    "name": "Miranda de Santa Magdalena",
+    "url": "https://ca.wikipedia.org/wiki/Miranda_de_Santa_Magdalena",
+    "municipalities": "Collbató",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Miranda%20de%20Santa%20Magdalena",
+    "wikidata": "Q21530750"
+  },
+  "quermany-gros": {
+    "name": "Quermany Gros",
+    "url": "https://ca.wikipedia.org/wiki/Quermany_Gros",
+    "municipalities": "Pals",
+    "range": "Serralada Litoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Quermany%20Gros",
+    "wikidata": "Q11944227"
+  },
+  "puig-gros": {
+    "name": "Puig Gros",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Gros_(Sant_Feliu_de_Guíxols)",
+    "municipalities": "Sant Feliu de Guíxols",
+    "range": "Massís de l'Ardenya",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Gros%20(Sant%20Feliu%20de%20Guíxols)",
+    "wikidata": "Q11943391"
+  },
+  "puig-darques": {
+    "name": "Puig d'Arques",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'Arques",
+    "municipalities": "Cruïlles, Monells i Sant Sadurní de l'Heura",
+    "range": "massís de les Gavarres",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'Arques",
+    "wikidata": "Q7259025"
+  },
+  "montclar": {
+    "name": "el Montclar",
+    "url": "https://ca.wikipedia.org/wiki/El_Montclar",
+    "municipalities": "Santa Cristina d'Aro",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Montclar%20(Santa%20Cristina%20d'Aro)",
+    "wikidata": "Q11918407"
+  },
+  "morral-del-cabrafeixet": {
+    "name": "Morral de Cabrafeixet",
+    "url": "https://ca.wikipedia.org/wiki/Morral_de_Cabrafeixet",
+    "municipalities": "el Perelló",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Morral%20de%20Cabrafeixet",
+    "wikidata": "Q6913486"
+  },
+  "lespina": {
+    "name": "l'Espina",
+    "url": "https://ca.wikipedia.org/wiki/L'Espina_(Alfara_de_Carles)",
+    "municipalities": "Horta de Sant Joan, Alfara de Carles, Paüls",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:L'Espina%20(Alfara%20de%20Carles)",
+    "wikidata": "Q17481950"
+  },
+  "la-coscollosa": {
+    "name": "la Coscollosa",
+    "url": "https://ca.wikipedia.org/wiki/La_Coscollosa_(Alfara_de_Carles)",
+    "municipalities": "Alfara de Carles",
+    "range": "ports de Tortosa-Beseit",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Coscollosa%20(Alfara%20de%20Carles)",
+    "wikidata": "Q11930418"
+  },
+  "puig-pelat": {
+    "name": "Puig Pelat",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Pelat_(Vilaplana)",
+    "municipalities": "Vilaplana",
+    "range": "els Motllats",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Pelat%20(Vilaplana)",
+    "wikidata": "Q11943422"
+  },
+  "puig-den-cama": {
+    "name": "Puig d'en Cama",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'en_Cama",
+    "municipalities": "la Selva del Camp",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'en%20Cama",
+    "wikidata": "Q11943515"
+  },
+  "puig-de-gallicant": {
+    "name": "Puig de Gallicant",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Gallicant_(Arbolí)",
+    "municipalities": "Arbolí",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20Gallicant",
+    "wikidata": "Q11943585"
+  },
+  "picorandan": {
+    "name": "el Picorandan",
+    "url": "https://ca.wikipedia.org/wiki/El_Picorandan",
+    "municipalities": "Capafonts",
+    "range": "Serralada Prelitoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Picorandan",
+    "wikidata": "Q7191062"
+  },
+  "miranda-de-puigcerver": {
+    "name": "la Miranda de Puigcerver",
+    "url": "https://ca.wikipedia.org/wiki/La_Miranda_de_Puigcerver",
+    "municipalities": "Alforja, Riudecols",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigcerver",
+    "wikidata": "Q17483161"
+  },
+  "el-torn": {
+    "name": "el Torn",
+    "url": "https://ca.wikipedia.org/wiki/El_Torn_(Vandellòs_i_l'Hospitalet_de_l'Infant)",
+    "municipalities": "Vandellòs i l'Hospitalet de l'Infant",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Torn%20(Vandellòs)",
+    "wikidata": "Q11918606"
+  },
+  "turo-de-lescletxa": {
+    "name": "Turó de l'Escletxa",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_l'Escletxa",
+    "municipalities": "Castellbell i el Vilar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20l'Escletxa",
+    "wikidata": "Q11953588"
+  },
+  "turo-de-la-torre-o-de-castellnou": {
+    "name": "Turó de la Torre",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_la_Torre_(Castellnou_de_Bages)",
+    "municipalities": "Castellnou de Bages, Balsareny",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20la%20Torre",
+    "wikidata": "Q95978482"
+  },
+  "roca-sareny": {
+    "name": "Roca Sareny",
+    "url": "https://ca.wikipedia.org/wiki/Roca_Sareny",
+    "municipalities": "Mura, Sant Llorenç Savall",
+    "range": "Sant Llorenç del Munt",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roca%20Sareny",
+    "wikidata": "Q17483546"
+  },
+  "pujol-de-la-mata": {
+    "name": "Pujol de la Mata",
+    "url": "https://ca.wikipedia.org/wiki/Pujol_de_la_Mata",
+    "municipalities": "Mura",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pujol%20de%20la%20Mata",
+    "wikidata": "Q17483194"
+  },
+  "puigsoler": {
+    "name": "Puigsoler",
+    "url": "https://ca.wikipedia.org/wiki/Puigsoler",
+    "municipalities": "Sant Vicenç de Castellet, Castellbell i el Vilar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigsoler",
+    "wikidata": "Q11943857"
+  },
+  "cogullo-de-cal-torre": {
+    "name": "Cogulló de Cal Torre",
+    "url": "https://ca.wikipedia.org/wiki/Cogulló_de_Cal_Torre",
+    "municipalities": "Castellfollit del Boix, Rajadell",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cogulló%20de%20Cal%20Torre",
+    "wikidata": "Q17481702"
+  },
+  "torre-alta-castell-ferran": {
+    "name": "Torre Alta",
+    "url": "https://ca.wikipedia.org/wiki/Torre_Alta_(Castell_Ferran)",
+    "municipalities": "el Bruc",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torre%20Alta%20(Castell%20Ferran)",
+    "wikidata": "Q96626661"
+  },
+  "puig-daguilera": {
+    "name": "Puig d'Aguilera",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'Aguilera",
+    "municipalities": "Òdena, Castellolí",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'Aguilera%20(Ódena)",
+    "wikidata": "Q11943484"
+  },
+  "puig-castellar-serra-dancosa": {
+    "name": "Puig Castellar",
+    "url": "https://ca.wikipedia.org/wiki/Puig_Castellar_(la_Llacuna)",
+    "municipalities": "la Llacuna",
+    "range": "Serra d'Ancosa",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20Castellar%20(la%20Llacuna)",
+    "wikidata": "Q11943350"
+  },
+  "miranda-dels-ecos": {
+    "name": "Miranda dels Ecos",
+    "url": "https://ca.wikipedia.org/wiki/Miranda_dels_Ecos",
+    "municipalities": "el Bruc",
+    "range": "Montserrat",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Miranda%20dels%20Ecos",
+    "wikidata": "Q21530752"
+  },
+  "grony-de-miralles": {
+    "name": "Grony de Miralles",
+    "url": "https://ca.wikipedia.org/wiki/Grony_de_Miralles",
+    "municipalities": "Santa Maria de Miralles",
+    "range": "Serra de Miralles",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Grony%20de%20Miralles",
+    "wikidata": "Q17482600"
+  },
+  "castell-de-boixadors": {
+    "name": "Turó de Boixadors",
+    "url": "https://ca.wikipedia.org/wiki/Turó_de_Boixadors",
+    "municipalities": "Sant Pere Sallavinera",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Turó%20de%20Boixadors",
+    "wikidata": "Q11953472"
+  },
+  "tuc-de-lluca": {
+    "name": "Tuc de Lhuçà",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_Lhuçà",
+    "municipalities": "la Vall de Boí, Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20Lhuçà",
+    "wikidata": "Q11953288"
+  },
+  "tuc-de-la-comamarja": {
+    "name": "Tuc de la Comamarja",
+    "url": "https://ca.wikipedia.org/wiki/Tuc_de_la_Comamarja",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Tuc%20de%20la%20Comamarja",
+    "wikidata": "Q11953317"
+  },
+  "punta-dharle": {
+    "name": "Punta d'Harlé",
+    "url": "https://ca.wikipedia.org/wiki/Punta_d'Harlé",
+    "municipalities": "la Vall de Boí, Naut Aran",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Punta%20d'Harlé",
+    "wikidata": "Q11943923"
+  },
+  "pic-de-la-pala-alta-de-sarrade": {
+    "name": "Pic de la Pala Alta de Sarradé",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_la_Pala_Alta_de_Sarradé",
+    "municipalities": "la Vall de Boí",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20la%20Pala%20Alta%20de%20Sarradé",
+    "wikidata": "Q7190472"
+  },
+  "la-faiada": {
+    "name": "la Faiada de Malpàs",
+    "url": "https://ca.wikipedia.org/wiki/La_Faiada_de_Malpàs",
+    "municipalities": "Tremp, el Pont de Suert",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:La%20Faiada%20de%20Malpàs",
+    "wikidata": "Q8539444"
+  },
+  "gran-pic-del-pesso": {
+    "name": "Gran Pic del Pessó",
+    "url": "https://ca.wikipedia.org/wiki/Gran_Pic_del_Pessó",
+    "municipalities": "la Vall de Boí, la Torre de Cabdella",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Gran%20Pic%20del%20Pessó",
+    "wikidata": "Q11924604"
+  },
+  "besiberri-nord": {
+    "name": "Besiberri Nord",
+    "url": "https://ca.wikipedia.org/wiki/Besiberri_Nord",
+    "municipalities": "la Vall de Boí, Vilaller, Naut Aran",
+    "range": "massís del Besiberri",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Besiberri%20Nord",
+    "wikidata": "Q4896265"
+  },
+  "torreta-del-cadi": {
+    "name": "Torreta de Cadí",
+    "url": "https://ca.wikipedia.org/wiki/Torreta_de_Cadí",
+    "municipalities": "Cava, la Vansa i Fórnols",
+    "range": "Serra del Cadí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Torreta%20de%20Cadí",
+    "wikidata": "Q7827079"
+  },
+  "roc-de-galliner": {
+    "name": "Roc de Galliner",
+    "url": "https://ca.wikipedia.org/wiki/Roc_de_Galliner",
+    "municipalities": "Fígols i Alinyà",
+    "range": "Prepirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20de%20Galliner",
+    "wikidata": "Q17482077"
+  },
+  "roc-beneidor": {
+    "name": "Roc Beneïdor",
+    "url": "https://ca.wikipedia.org/wiki/Roc_Beneïdor",
+    "municipalities": "Estamariu, el Pont de Bar",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Roc%20Beneïdor",
+    "wikidata": "Q11945808"
+  },
+  "pedro-dels-quatre-batlles": {
+    "name": "Pedró dels Quatre Batlles",
+    "url": "https://ca.wikipedia.org/wiki/Pedró_dels_Quatre_Batlles",
+    "municipalities": "la Coma i la Pedra, Fígols i Alinyà, la Vansa i Fórnols, Odèn",
+    "range": "Port del Comte",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pedró%20dels%20Quatre%20Batlles",
+    "wikidata": "Q7160088"
+  },
+  "mirador-del-pla-de-llet": {
+    "name": "Pla de Llet",
+    "url": "https://ca.wikipedia.org/wiki/Pla_de_Llet",
+    "municipalities": "Lles de Cerdanya, el Pont de Bar",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pla%20de%20Llet",
+    "wikidata": "Q17483040"
+  },
+  "les-piques": {
+    "name": "les Piques",
+    "url": "https://ca.wikipedia.org/wiki/Les_Piques_(les_Valls_d'Aguilar)",
+    "municipalities": "les Valls d'Aguilar",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Les%20Piques%20(les%20Valls%20d'Aguilar)",
+    "wikidata": "Q11931652"
+  },
+  "el-cadinell": {
+    "name": "Cadinell",
+    "url": "https://ca.wikipedia.org/wiki/Cadinell",
+    "municipalities": "Josa i Tuixén",
+    "range": "Serra del Cadí",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Cadinell",
+    "wikidata": "Q17481450"
+  },
+  "puig-de-la-mola": {
+    "name": "Puig de la Mola",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Mola",
+    "municipalities": "Begues, Olivella, Avinyonet del Penedès, Olesa de Bonesvalls",
+    "range": "massís de Garraf",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Mola",
+    "wikidata": "Q7259033"
+  },
+  "puig-dagulles": {
+    "name": "Puig d'Agulles",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'Agulles",
+    "municipalities": "Cervelló, Gelida, Corbera de Llobregat",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'Agulles",
+    "wikidata": "Q11701298"
+  },
+  "montau": {
+    "name": "Montau",
+    "url": "https://ca.wikipedia.org/wiki/Montau",
+    "municipalities": "Olesa de Bonesvalls, Begues",
+    "range": "massís de Garraf",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montau",
+    "wikidata": "Q6904469"
+  },
+  "querroig": {
+    "name": "Puig de Querroig",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_Querroig",
+    "municipalities": "Portbou, Banyuls de la Marenda, Cervera de la Marenda",
+    "range": "serra de l'Albera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Querroig",
+    "wikidata": "Q11943615"
+  },
+  "puig-desquers": {
+    "name": "Puig d'Esquers",
+    "url": "https://ca.wikipedia.org/wiki/Puig_d'Esquers",
+    "municipalities": "Colera, Llançà",
+    "range": "serra de l'Albera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20d'Esquers",
+    "wikidata": "Q17481953"
+  },
+  "puig-de-les-bruixes": {
+    "name": "Puig de les Bruixes",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_les_Bruixes_(Garrotxa)",
+    "municipalities": "Montagut i Oix, Albanyà",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20les%20Bruixes%20(Garrotxa)",
+    "wikidata": "Q95232817"
+  },
+  "pic-de-sallafort": {
+    "name": "Pic de Sallfor",
+    "url": "https://ca.wikipedia.org/wiki/Pic_de_Sallfort",
+    "municipalities": "Espolla, Argelers, Banyuls de la Marenda",
+    "range": "serra de l'Albera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Pic%20de%20Sallfor",
+    "wikidata": "Q3382387"
+  },
+  "puig-de-la-gavarra": {
+    "name": "Puig de la Gavarra",
+    "url": "https://ca.wikipedia.org/wiki/Puig_de_la_Gavarra",
+    "municipalities": "Albanyà, Maçanet de Cabrenys",
+    "range": "serra de Bac Grillera",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puig%20de%20la%20Gavarra",
+    "wikidata": "Q17481590"
+  },
+  "puigcabrer": {
+    "name": "Puigcabrer",
+    "url": "https://ca.wikipedia.org/wiki/Puigcabrer",
+    "municipalities": "Montblanc, Valls, la Riba",
+    "range": "Serralada Prelitoral Catalana",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Puigcabrer",
+    "wikidata": "Q11943813"
+  },
+  "montagut-dancosa": {
+    "name": "Montagut",
+    "url": "https://ca.wikipedia.org/wiki/Montagut_(Querol)",
+    "municipalities": "Querol",
+    "range": "",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montagut%20(Querol)",
+    "wikidata": "Q6904169"
+  },
+  "la-cogulla": {
+    "name": "la Cogulla",
+    "url": "https://ca.wikipedia.org/wiki/La_Cogulla_(Figuerola_del_Camp)",
+    "municipalities": "Figuerola del Camp, Montblanc",
+    "range": "",
+    "commons": null,
+    "wikidata": "Q6461875"
+  },
+  "montaspre": {
+    "name": "Montaspre",
+    "url": "https://ca.wikipedia.org/wiki/Montaspre_(Massís_de_Cardó)",
+    "municipalities": "Tortosa",
+    "range": "serra de Cardó",
+    "commons": "https://commons.wikimedia.org/wiki/Category:Montaspre%20(Tortosa)",
+    "wikidata": "Q23994697"
+  },
+  "tuc-dormidor": {
+    "name": "el Dormidor",
+    "url": "https://ca.wikipedia.org/wiki/El_Dormidor_(Mosset)",
+    "municipalities": "Mosset, Conòsols, Santa Coloma de Rocafort, Montfòrt",
+    "range": "Pirineus",
+    "commons": "https://commons.wikimedia.org/wiki/Category:El%20Dormidor%20(Mosset)",
+    "wikidata": "Q47002668"
+  }
+}
