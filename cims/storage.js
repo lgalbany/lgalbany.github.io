@@ -1,7 +1,6 @@
 import {SHARED_API} from './config.js';
 export async function createStorage({onChange,onError,tools}){
  let current={}, writing=false,pending=null,refreshing=false;
- const note=document.createElement('p');note.textContent='Un únic registre compartit amb tota la família. Els canvis es desen automàticament.';tools.append(note);
  const retry=document.createElement('button');retry.type='button';retry.textContent='Torna a desar el canvi pendent';retry.hidden=true;tools.append(retry);
  const refreshButton=document.createElement('button');refreshButton.type='button';refreshButton.textContent='Actualitza';tools.append(refreshButton);
  function status(text){document.getElementById('save-status').textContent=text;}
@@ -10,16 +9,16 @@ export async function createStorage({onChange,onError,tools}){
   pending={id,value};retry.hidden=true;
   writing=true;
   try{
-   const response=await fetch(SHARED_API,{method:'PUT',credentials:'omit',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,done:value.done,date:value.date,version:current[id]?.version??0})});
+   const response=await fetch(SHARED_API,{method:'PUT',credentials:'omit',headers:{'Content-Type':'application/json'},body:JSON.stringify({id,done:value.done,date:value.date,routeUrl:value.routeUrl??'',version:current[id]?.version??0})});
    const data=await response.json();
-   if(response.status===409){current=data.ascents;const stored=current[id];if(stored?.done===value.done&&stored?.date===value.date){pending=null;return current;}pending=null;onChange(current);throw Error(data.error);}
+   if(response.status===409){current=data.ascents;const stored=current[id];if(stored?.done===value.done&&stored?.date===value.date&&(stored?.routeUrl??'')===(value.routeUrl??'')){pending=null;return current;}pending=null;onChange(current);throw Error(data.error);}
    if(!response.ok)throw Error(data.error||'No s’ha pogut desar. Torna-ho a provar.');
    current=data.ascents;pending=null;return current;
   }catch(e){retry.hidden=!pending;throw e;}
   finally{writing=false;}
  }
  retry.addEventListener('click',async()=>{if(!pending||writing)return;const {id,value}=pending;status('Desant…');try{onChange(await save(id,value));onError('');status('Canvis desats · compartit');}catch(e){onError(e.message);status('Canvi no desat');}});
- async function refresh(manual=false){if(writing||pending||refreshing)return;refreshing=true;try{const next=await read();onChange(next);document.dispatchEvent(new Event('cims-unlocked'));if(manual)onError('');status('Canvis desats · compartit');}catch(e){if(manual)onError(e.message);status('Sense connexió · pendent d’actualitzar');}finally{refreshing=false;}}
+ async function refresh(manual=false){if(writing||pending||refreshing||document.activeElement?.matches('[data-action=routeUrl], [data-action=date]'))return;refreshing=true;try{const next=await read();onChange(next);document.dispatchEvent(new Event('cims-unlocked'));if(manual)onError('');status('Canvis desats · compartit');}catch(e){if(manual)onError(e.message);status('Sense connexió · pendent d’actualitzar');}finally{refreshing=false;}}
  refreshButton.addEventListener('click',()=>refresh(true));
  window.addEventListener('focus',()=>refresh());
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});

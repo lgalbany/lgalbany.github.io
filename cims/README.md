@@ -24,3 +24,5 @@ Els cims fets es mostren en blau. Els essencials pendents són verds i els no es
 
 Les dades FEEC i Viquipèdia són una captura del 26/09/2026. Google Maps apunta al cim, no a un aparcament verificat. Wikiloc usa el cercador del mapa amb el nom del cim.
 
+
+Quan un cim està fet, podeu afegir la vostra ruta de Wikiloc. Si hi ha un enllaç vàlid, el botó Wikiloc obre aquesta ruta; si el camp és buit o el cim està pendent, obre el cercador. Desmarcar el cim conserva la data i l’enllaç per recuperar-los en tornar-lo a marcar. La data també apareix en passar el ratolí sobre el punt blau.
