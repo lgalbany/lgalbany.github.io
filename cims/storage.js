@@ -24,5 +24,5 @@ export async function createStorage({onChange,onError,tools}){
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
  setInterval(()=>{if(!document.hidden)refresh();},15000);
  window.addEventListener('beforeunload',e=>{if(pending){e.preventDefault();e.returnValue='';}});
- return {load:read,save,savedLabel:'Canvis desats · compartit',caption:'Progrés públic i compartit entre tots els dispositius.'};
+ return {load:read,save,savedLabel:'Canvis desats · compartit'};
 }

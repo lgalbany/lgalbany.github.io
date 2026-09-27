@@ -14,8 +14,10 @@ function controls(p,where){const a=ascents[p.id]??defaultAscent();return `<div c
 function badge(p){return `<span class="badge ${p.essential?'essential':'other'}">${p.essential?'Essencial · 100 Cims':'No essencial'}</span>`;}
 function renderProgress(){if(!unlocked){$('essential-count').textContent='—';$('progress-caption').textContent='Esperant la connexió amb el registre compartit.';$('progress').value=0;return;}const done=peaks.filter(p=>ascents[p.id]?.done),essential=done.filter(p=>p.essential).length;$('essential-count').textContent=essential;$('progress').value=Math.min(100,essential);$('goal-label').textContent=essential>=100?'Repte assolit!':'El nostre repte';$('progress-caption').textContent=`${done.length} cims fets en total · ${150-essential} essencials pendents`;}
 function renderList(){
- const query=normalize($('query').value),cat=$('category').value,status=$('status').value;
- filtered=peaks.filter(p=>(cat==='all'||p.essential===(cat==='essential'))&&(status==='all'||!!ascents[p.id]?.done===(status==='done'))&&normalize(p.name+' '+p.region).includes(query)).sort((a,b)=>$('sort').value==='height'?b.height-a.height:a.name.localeCompare(b.name,'ca'));
+ const query=normalize($('query').value),cat=$('category').value,status=$('status').value,sort=$('sort').value;
+ $('essential-only').checked=cat==='essential';
+ filtered=peaks.filter(p=>(cat==='all'||p.essential===(cat==='essential'))&&(status==='all'||!!ascents[p.id]?.done===(status==='done'))&&normalize(p.name+' '+p.region).includes(query)).sort((a,b)=>sort==='height'?b.height-a.height:sort==='height-asc'?a.height-b.height:sort==='name-desc'?b.name.localeCompare(a.name,'ca'):a.name.localeCompare(b.name,'ca'));
+ if(selected&&!filtered.some(p=>p.id===selected)){selected=null;renderDetail();}
  $('result-count').textContent=filtered.length;
  $('summits').innerHTML=filtered.length?filtered.map(p=>`<article class="summit ${ascents[p.id]?.done?'completed':''} ${selected===p.id?'selected':''}" data-id="${p.id}"><div class="summit-top"><div><button class="summit-name" type="button" data-select="${p.id}">${escape(p.name)}</button><p class="region">${escape(p.region)}</p></div><strong class="altitude">${p.height.toLocaleString('ca')} <span>m</span></strong></div><div class="summit-middle">${badge(p)}<div class="links">${link(maps(p),'Maps')}${link(wikiloc(p),'Wikiloc')}</div></div>${controls(p,'list')}</article>`).join(''):'<div class="empty"><h3>No hi ha cims amb aquests filtres</h3><button data-reset type="button">Mostra tots els cims</button></div>';
  renderMarkers();
@@ -46,10 +48,10 @@ async function start(){
   storage=await createStorage({peaks,onChange:next=>{ascents=next;render();},onError:error,tools:$('storage-tools')});
   try{ascents=await storage.load();unlocked=true;$('save-status').textContent=storage.savedLabel;}catch(e){$('save-status').textContent='Progrés no disponible';error('El registre compartit encara no està disponible. Pots consultar el mapa i el llistat; les marques i dates s’activaran quan es pugui connectar.');}
   document.addEventListener('cims-unlocked',()=>{unlocked=true;error('');render();});
-  $('storage-caption').textContent=storage.caption;
   if(window.L){map=L.map('map',{scrollWheelZoom:false});L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);layer=L.layerGroup().addTo(map);map.fitBounds(peaks.map(p=>[p.lat,p.lon]),{padding:[20,20]});}else $('map').innerHTML='<p class="notice">No s’ha pogut carregar el mapa. Pots continuar amb el llistat.</p>';
   render();
   for(const id of ['query','category','status','sort'])$(id).addEventListener(id==='query'?'input':'change',renderList);
+  $('essential-only').addEventListener('change',()=>{$('category').value=$('essential-only').checked?'essential':'all';renderList();});
   $('fit-map').addEventListener('click',()=>map?.fitBounds((filtered.length?filtered:peaks).map(p=>[p.lat,p.lon]),{padding:[20,20]}));
   document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.select)select(b.dataset.select);if(b.hasAttribute('data-close')){selected=null;renderList();renderDetail();}if(b.hasAttribute('data-reset')){$('query').value='';$('category').value='all';$('status').value='all';renderList();}});
   document.addEventListener('change',e=>{if(e.target.matches('[data-peak][data-action]'))change(e.target);});
