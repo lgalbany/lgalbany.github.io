@@ -33,3 +33,11 @@ Per provar contra el servidor de desenvolupament (port 5173), afegir `?api=local
 ## Portada des d’una pàgina web
 
 A «Edita la lectura» → «Portada», enganxar l’URL HTTPS d’una pàgina i prémer «Cerca imatges». Triar una imatge i prémer «Desa la lectura». La portada i la pàgina d’origen es guarden sense canviar l’ISBN, l’edició ni el resum. També s’accepta l’enllaç directe a una imatge. El servei llegeix les imatges de l’HTML i de les metadades; si la pàgina bloqueja la consulta o només carrega imatges amb JavaScript, cal una altra font o l’enllaç directe. La imatge es mostra des del seu servidor original.
+
+## Dades des de la fitxa editorial
+
+A «Edita la lectura» → «Fitxa de l’editorial», enganxar l’URL oficial i prémer «Extreu les dades». Es mostren les dades detectades, els valors actuals i el fragment o metadada d’origen. Per defecte només estan marcats els camps buits. Triar els camps, prémer «Aplica els camps seleccionats» i després «Desa la lectura». L’enllaç també es pot guardar sense importar res.
+
+S’hi poden trobar ISBN (amb dígit de control validat), títol, autor, editorial, idioma, traducció, pàgines i anys de publicació. Els anys genèrics (inclòs `datePublished`) es mostren sense assignar perquè l’usuari indiqui si corresponen a l’obra o a l’edició. Les dates del web o d’articles no s’importen com a dates del llibre. Si hi ha formats diferents, s’ofereixen separadament.
+
+La importació no modifica les portades, els resums, les dates ni els llocs de lectura. Les fonts dels camps importats es preserven amb la fitxa. No es reconfirma automàticament l’edició. Els webs que bloquegen la consulta o només mostren dades amb JavaScript poden requerir completar-les manualment.

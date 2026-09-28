@@ -14680,7 +14680,20 @@ function Bd({ book: e, onLink: t, onApply: n }) {
 		}
 	}
 	let v = r?.candidates[a];
-	function y() {
+	function y(t, n) {
+		i((e) => e && {
+			...e,
+			candidates: e.candidates.map((e, r) => r === a ? {
+				...e,
+				fields: {
+					...e.fields,
+					[n]: t
+				},
+				unassignedYears: e.unassignedYears?.filter((e) => e !== t)
+			} : e)
+		}), e[n] || c((e) => [...new Set([...e, n])]);
+	}
+	function b() {
 		if (!v || !r) return;
 		let t = {
 			publisherUrl: r.pageUrl,
@@ -14768,6 +14781,30 @@ function Bd({ book: e, onLink: t, onApply: n }) {
 						className: "small-note",
 						children: "Només es marquen automàticament els camps buits. Marca els altres si vols substituir-los."
 					}),
+					v?.unassignedYears?.map((e) => /* @__PURE__ */ (0, z.jsxs)("div", {
+						className: "notice",
+						children: [
+							/* @__PURE__ */ (0, z.jsxs)("strong", { children: ["Any de publicació sense especificar: ", e.value] }),
+							/* @__PURE__ */ (0, z.jsx)("p", {
+								className: "small-note",
+								children: e.evidence
+							}),
+							/* @__PURE__ */ (0, z.jsxs)("div", {
+								className: "actions",
+								children: [/* @__PURE__ */ (0, z.jsx)("button", {
+									type: "button",
+									className: "secondary",
+									onClick: () => y(e, "editionYear"),
+									children: "És l’any de l’edició"
+								}), /* @__PURE__ */ (0, z.jsx)("button", {
+									type: "button",
+									className: "secondary",
+									onClick: () => y(e, "originalYear"),
+									children: "És la primera publicació de l’obra"
+								})]
+							})
+						]
+					}, e.value)),
 					/* @__PURE__ */ (0, z.jsx)("div", {
 						className: "metadata-review",
 						children: Object.keys(zd).map((t) => {
@@ -14799,7 +14836,7 @@ function Bd({ book: e, onLink: t, onApply: n }) {
 						type: "button",
 						className: "secondary",
 						disabled: !s.length,
-						onClick: y,
+						onClick: b,
 						children: "Aplica els camps seleccionats"
 					})
 				] })
@@ -15021,10 +15058,15 @@ function Xd({ label: e, value: t, onChange: n, type: r = "text", wide: i = !1 })
 }
 function Zd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, startEditing: a }) {
 	let [o, s] = (0, N.useState)({ ...e }), [c, l] = (0, N.useState)(a), [u, d] = (0, N.useState)(null), [f, p] = (0, N.useState)(!1), [m, h] = (0, N.useState)(""), [g, _] = (0, N.useState)(""), [v, y] = (0, N.useState)(!1), [b, x] = (0, N.useState)(!1), [S, w] = (0, N.useState)(""), [T, E] = (0, N.useState)(!1), [ee, D] = (0, N.useState)(e.editionStatus === "pending"), [O, te] = (0, N.useState)(e.editionStatus === "none"), [k, A] = (0, N.useState)(!1), j = (0, N.useRef)(0), M = (e) => {
-		s((t) => ({
-			...t,
-			...e
-		})), x(!0);
+		s((t) => {
+			let n = { ...t.metadataSources };
+			if (!e.metadataSources) for (let t of Object.keys(e)) delete n[t];
+			return {
+				...t,
+				...e,
+				metadataSources: e.metadataSources ?? n
+			};
+		}), x(!0);
 	}, ne = (e, t) => {
 		M({
 			[e]: t,
@@ -15291,6 +15333,11 @@ function Zd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 									onChange: (e) => M({ originalYear: e })
 								}),
 								/* @__PURE__ */ (0, z.jsx)(Xd, {
+									label: "Títol original",
+									value: o.originalTitle,
+									onChange: (e) => M({ originalTitle: e })
+								}),
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Idioma",
 									value: o.language,
 									onChange: (e) => M({ language: e })
@@ -15352,6 +15399,7 @@ function Zd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Any de l’edició" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.editionYear || "Pendent de confirmar" })] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Primera publicació de l’obra" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.originalYear || "Pendent de documentar" })] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "ISBN de l’edició" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.isbn || "Pendent" })] }),
+							o.originalTitle && /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Títol original" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.originalTitle })] }),
 							o.language && /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Idioma" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.language })] }),
 							o.pages && /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Pàgines" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.pages })] }),
 							o.translator && /* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Traducció" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.translator })] }),
