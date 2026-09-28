@@ -1,7 +1,7 @@
 export type Book = {
   id:string; title:string; author:string; publisher:string; recordedYear:string;
   originalYear:string; originalTitle:string; editionYear:string; isbn:string;
-  language:string; translator:string; pages:string; coverUrl:string;
+  language:string; translator:string; pages:string; coverUrl:string; coverSource?:string;
   coverStatus:'missing'|'suggested'|'confirmed'; read:boolean; finishedOn:string;
   place:string; summary:string; editionStatus:'pending'|'confirmed'|'none';
   editionSource:string; editionId:string; workSource:string; version:number;

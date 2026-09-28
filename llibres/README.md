@@ -29,3 +29,7 @@ El codi del servei es manté al projecte Sites existent, a `../../llibres/` (for
 Des de l’arrel del repositori: `python3 -m http.server 8088 --bind 127.0.0.1` i obrir `http://127.0.0.1:8088/llibres.html`.
 
 Per provar contra el servidor de desenvolupament (port 5173), afegir `?api=local` a l’URL. Aquesta opció només funciona a localhost. La identitat simulada només existeix al servidor local. En producció, el servidor només accepta el retorn a `https://lgalbany.github.io/llibres.html`.
+
+## Portada des d’una pàgina web
+
+A «Edita la lectura» → «Portada», enganxar l’URL HTTPS d’una pàgina i prémer «Cerca imatges». Triar una imatge i prémer «Desa la lectura». La portada i la pàgina d’origen es guarden sense canviar l’ISBN, l’edició ni el resum. També s’accepta l’enllaç directe a una imatge. El servei llegeix les imatges de l’HTML i de les metadades; si la pàgina bloqueja la consulta o només carrega imatges amb JavaScript, cal una altra font o l’enllaç directe. La imatge es mostra des del seu servidor original.
