@@ -14627,8 +14627,194 @@ function Ld({ className: e, ...t }) {
 	});
 }
 //#endregion
+//#region src/components/ui/checkbox.tsx
+function Rd({ className: e, ...t }) {
+	return /* @__PURE__ */ (0, z.jsx)(ia, {
+		"data-slot": "checkbox",
+		className: yd("peer size-4 shrink-0 rounded-[4px] border border-input shadow-xs transition-shadow outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:bg-input/30 dark:aria-invalid:ring-destructive/40 dark:data-[state=checked]:bg-primary", e),
+		...t,
+		children: /* @__PURE__ */ (0, z.jsx)(oa, {
+			"data-slot": "checkbox-indicator",
+			className: "grid place-content-center text-current transition-none",
+			children: /* @__PURE__ */ (0, z.jsx)(se, { className: "size-3.5" })
+		})
+	});
+}
+//#endregion
+//#region src/components/publisher-import.tsx
+var zd = {
+	title: "Títol",
+	author: "Autor",
+	publisher: "Editorial",
+	isbn: "ISBN",
+	editionYear: "Any de l’edició",
+	originalYear: "Primera publicació de l’obra",
+	originalTitle: "Títol original",
+	language: "Idioma",
+	translator: "Traductor/a",
+	pages: "Pàgines"
+};
+function Bd({ book: e, onLink: t, onApply: n }) {
+	let [r, i] = (0, N.useState)(null), [a, o] = (0, N.useState)(0), [s, c] = (0, N.useState)([]), [l, u] = (0, N.useState)(!1), [d, f] = (0, N.useState)(""), [p, m] = (0, N.useState)(""), h = (0, N.useRef)(0), g = (t, n) => {
+		o(n), c(Object.keys(zd).filter((r) => t.candidates[n]?.fields[r] && !e[r])), m("");
+	};
+	async function _() {
+		let t = ++h.current;
+		u(!0), f(""), i(null), m("");
+		try {
+			let n = await C("/api/publisher-metadata", {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({
+					url: e.publisherUrl,
+					title: e.title
+				})
+			}), r = await n.json();
+			if (!n.ok) throw Error(r.error || "No s’ha pogut llegir la fitxa.");
+			if (h.current !== t) return;
+			i(r), g(r, 0);
+		} catch (e) {
+			h.current === t && f(e.message);
+		} finally {
+			h.current === t && u(!1);
+		}
+	}
+	let v = r?.candidates[a];
+	function y() {
+		if (!v || !r) return;
+		let t = {
+			publisherUrl: r.pageUrl,
+			metadataSources: { ...e.metadataSources }
+		};
+		for (let e of s) {
+			let n = v.fields[e];
+			n && (t[e] = n.value, t.metadataSources[e] = {
+				url: r.pageUrl,
+				evidence: n.evidence
+			}, e === "originalYear" && (t.workSource = r.pageUrl));
+		}
+		n(t), m("Dades aplicades al formulari. Revisa-les i prem «Desa la lectura» per guardar-les."), c([]);
+	}
+	return /* @__PURE__ */ (0, z.jsxs)("section", {
+		className: "publisher-import",
+		children: [
+			/* @__PURE__ */ (0, z.jsx)("h3", {
+				className: "form-section",
+				children: "Fitxa de l’editorial"
+			}),
+			/* @__PURE__ */ (0, z.jsx)("p", {
+				className: "muted",
+				children: "Enganxa la pàgina oficial del llibre per recuperar les dades bibliogràfiques. Podràs revisar-les abans d’aplicar-les."
+			}),
+			/* @__PURE__ */ (0, z.jsxs)("div", {
+				className: "cover-page-input",
+				children: [/* @__PURE__ */ (0, z.jsxs)("label", {
+					className: "field",
+					children: [/* @__PURE__ */ (0, z.jsx)("span", { children: "Enllaç a la fitxa de l’editorial" }), /* @__PURE__ */ (0, z.jsx)("input", {
+						type: "url",
+						value: e.publisherUrl || "",
+						maxLength: 2048,
+						placeholder: "https://editorial.cat/llibre",
+						onKeyDown: (t) => {
+							t.key === "Enter" && (t.preventDefault(), !l && e.publisherUrl?.trim() && _());
+						},
+						onChange: (e) => {
+							h.current++, t(e.target.value), i(null), f(""), u(!1), m("");
+						}
+					})]
+				}), /* @__PURE__ */ (0, z.jsx)("button", {
+					type: "button",
+					className: "secondary",
+					disabled: l || !e.publisherUrl?.trim(),
+					onClick: () => void _(),
+					children: l ? "Llegint la fitxa…" : "Extreu les dades"
+				})]
+			}),
+			d && /* @__PURE__ */ (0, z.jsxs)("p", {
+				className: "notice error",
+				role: "alert",
+				children: [d, " Pots guardar l’enllaç i completar els camps manualment."]
+			}),
+			r && /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [
+				/* @__PURE__ */ (0, z.jsx)("a", {
+					className: "link",
+					href: r.pageUrl,
+					target: "_blank",
+					rel: "noreferrer",
+					children: "Consulta la font ↗"
+				}),
+				r.warnings.map((e) => /* @__PURE__ */ (0, z.jsx)("p", {
+					className: "small-note",
+					children: e
+				}, e)),
+				r.candidates.length === 0 ? /* @__PURE__ */ (0, z.jsx)("p", {
+					className: "notice",
+					children: "No s’hi han detectat dades bibliogràfiques prou clares. L’enllaç es pot guardar igualment."
+				}) : /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [
+					r.candidates.length > 1 && /* @__PURE__ */ (0, z.jsxs)("fieldset", {
+						className: "publisher-choices",
+						children: [/* @__PURE__ */ (0, z.jsx)("legend", { children: "La pàgina conté diverses fitxes. Tria el teu llibre o format." }), r.candidates.map((e, t) => /* @__PURE__ */ (0, z.jsxs)("label", { children: [
+							/* @__PURE__ */ (0, z.jsx)("input", {
+								type: "radio",
+								name: "publisher-candidate",
+								checked: a === t,
+								onChange: () => g(r, t)
+							}),
+							e.label,
+							e.fields.isbn ? " · ISBN " + e.fields.isbn.value : ""
+						] }, t))]
+					}),
+					/* @__PURE__ */ (0, z.jsx)("p", {
+						className: "small-note",
+						children: "Només es marquen automàticament els camps buits. Marca els altres si vols substituir-los."
+					}),
+					/* @__PURE__ */ (0, z.jsx)("div", {
+						className: "metadata-review",
+						children: Object.keys(zd).map((t) => {
+							let n = v?.fields[t];
+							return n ? /* @__PURE__ */ (0, z.jsxs)("label", {
+								className: "metadata-row",
+								children: [/* @__PURE__ */ (0, z.jsx)(Rd, {
+									checked: s.includes(t),
+									onCheckedChange: (e) => c((n) => e === !0 ? [...n, t] : n.filter((e) => e !== t))
+								}), /* @__PURE__ */ (0, z.jsxs)("span", { children: [
+									/* @__PURE__ */ (0, z.jsx)("strong", { children: zd[t] }),
+									/* @__PURE__ */ (0, z.jsx)("span", {
+										className: "metadata-proposal",
+										children: n.value
+									}),
+									e[t] && /* @__PURE__ */ (0, z.jsxs)("span", {
+										className: "small-note",
+										children: ["Actual: ", e[t]]
+									}),
+									/* @__PURE__ */ (0, z.jsx)("span", {
+										className: "small-note metadata-evidence",
+										children: n.evidence
+									})
+								] })]
+							}, t) : null;
+						})
+					}),
+					/* @__PURE__ */ (0, z.jsx)("button", {
+						type: "button",
+						className: "secondary",
+						disabled: !s.length,
+						onClick: y,
+						children: "Aplica els camps seleccionats"
+					})
+				] })
+			] }),
+			p && /* @__PURE__ */ (0, z.jsx)("p", {
+				className: "notice",
+				role: "status",
+				children: p
+			})
+		]
+	});
+}
+//#endregion
 //#region src/components/cover-picker.tsx
-function Rd({ value: e, onPick: t }) {
+function Vd({ value: e, onPick: t }) {
 	let [n, r] = (0, N.useState)(""), [i, a] = (0, N.useState)([]), [o, s] = (0, N.useState)(""), [c, l] = (0, N.useState)(!1), [u, d] = (0, N.useState)(""), f = (0, N.useRef)(0);
 	async function p() {
 		let e = ++f.current;
@@ -14731,22 +14917,8 @@ function Rd({ value: e, onPick: t }) {
 	});
 }
 //#endregion
-//#region src/components/ui/checkbox.tsx
-function zd({ className: e, ...t }) {
-	return /* @__PURE__ */ (0, z.jsx)(ia, {
-		"data-slot": "checkbox",
-		className: yd("peer size-4 shrink-0 rounded-[4px] border border-input shadow-xs transition-shadow outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:cursor-not-allowed disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 data-[state=checked]:border-primary data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:bg-input/30 dark:aria-invalid:ring-destructive/40 dark:data-[state=checked]:bg-primary", e),
-		...t,
-		children: /* @__PURE__ */ (0, z.jsx)(oa, {
-			"data-slot": "checkbox-indicator",
-			className: "grid place-content-center text-current transition-none",
-			children: /* @__PURE__ */ (0, z.jsx)(se, { className: "size-3.5" })
-		})
-	});
-}
-//#endregion
 //#region src/data/catalog-supplement.json
-var Bd = /* @__PURE__ */ JSON.parse("[{\"id\":\"publisher:9788412363357\",\"source\":\"https://www.maimes.cat/dune-duna/\",\"title\":\"Dune / Duna (tapa dura)\",\"author\":\"Frank Herbert\",\"publisher\":\"Mai Més / Raig Verd (Duna Llibres)\",\"year\":\"2021\",\"isbn\":\"9788412363357\",\"language\":\"ca\",\"pages\":\"768\",\"translator\":\"Manuel de Seabra\",\"coverUrl\":\"https://www.maimes.cat/wp-content/uploads/2021/12/dune-tapa-dura-frank-herbert.jpg\",\"originalYear\":\"1965\",\"originalTitle\":\"\",\"workSource\":\"https://www.maimes.cat/dune-duna/\",\"score\":0,\"matchTitles\":[\"Dune\",\"Duna\"]},{\"id\":\"publisher:9788412614404\",\"source\":\"https://www.maimes.cat/el-messies-de-dune/\",\"title\":\"El messies de Dune (tapa dura)\",\"author\":\"Frank Herbert\",\"publisher\":\"Duna Llibres / Mai Més / Raig Verd\",\"year\":\"2023\",\"isbn\":\"9788412614404\",\"language\":\"ca\",\"pages\":\"320\",\"translator\":\"Lluís Delgado\",\"coverUrl\":\"https://www.maimes.cat/wp-content/uploads/2023/01/el-messies-de-dune-limitada-frank-herbert.jpg\",\"originalYear\":\"1969\",\"originalTitle\":\"\",\"workSource\":\"https://www.maimes.cat/el-messies-de-dune/\",\"score\":0,\"matchTitles\":[\"El messies de Dune\"]},{\"id\":\"publisher:9788412838527\",\"source\":\"https://www.udllibros.com/libro-ELS_FILLS_DE_DUNE_(TAPA_DURA)__CAT-S270010011\",\"title\":\"Els fills de Dune (tapa dura)\",\"author\":\"Frank Herbert\",\"publisher\":\"Duna Llibres\",\"year\":\"2024\",\"isbn\":\"9788412838527\",\"language\":\"ca\",\"pages\":\"600\",\"translator\":\"Lluís Delgado\",\"coverUrl\":\"https://www.udllibros.com/imagenes/9788412/978841283852.JPG\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Els fills de Dune\"]},{\"id\":\"publisher:9788412838534\",\"source\":\"https://www.agapea.com/Frank-Herbert/Els-fills-de-Dune-rustica--9788412838534-i.htm\",\"title\":\"Els fills de Dune (rústica)\",\"author\":\"Frank Herbert\",\"publisher\":\"Duna Llibres\",\"year\":\"2024\",\"isbn\":\"9788412838534\",\"language\":\"ca\",\"pages\":\"600\",\"translator\":\"\",\"coverUrl\":\"\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Els fills de Dune\"]},{\"id\":\"publisher:9788412848403\",\"source\":\"https://www.documenta-bcn.com/la-policia-ira-de-bolit\",\"title\":\"La policia irà de bòlit\",\"author\":\"Enric Casasses\",\"publisher\":\"Documents Documenta\",\"year\":\"2025\",\"isbn\":\"9788412848403\",\"language\":\"ca\",\"pages\":\"232\",\"translator\":\"\",\"coverUrl\":\"https://www.documenta-bcn.com/media/products/361318/361318-0-med.jpg\",\"originalYear\":\"2025\",\"originalTitle\":\"\",\"workSource\":\"https://www.documenta-bcn.com/la-policia-ira-de-bolit\",\"score\":0,\"matchTitles\":[\"La policia irà de bòlid\",\"La policia irà de bòlit\"]},{\"id\":\"publisher:9788419721655\",\"source\":\"https://universeditorial.com/llibres/manual-de-defensa-del-catala/\",\"title\":\"Manual de defensa del català\",\"author\":\"Òscar Andreu\",\"publisher\":\"Univers\",\"year\":\"2026\",\"isbn\":\"9788419721655\",\"language\":\"ca\",\"pages\":\"80\",\"translator\":\"\",\"coverUrl\":\"https://universeditorial.com/wp-content/uploads/2026/04/AAFF-Manual-Sobrecoberta-Fase10.jpg\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Manual de defensa del català\"]},{\"id\":\"malesherbes:jo-nomes-illumino-la-catalana-terra\",\"source\":\"https://editorialmalesherbes.com/cataleg/jo-nomes-illumino-la-catalana-terra\",\"title\":\"Jo només il·lumino la catalana terra\",\"author\":\"Valero Sanmartí\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412316506\",\"language\":\"ca\",\"pages\":\"205\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/valero_portada_taronja\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Jo només il.lumino la catalana terra\"]},{\"id\":\"malesherbes:pistola-amb-musica-de-fons\",\"source\":\"https://editorialmalesherbes.com/cataleg/pistola-amb-musica-de-fons\",\"title\":\"Pistola, amb música de fons\",\"author\":\"Jonathan Lethem\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494051470\",\"language\":\"ca\",\"pages\":\"304\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_lethem_gran\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Pistola amb música de fons\"]},{\"id\":\"malesherbes:los-del-sud-us-matarem-a-tots\",\"source\":\"https://editorialmalesherbes.com/cataleg/los-del-sud-us-matarem-a-tots\",\"title\":\"Los del sud us matarem a tots\",\"author\":\"Valero Sanmartí\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494469930\",\"language\":\"ca\",\"pages\":\"245\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/losdelsud_portada_web\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Los del sud ud matarem a tots\"]},{\"id\":\"malesherbes:satellits\",\"source\":\"https://editorialmalesherbes.com/cataleg/satellits\",\"title\":\"Satèl·lits\",\"author\":\"Elisenda Solsona\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494917073\",\"language\":\"ca\",\"pages\":\"221\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_satelits\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Satèl.lits\"]},{\"id\":\"malesherbes:història-de-lunivers\",\"source\":\"https://editorialmalesherbes.com/cataleg/hist%C3%B2ria-de-lunivers\",\"title\":\"Història de l'univers\",\"author\":\"Pau Riba\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412216776\",\"language\":\"ca\",\"pages\":\"180\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/univers_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Història de l'Univers\"]},{\"id\":\"malesherbes:història-de-la-música-del-s-xx-lelectrònica\",\"source\":\"https://editorialmalesherbes.com/cataleg/hist%C3%B2ria-de-la-m%C3%BAsica-del-s-xx-lelectr%C3%B2nica\",\"title\":\"Història de la música del s. XX (L'electrònica)\",\"author\":\"Pau Riba\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412316599\",\"language\":\"ca\",\"pages\":\"427\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/musica_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Hstòria de la música del segle XX (l'electrònica)\"]},{\"id\":\"malesherbes:opera-acid\",\"source\":\"https://editorialmalesherbes.com/cataleg/opera-acid\",\"title\":\"Òpera Àcid\",\"author\":\"Miquel Creus\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494917097\",\"language\":\"ca\",\"pages\":\"144\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/oa_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Òpera àcid\"]},{\"id\":\"malesherbes:lhivern-a-corfu\",\"source\":\"https://editorialmalesherbes.com/cataleg/lhivern-a-corfu\",\"title\":\"L'hivern a Corfú\",\"author\":\"Jordi Masó Rahola\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494917035\",\"language\":\"ca\",\"pages\":\"186\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_hivern\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"L'hivern a Corfú\"]},{\"id\":\"malesherbes:alteracions\",\"source\":\"https://editorialmalesherbes.com/cataleg/alteracions\",\"title\":\"Alteracions\",\"author\":\"Adrià Pujol\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494051487\",\"language\":\"ca\",\"pages\":\"150\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/alteracions_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Alteracions\"]},{\"id\":\"malesherbes:la-cremallera\",\"source\":\"https://editorialmalesherbes.com/cataleg/la-cremallera\",\"title\":\"La cremallera\",\"author\":\"Martí Sales\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494587726\",\"language\":\"ca\",\"pages\":\"117\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/lacremallera\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"La cremallera\"]},{\"id\":\"malesherbes:la-barca-disis\",\"source\":\"https://editorialmalesherbes.com/cataleg/la-barca-disis\",\"title\":\"La barca d'Isis (2a edició)\",\"author\":\"Joan Oller i Rabassa\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494188817\",\"language\":\"ca\",\"pages\":\"220\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/barca_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"La barca d'Isis\"]},{\"id\":\"malesherbes:nosaltres\",\"source\":\"https://editorialmalesherbes.com/cataleg/nosaltres\",\"title\":\"Nosaltres\",\"author\":\"Ievgueni Zamiatin\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412070521\",\"language\":\"ca\",\"pages\":\"255\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_nosaltres2\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Nosaltres\"]}]"), Vd = (e) => e.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(), Hd = () => ({
+var Hd = /* @__PURE__ */ JSON.parse("[{\"id\":\"publisher:9788412363357\",\"source\":\"https://www.maimes.cat/dune-duna/\",\"title\":\"Dune / Duna (tapa dura)\",\"author\":\"Frank Herbert\",\"publisher\":\"Mai Més / Raig Verd (Duna Llibres)\",\"year\":\"2021\",\"isbn\":\"9788412363357\",\"language\":\"ca\",\"pages\":\"768\",\"translator\":\"Manuel de Seabra\",\"coverUrl\":\"https://www.maimes.cat/wp-content/uploads/2021/12/dune-tapa-dura-frank-herbert.jpg\",\"originalYear\":\"1965\",\"originalTitle\":\"\",\"workSource\":\"https://www.maimes.cat/dune-duna/\",\"score\":0,\"matchTitles\":[\"Dune\",\"Duna\"]},{\"id\":\"publisher:9788412614404\",\"source\":\"https://www.maimes.cat/el-messies-de-dune/\",\"title\":\"El messies de Dune (tapa dura)\",\"author\":\"Frank Herbert\",\"publisher\":\"Duna Llibres / Mai Més / Raig Verd\",\"year\":\"2023\",\"isbn\":\"9788412614404\",\"language\":\"ca\",\"pages\":\"320\",\"translator\":\"Lluís Delgado\",\"coverUrl\":\"https://www.maimes.cat/wp-content/uploads/2023/01/el-messies-de-dune-limitada-frank-herbert.jpg\",\"originalYear\":\"1969\",\"originalTitle\":\"\",\"workSource\":\"https://www.maimes.cat/el-messies-de-dune/\",\"score\":0,\"matchTitles\":[\"El messies de Dune\"]},{\"id\":\"publisher:9788412838527\",\"source\":\"https://www.udllibros.com/libro-ELS_FILLS_DE_DUNE_(TAPA_DURA)__CAT-S270010011\",\"title\":\"Els fills de Dune (tapa dura)\",\"author\":\"Frank Herbert\",\"publisher\":\"Duna Llibres\",\"year\":\"2024\",\"isbn\":\"9788412838527\",\"language\":\"ca\",\"pages\":\"600\",\"translator\":\"Lluís Delgado\",\"coverUrl\":\"https://www.udllibros.com/imagenes/9788412/978841283852.JPG\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Els fills de Dune\"]},{\"id\":\"publisher:9788412838534\",\"source\":\"https://www.agapea.com/Frank-Herbert/Els-fills-de-Dune-rustica--9788412838534-i.htm\",\"title\":\"Els fills de Dune (rústica)\",\"author\":\"Frank Herbert\",\"publisher\":\"Duna Llibres\",\"year\":\"2024\",\"isbn\":\"9788412838534\",\"language\":\"ca\",\"pages\":\"600\",\"translator\":\"\",\"coverUrl\":\"\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Els fills de Dune\"]},{\"id\":\"publisher:9788412848403\",\"source\":\"https://www.documenta-bcn.com/la-policia-ira-de-bolit\",\"title\":\"La policia irà de bòlit\",\"author\":\"Enric Casasses\",\"publisher\":\"Documents Documenta\",\"year\":\"2025\",\"isbn\":\"9788412848403\",\"language\":\"ca\",\"pages\":\"232\",\"translator\":\"\",\"coverUrl\":\"https://www.documenta-bcn.com/media/products/361318/361318-0-med.jpg\",\"originalYear\":\"2025\",\"originalTitle\":\"\",\"workSource\":\"https://www.documenta-bcn.com/la-policia-ira-de-bolit\",\"score\":0,\"matchTitles\":[\"La policia irà de bòlid\",\"La policia irà de bòlit\"]},{\"id\":\"publisher:9788419721655\",\"source\":\"https://universeditorial.com/llibres/manual-de-defensa-del-catala/\",\"title\":\"Manual de defensa del català\",\"author\":\"Òscar Andreu\",\"publisher\":\"Univers\",\"year\":\"2026\",\"isbn\":\"9788419721655\",\"language\":\"ca\",\"pages\":\"80\",\"translator\":\"\",\"coverUrl\":\"https://universeditorial.com/wp-content/uploads/2026/04/AAFF-Manual-Sobrecoberta-Fase10.jpg\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Manual de defensa del català\"]},{\"id\":\"malesherbes:jo-nomes-illumino-la-catalana-terra\",\"source\":\"https://editorialmalesherbes.com/cataleg/jo-nomes-illumino-la-catalana-terra\",\"title\":\"Jo només il·lumino la catalana terra\",\"author\":\"Valero Sanmartí\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412316506\",\"language\":\"ca\",\"pages\":\"205\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/valero_portada_taronja\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Jo només il.lumino la catalana terra\"]},{\"id\":\"malesherbes:pistola-amb-musica-de-fons\",\"source\":\"https://editorialmalesherbes.com/cataleg/pistola-amb-musica-de-fons\",\"title\":\"Pistola, amb música de fons\",\"author\":\"Jonathan Lethem\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494051470\",\"language\":\"ca\",\"pages\":\"304\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_lethem_gran\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Pistola amb música de fons\"]},{\"id\":\"malesherbes:los-del-sud-us-matarem-a-tots\",\"source\":\"https://editorialmalesherbes.com/cataleg/los-del-sud-us-matarem-a-tots\",\"title\":\"Los del sud us matarem a tots\",\"author\":\"Valero Sanmartí\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494469930\",\"language\":\"ca\",\"pages\":\"245\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/losdelsud_portada_web\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Los del sud ud matarem a tots\"]},{\"id\":\"malesherbes:satellits\",\"source\":\"https://editorialmalesherbes.com/cataleg/satellits\",\"title\":\"Satèl·lits\",\"author\":\"Elisenda Solsona\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494917073\",\"language\":\"ca\",\"pages\":\"221\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_satelits\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Satèl.lits\"]},{\"id\":\"malesherbes:història-de-lunivers\",\"source\":\"https://editorialmalesherbes.com/cataleg/hist%C3%B2ria-de-lunivers\",\"title\":\"Història de l'univers\",\"author\":\"Pau Riba\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412216776\",\"language\":\"ca\",\"pages\":\"180\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/univers_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Història de l'Univers\"]},{\"id\":\"malesherbes:història-de-la-música-del-s-xx-lelectrònica\",\"source\":\"https://editorialmalesherbes.com/cataleg/hist%C3%B2ria-de-la-m%C3%BAsica-del-s-xx-lelectr%C3%B2nica\",\"title\":\"Història de la música del s. XX (L'electrònica)\",\"author\":\"Pau Riba\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412316599\",\"language\":\"ca\",\"pages\":\"427\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/musica_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Hstòria de la música del segle XX (l'electrònica)\"]},{\"id\":\"malesherbes:opera-acid\",\"source\":\"https://editorialmalesherbes.com/cataleg/opera-acid\",\"title\":\"Òpera Àcid\",\"author\":\"Miquel Creus\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494917097\",\"language\":\"ca\",\"pages\":\"144\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/oa_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Òpera àcid\"]},{\"id\":\"malesherbes:lhivern-a-corfu\",\"source\":\"https://editorialmalesherbes.com/cataleg/lhivern-a-corfu\",\"title\":\"L'hivern a Corfú\",\"author\":\"Jordi Masó Rahola\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494917035\",\"language\":\"ca\",\"pages\":\"186\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_hivern\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"L'hivern a Corfú\"]},{\"id\":\"malesherbes:alteracions\",\"source\":\"https://editorialmalesherbes.com/cataleg/alteracions\",\"title\":\"Alteracions\",\"author\":\"Adrià Pujol\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494051487\",\"language\":\"ca\",\"pages\":\"150\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/alteracions_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Alteracions\"]},{\"id\":\"malesherbes:la-cremallera\",\"source\":\"https://editorialmalesherbes.com/cataleg/la-cremallera\",\"title\":\"La cremallera\",\"author\":\"Martí Sales\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494587726\",\"language\":\"ca\",\"pages\":\"117\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/lacremallera\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"La cremallera\"]},{\"id\":\"malesherbes:la-barca-disis\",\"source\":\"https://editorialmalesherbes.com/cataleg/la-barca-disis\",\"title\":\"La barca d'Isis (2a edició)\",\"author\":\"Joan Oller i Rabassa\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788494188817\",\"language\":\"ca\",\"pages\":\"220\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/barca_portada\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"La barca d'Isis\"]},{\"id\":\"malesherbes:nosaltres\",\"source\":\"https://editorialmalesherbes.com/cataleg/nosaltres\",\"title\":\"Nosaltres\",\"author\":\"Ievgueni Zamiatin\",\"publisher\":\"Males Herbes\",\"year\":\"\",\"isbn\":\"9788412070521\",\"language\":\"ca\",\"pages\":\"255\",\"translator\":\"\",\"coverUrl\":\"https://res.cloudinary.com/dtmleo1sz/image/upload/w_400,f_auto/malesherbes/cataleg/portadaweb_nosaltres2\",\"originalYear\":\"\",\"originalTitle\":\"\",\"workSource\":\"\",\"score\":0,\"matchTitles\":[\"Nosaltres\"]}]"), Ud = (e) => e.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(), Wd = () => ({
 	id: crypto.randomUUID(),
 	title: "",
 	author: "",
@@ -14770,19 +14942,19 @@ var Bd = /* @__PURE__ */ JSON.parse("[{\"id\":\"publisher:9788412363357\",\"sour
 	editionId: "",
 	workSource: "",
 	version: 0
-}), Ud = (e) => e ? new Intl.DateTimeFormat("ca", {
+}), Gd = (e) => e ? new Intl.DateTimeFormat("ca", {
 	day: "numeric",
 	month: "long",
 	year: "numeric"
-}).format(/* @__PURE__ */ new Date(e + "T12:00:00")) : "Sense data", Wd = /* @__PURE__ */ new Map();
-function Gd(e, t = !1) {
+}).format(/* @__PURE__ */ new Date(e + "T12:00:00")) : "Sense data", Kd = /* @__PURE__ */ new Map();
+function qd(e, t = !1) {
 	let n = [
 		e.title,
 		e.author,
 		e.publisher,
 		e.isbn
 	].join("|");
-	return t && Wd.delete(n), Wd.has(n) || Wd.set(n, C("/api/editions?" + new URLSearchParams({
+	return t && Kd.delete(n), Kd.has(n) || Kd.set(n, C("/api/editions?" + new URLSearchParams({
 		title: e.title,
 		author: e.author,
 		publisher: e.publisher,
@@ -14793,10 +14965,10 @@ function Gd(e, t = !1) {
 		if (!e.ok) throw Error(t.error);
 		return t;
 	}).catch((e) => {
-		throw Wd.delete(n), e;
-	})), Wd.get(n);
+		throw Kd.delete(n), e;
+	})), Kd.get(n);
 }
-function Kd({ book: e, suggested: t }) {
+function Jd({ book: e, suggested: t }) {
 	let [n, r] = (0, N.useState)(!1), i = e.coverUrl || t?.coverUrl || "";
 	return (0, N.useEffect)(() => r(!1), [i]), /* @__PURE__ */ (0, z.jsxs)("div", {
 		className: "cover-wrap",
@@ -14822,7 +14994,7 @@ function Kd({ book: e, suggested: t }) {
 		})]
 	});
 }
-function qd({ label: e, value: t, onChange: n, options: r }) {
+function Yd({ label: e, value: t, onChange: n, options: r }) {
 	return /* @__PURE__ */ (0, z.jsxs)(jd, {
 		value: t,
 		onValueChange: n,
@@ -14836,7 +15008,7 @@ function qd({ label: e, value: t, onChange: n, options: r }) {
 		}, e)) })]
 	});
 }
-function Jd({ label: e, value: t, onChange: n, type: r = "text", wide: i = !1 }) {
+function Xd({ label: e, value: t, onChange: n, type: r = "text", wide: i = !1 }) {
 	return /* @__PURE__ */ (0, z.jsxs)("label", {
 		className: "field" + (i ? " wide" : ""),
 		children: [/* @__PURE__ */ (0, z.jsx)("span", { children: e }), /* @__PURE__ */ (0, z.jsx)("input", {
@@ -14847,7 +15019,7 @@ function Jd({ label: e, value: t, onChange: n, type: r = "text", wide: i = !1 })
 		})]
 	});
 }
-function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, startEditing: a }) {
+function Zd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, startEditing: a }) {
 	let [o, s] = (0, N.useState)({ ...e }), [c, l] = (0, N.useState)(a), [u, d] = (0, N.useState)(null), [f, p] = (0, N.useState)(!1), [m, h] = (0, N.useState)(""), [g, _] = (0, N.useState)(""), [v, y] = (0, N.useState)(!1), [b, x] = (0, N.useState)(!1), [S, w] = (0, N.useState)(""), [T, E] = (0, N.useState)(!1), [ee, D] = (0, N.useState)(e.editionStatus === "pending"), [O, te] = (0, N.useState)(e.editionStatus === "none"), [k, A] = (0, N.useState)(!1), j = (0, N.useRef)(0), M = (e) => {
 		s((t) => ({
 			...t,
@@ -14861,6 +15033,8 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 			editionSource: "",
 			coverUrl: "",
 			coverSource: "",
+			publisherUrl: "",
+			metadataSources: {},
 			coverStatus: "missing",
 			isbn: "",
 			editionYear: "",
@@ -14876,7 +15050,7 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 		let t = ++j.current;
 		p(!0), h(""), d(null);
 		try {
-			let n = await Gd(o, e);
+			let n = await qd(o, e);
 			if (t !== j.current) return;
 			d(n), w(o.publisher), E(!1);
 		} catch (e) {
@@ -14949,7 +15123,7 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 		}
 	}
 	let I = (u?.candidates ?? []).filter((e) => {
-		let t = Vd(S), n = Vd(e.publisher);
+		let t = Ud(S), n = Ud(e.publisher);
 		return t && n && (n.includes(t) || t.includes(n));
 	}), L = T || I.length === 0 ? u?.candidates ?? [] : I;
 	return /* @__PURE__ */ (0, z.jsx)(Td, {
@@ -15015,18 +15189,18 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 						/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "field-grid editor-top",
 							children: [
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Títol *",
 									value: o.title,
 									onChange: (e) => ne("title", e),
 									wide: !0
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Autor",
 									value: o.author,
 									onChange: (e) => ne("author", e)
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Editorial que vas llegir",
 									value: o.publisher,
 									onChange: (e) => ne("publisher", e)
@@ -15042,19 +15216,19 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 							children: [
 								/* @__PURE__ */ (0, z.jsxs)("label", {
 									className: "checkbox-field",
-									children: [/* @__PURE__ */ (0, z.jsx)(zd, {
+									children: [/* @__PURE__ */ (0, z.jsx)(Rd, {
 										checked: o.read,
 										onCheckedChange: (e) => M({ read: e === !0 })
 									}), "Ja l’he llegit"]
 								}),
 								/* @__PURE__ */ (0, z.jsx)("div", {}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Dia que el vaig acabar",
 									type: "date",
 									value: o.finishedOn,
 									onChange: (e) => M({ finishedOn: e })
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Lloc",
 									value: o.place,
 									onChange: (e) => M({ place: e })
@@ -15095,43 +15269,43 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 								})
 							]
 						}),
-						(o.editionStatus === "confirmed" || O) && /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
+						(o.editionStatus === "confirmed" || O || !!o.publisherUrl) && /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [/* @__PURE__ */ (0, z.jsx)("h3", {
 							className: "form-section",
 							children: "Dades de l’obra i l’edició"
 						}), /* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "field-grid",
 							children: [
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "ISBN de l’edició",
 									value: o.isbn,
 									onChange: (e) => M({ isbn: e })
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Any de l’edició",
 									value: o.editionYear,
 									onChange: (e) => M({ editionYear: e })
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Primera publicació de l’obra",
 									value: o.originalYear,
 									onChange: (e) => M({ originalYear: e })
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Idioma",
 									value: o.language,
 									onChange: (e) => M({ language: e })
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Traductor/a",
 									value: o.translator,
 									onChange: (e) => M({ translator: e })
 								}),
-								/* @__PURE__ */ (0, z.jsx)(Jd, {
+								/* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Pàgines",
 									value: o.pages,
 									onChange: (e) => M({ pages: e })
 								}),
-								O && /* @__PURE__ */ (0, z.jsx)(Jd, {
+								O && /* @__PURE__ */ (0, z.jsx)(Xd, {
 									label: "Font de les dades de l’edició (HTTPS)",
 									type: "url",
 									value: o.editionSource,
@@ -15140,7 +15314,14 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 								})
 							]
 						})] }),
-						/* @__PURE__ */ (0, z.jsx)(Rd, {
+						/* @__PURE__ */ (0, z.jsx)(Bd, {
+							book: o,
+							onLink: (e) => M({ publisherUrl: e }),
+							onApply: (e) => {
+								M(e), te(!0);
+							}
+						}),
+						/* @__PURE__ */ (0, z.jsx)(Vd, {
 							value: o.coverUrl,
 							onPick: (e, t) => M({
 								coverUrl: e,
@@ -15154,7 +15335,7 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 						className: "detail-grid",
 						children: [/* @__PURE__ */ (0, z.jsxs)("div", {
 							className: "detail-cover",
-							children: [/* @__PURE__ */ (0, z.jsx)(Kd, {
+							children: [/* @__PURE__ */ (0, z.jsx)(Jd, {
 								book: o,
 								suggested: i
 							}), o.editionStatus === "confirmed" ? /* @__PURE__ */ (0, z.jsxs)("span", {
@@ -15165,7 +15346,7 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 								children: o.editionStatus === "none" ? "Edició no trobada" : "Edició per confirmar"
 							})]
 						}), /* @__PURE__ */ (0, z.jsx)("div", { children: /* @__PURE__ */ (0, z.jsxs)("dl", { children: [
-							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Lectura" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.read ? Ud(o.finishedOn) : "Encara no marcat com a llegit" })] }),
+							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Lectura" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.read ? Gd(o.finishedOn) : "Encara no marcat com a llegit" })] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Lloc" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.place || "—" })] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Editorial" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.publisher || "—" })] }),
 							/* @__PURE__ */ (0, z.jsxs)("div", { children: [/* @__PURE__ */ (0, z.jsx)("dt", { children: "Any de l’edició" }), /* @__PURE__ */ (0, z.jsx)("dd", { children: o.editionYear || "Pendent de confirmar" })] }),
@@ -15183,6 +15364,16 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 									target: "_blank",
 									rel: "noreferrer",
 									children: "Fitxa de l’edició al catàleg ↗"
+								})
+							}),
+							o.publisherUrl && /* @__PURE__ */ (0, z.jsx)("div", {
+								className: "full",
+								children: /* @__PURE__ */ (0, z.jsx)("a", {
+									className: "link",
+									href: o.publisherUrl,
+									target: "_blank",
+									rel: "noreferrer",
+									children: "Fitxa oficial de l’editorial ↗"
 								})
 							}),
 							o.coverSource && /* @__PURE__ */ (0, z.jsx)("div", {
@@ -15374,9 +15565,9 @@ function Yd({ initial: e, canEdit: t, onSaved: n, onClose: r, suggested: i, star
 		})
 	});
 }
-function Xd({ initialBooks: e }) {
+function Qd({ initialBooks: e }) {
 	let [t, n] = (0, N.useState)(e), [r, i] = (0, N.useState)(!1), [a, o] = (0, N.useState)(!1), [s, c] = (0, N.useState)(!1), [l, u] = (0, N.useState)("library"), [d, f] = (0, N.useState)(""), [p, m] = (0, N.useState)("read"), [h, g] = (0, N.useState)("all"), [_, y] = (0, N.useState)("recent"), [b, x] = (0, N.useState)(24), [S, E] = (0, N.useState)(null), [ee, D] = (0, N.useState)(!1), [O, te] = (0, N.useState)(""), [k, A] = (0, N.useState)(""), [j, M] = (0, N.useState)(() => Object.fromEntries(e.flatMap((e) => {
-		let t = Bd.find((t) => t.coverUrl && t.matchTitles?.some((t) => Vd(t) === Vd(e.title)));
+		let t = Hd.find((t) => t.coverUrl && t.matchTitles?.some((t) => Ud(t) === Ud(e.title)));
 		return t ? [[e.id, t]] : [];
 	}))), [ne, P] = (0, N.useState)(!1), re = (0, N.useRef)(/* @__PURE__ */ new Set()), ie = (0, N.useRef)(S);
 	ie.current = S;
@@ -15386,7 +15577,7 @@ function Xd({ initialBooks: e }) {
 			if (!e.ok) throw Error(t.error);
 			n(t.books), M((e) => ({
 				...Object.fromEntries(t.books.flatMap((e) => {
-					let t = Bd.find((t) => t.coverUrl && t.matchTitles?.some((t) => Vd(t) === Vd(e.title)));
+					let t = Hd.find((t) => t.coverUrl && t.matchTitles?.some((t) => Ud(t) === Ud(e.title)));
 					return t ? [[e.id, t]] : [];
 				})),
 				...e
@@ -15415,14 +15606,14 @@ function Xd({ initialBooks: e }) {
 		p,
 		_
 	]);
-	let I = (0, N.useMemo)(() => Array.from(new Set(t.map((e) => e.finishedOn.slice(0, 4)).filter(Boolean))).sort().reverse(), [t]), R = (0, N.useMemo)(() => t.filter((e) => (p === "all" || p === "read" && e.read || p === "unread" && !e.read || p === "pending" && e.editionStatus !== "confirmed") && (h === "all" || e.finishedOn.startsWith(h)) && Vd([
+	let I = (0, N.useMemo)(() => Array.from(new Set(t.map((e) => e.finishedOn.slice(0, 4)).filter(Boolean))).sort().reverse(), [t]), R = (0, N.useMemo)(() => t.filter((e) => (p === "all" || p === "read" && e.read || p === "unread" && !e.read || p === "pending" && e.editionStatus !== "confirmed") && (h === "all" || e.finishedOn.startsWith(h)) && Ud([
 		e.title,
 		e.author,
 		e.publisher,
 		e.summary,
 		e.place,
 		e.isbn
-	].join(" ")).includes(Vd(d))).sort((e, t) => _ === "title" ? e.title.localeCompare(t.title, "ca") : _ === "oldest" ? e.finishedOn.localeCompare(t.finishedOn) : t.finishedOn.localeCompare(e.finishedOn)), [
+	].join(" ")).includes(Ud(d))).sort((e, t) => _ === "title" ? e.title.localeCompare(t.title, "ca") : _ === "oldest" ? e.finishedOn.localeCompare(t.finishedOn) : t.finishedOn.localeCompare(e.finishedOn)), [
 		t,
 		p,
 		h,
@@ -15445,7 +15636,7 @@ function Xd({ initialBooks: e }) {
 				if (!(t.coverUrl || t.editionStatus === "none" || re.current.has(n))) {
 					re.current.add(n);
 					try {
-						let n = (await Gd(t)).candidates.find((e) => e.coverUrl && e.score >= 35);
+						let n = (await qd(t)).candidates.find((e) => e.coverUrl && e.score >= 35);
 						n && !e && M((e) => ({
 							...e,
 							[t.id]: n
@@ -15487,12 +15678,12 @@ function Xd({ initialBooks: e }) {
 			execute: (e) => {
 				let n = e?.query;
 				if (typeof n != "string" || n.length > 500) throw Error("Cal una cerca de text de fins a 500 caràcters.");
-				return m("all"), g("all"), f(n), t.filter((e) => Vd([
+				return m("all"), g("all"), f(n), t.filter((e) => Ud([
 					e.title,
 					e.author,
 					e.summary,
 					e.place
-				].join(" ")).includes(Vd(n))).map((e) => ({
+				].join(" ")).includes(Ud(n))).map((e) => ({
 					id: e.id,
 					title: e.title,
 					author: e.author,
@@ -15567,7 +15758,7 @@ function Xd({ initialBooks: e }) {
 							}),
 							a ? /* @__PURE__ */ (0, z.jsxs)("button", {
 								className: "primary",
-								onClick: () => se(Hd(), !0),
+								onClick: () => se(Wd(), !0),
 								children: [/* @__PURE__ */ (0, z.jsx)(Ce, { size: 18 }), "Afegir llibre"]
 							}) : /* @__PURE__ */ (0, z.jsxs)("button", {
 								className: "primary",
@@ -15602,7 +15793,7 @@ function Xd({ initialBooks: e }) {
 									onChange: (e) => f(e.target.value)
 								})]
 							}),
-							/* @__PURE__ */ (0, z.jsx)(qd, {
+							/* @__PURE__ */ (0, z.jsx)(Yd, {
 								label: "Filtra per estat",
 								value: p,
 								onChange: m,
@@ -15613,13 +15804,13 @@ function Xd({ initialBooks: e }) {
 									["pending", "Edició per confirmar"]
 								]
 							}),
-							/* @__PURE__ */ (0, z.jsx)(qd, {
+							/* @__PURE__ */ (0, z.jsx)(Yd, {
 								label: "Any de lectura",
 								value: h,
 								onChange: g,
 								options: [["all", "Tots els anys"], ...I.map((e) => [e, e])]
 							}),
-							/* @__PURE__ */ (0, z.jsx)(qd, {
+							/* @__PURE__ */ (0, z.jsx)(Yd, {
 								label: "Ordena els llibres",
 								value: _,
 								onChange: y,
@@ -15685,7 +15876,7 @@ function Xd({ initialBooks: e }) {
 								onClick: () => se(e),
 								"aria-label": "Obre " + e.title,
 								children: [
-									/* @__PURE__ */ (0, z.jsx)(Kd, {
+									/* @__PURE__ */ (0, z.jsx)(Jd, {
 										book: e,
 										suggested: j[e.id]
 									}),
@@ -15693,7 +15884,7 @@ function Xd({ initialBooks: e }) {
 									/* @__PURE__ */ (0, z.jsx)("p", { children: e.author || "Autor pendent" }),
 									/* @__PURE__ */ (0, z.jsxs)("span", {
 										className: "book-date",
-										children: [e.read ? Ud(e.finishedOn) : "Lectura pendent", /* @__PURE__ */ (0, z.jsx)(L, {
+										children: [e.read ? Gd(e.finishedOn) : "Lectura pendent", /* @__PURE__ */ (0, z.jsx)(L, {
 											size: 15,
 											"aria-hidden": "true"
 										})]
@@ -15713,7 +15904,7 @@ function Xd({ initialBooks: e }) {
 									children: n
 								}), /* @__PURE__ */ (0, z.jsxs)("article", {
 									className: "diary-entry",
-									children: [/* @__PURE__ */ (0, z.jsxs)("time", { children: [e.read ? Ud(e.finishedOn) : "Lectura pendent", /* @__PURE__ */ (0, z.jsx)("span", { children: e.place && /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [
+									children: [/* @__PURE__ */ (0, z.jsxs)("time", { children: [e.read ? Gd(e.finishedOn) : "Lectura pendent", /* @__PURE__ */ (0, z.jsx)("span", { children: e.place && /* @__PURE__ */ (0, z.jsxs)(z.Fragment, { children: [
 										/* @__PURE__ */ (0, z.jsx)(ye, {
 											size: 12,
 											style: { display: "inline" }
@@ -15726,7 +15917,7 @@ function Xd({ initialBooks: e }) {
 											className: "diary-title diary-thumb",
 											"aria-label": "Obre " + e.title,
 											onClick: () => se(e),
-											children: /* @__PURE__ */ (0, z.jsx)(Kd, {
+											children: /* @__PURE__ */ (0, z.jsx)(Jd, {
 												book: e,
 												suggested: j[e.id]
 											})
@@ -15819,7 +16010,7 @@ function Xd({ initialBooks: e }) {
 					children: "Surt"
 				})]
 			})] }),
-			S && /* @__PURE__ */ (0, z.jsx)(Yd, {
+			S && /* @__PURE__ */ (0, z.jsx)(Zd, {
 				initial: S,
 				canEdit: a,
 				onSaved: ce,
@@ -15832,5 +16023,5 @@ function Xd({ initialBooks: e }) {
 }
 //#endregion
 //#region src/main.tsx
-(0, g.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, z.jsx)(Xd, { initialBooks: [] }));
+(0, g.createRoot)(document.getElementById("root")).render(/* @__PURE__ */ (0, z.jsx)(Qd, { initialBooks: [] }));
 //#endregion
