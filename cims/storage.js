@@ -1,10 +1,10 @@
 import {SHARED_API} from './config.js';
 export async function createStorage({onChange,onError,tools}){
- let current={}, writing=false,pending=null,refreshing=false;
+ let current={}, writing=false,pending=null,refreshing=false,paused=false;
  const retry=document.createElement('button');retry.type='button';retry.textContent='Torna a desar el canvi pendent';retry.hidden=true;tools.append(retry);
  const refreshButton=document.createElement('button');refreshButton.type='button';refreshButton.textContent='Actualitza';tools.append(refreshButton);
  function status(text){document.getElementById('save-status').textContent=text;}
- async function read(){const response=await fetch(SHARED_API,{cache:'no-store',credentials:'omit'});if(!response.ok)throw Error('No s’ha pogut carregar el registre compartit. Torna-ho a provar.');const data=await response.json();if(!data.ascents||typeof data.ascents!=='object')throw Error('El servei de desament ha retornat una resposta no vàlida.');current=data.ascents;return current;}
+ async function read(){const response=await fetch(SHARED_API,{cache:'no-store',credentials:'omit'});if(!response.ok)throw Error('No s’ha pogut carregar el registre compartit. Torna-ho a provar.');const data=await response.json();if(!data.ascents||typeof data.ascents!=='object')throw Error('El servei de desament ha retornat una resposta no vàlida.');if(!writing&&!paused)current=data.ascents;return current;}
  async function save(id,value){
   pending={id,value};retry.hidden=true;
   writing=true;
@@ -17,12 +17,24 @@ export async function createStorage({onChange,onError,tools}){
   }catch(e){retry.hidden=!pending;throw e;}
   finally{writing=false;}
  }
+ async function uploadPhoto(id,blob){
+  if(pending||writing)throw Error('Desa primer el canvi pendent abans de pujar la foto.');
+  writing=true;
+  try{
+   const endpoint=new URL('/api/photos/'+encodeURIComponent(id),SHARED_API);endpoint.searchParams.set('version',current[id]?.version??0);
+   const response=await fetch(endpoint,{method:'PUT',credentials:'omit',headers:{'Content-Type':'image/jpeg'},body:blob,signal:AbortSignal.timeout(60000)});
+   const data=await response.json();
+   if(response.status===409&&data.ascents){current=data.ascents;onChange(current);}
+   if(!response.ok)throw Error(data.error||'No s’ha pogut desar la foto. Torna-la a seleccionar.');
+   current=data.ascents;return current;
+  }finally{writing=false;}
+ }
  retry.addEventListener('click',async()=>{if(!pending||writing)return;const {id,value}=pending;status('Desant…');try{onChange(await save(id,value));onError('');status('Canvis desats · compartit');}catch(e){onError(e.message);status('Canvi no desat');}});
- async function refresh(manual=false){if(writing||pending||refreshing||document.activeElement?.matches('[data-action=routeUrl], [data-action=date]'))return;refreshing=true;try{const next=await read();onChange(next);document.dispatchEvent(new Event('cims-unlocked'));if(manual)onError('');status('Canvis desats · compartit');}catch(e){if(manual)onError(e.message);status('Sense connexió · pendent d’actualitzar');}finally{refreshing=false;}}
+ async function refresh(manual=false){if(paused||document.querySelector('#photo-prompt[open]')||writing||pending||refreshing||document.activeElement?.matches('[data-action=routeUrl], [data-action=date]'))return;refreshing=true;try{const next=await read();if(writing||paused||pending)return;onChange(next);document.dispatchEvent(new Event('cims-unlocked'));if(manual)onError('');status('Canvis desats · compartit');}catch(e){if(manual)onError(e.message);status('Sense connexió · pendent d’actualitzar');}finally{refreshing=false;}}
  refreshButton.addEventListener('click',()=>refresh(true));
  window.addEventListener('focus',()=>refresh());
  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();});
  setInterval(()=>{if(!document.hidden)refresh();},15000);
- window.addEventListener('beforeunload',e=>{if(pending){e.preventDefault();e.returnValue='';}});
- return {load:read,save,savedLabel:'Canvis desats · compartit'};
+ window.addEventListener('beforeunload',e=>{if(pending||writing||paused){e.preventDefault();e.returnValue='';}});
+ return {load:read,save,uploadPhoto,pause:value=>{paused=value;},savedLabel:'Canvis desats · compartit'};
 }

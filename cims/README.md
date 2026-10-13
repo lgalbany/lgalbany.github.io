@@ -26,3 +26,5 @@ Les dades FEEC i Viquipèdia són una captura del 26/09/2026. Google Maps apunta
 
 
 Quan un cim està fet, podeu afegir la vostra ruta de Wikiloc. Si hi ha un enllaç vàlid, el botó Wikiloc obre aquesta ruta; si el camp és buit o el cim està pendent, obre el cercador. Desmarcar el cim conserva la data i l’enllaç per recuperar-los en tornar-lo a marcar. La data també apareix en passar el ratolí sobre el punt blau.
+
+En marcar un cim com a fet, s’ofereix afegir una foto opcional. Es pot afegir o substituir més endavant als controls del cim. El navegador redueix la imatge a 1600 píxels com a màxim i la converteix a JPEG abans de pujar-la, sense conservar les metadades de l’original. La foto es desa al servei compartit (R2) i es mostra a la fitxa del mapa. Es conserva si es desmarca el cim. No s’inclou al repositori de GitHub.
